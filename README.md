@@ -64,11 +64,11 @@ List Of Transpilers, TransCompilers, Decompilers, etc &amp; similar &amp; relate
 Which TRANSPILER Can Convert/**[Transpile][1]**/Transcompile/Transform Input Source-Code (`"Go"` or Any/✱ other CPL) Into Output Source-Code (`"C"` or Any/✱ other CPL) <b>?</b><br />
 Which TRANSPILER Can Keep High-Level Algorithms / Structures Used In Source-Code (here: `"Go"` or Any/✱ other CPL) , Fairly Accurately Intact/Same In Generated / Output / Destination / Target Source-Code (here: `"C"` or Any/✱ other CPL), As Much As Possible <b>?</b>  
   
-( abbreviations : lang = language &#124; . `C++` = `Cpp` = `C-plus-plus` . `Go` = `Golang` )  
+( abbreviations : `lang` = language &#124; . `C++` = `Cpp` = `C-plus-plus` . `Go` = `Golang` )  
   
 TRANSPILE : source-code to source-code conversion , where high-level structures, algorithms, etc (of input code) are kept same or accurate during conversion process, (in output code) . Sometime extra codes are needed in output code, to function it same as input code.  
   
-You may goto LIST OF TRANSPILERS directly from <a href="list">here</a>.  
+( You may goto LIST OF TRANSPILERS directly from <a href="#list">here</a> )  
   
 For example, when input code (`"Go"` language code) contains:
 
@@ -283,7 +283,7 @@ Comparison of Programming Language's ...
 <br />
 <br />
 
-<a name="list">
+<a name="list"></a>
 LIST<b>:</b>
 
 abbreviations: `JS` = JavaScript &#124; `Asm` = Assembly &#124; `C++` = `Cpp` = C plus plus &#124; `AS` = ActionScript &#124; `✱` = any = others = few others
