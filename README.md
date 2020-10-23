@@ -1,16 +1,16 @@
-# Transpiler.and.similar.List
+# Transpiler.And.Similar.List
 
 List Of Transpilers, TransCompilers, Decompilers, etc &amp; similar &amp; related tools/apps.  
-( History : I created a [question](https://stackoverflow.com/questions/64180191/) in StackOverflow, where i have initially asked Which transpiler can convert `"Go"` source-code into `"C"` source-code, and then i had to change question & ask : Which transpiler (out of four specific transpiler) can convert from `Go` to `C/C++` and can still keep (almost all) high-level algorithms & structures used in source-code , fairly accurately same/intact in output source-code . And this project/data borned from that research, so later when StackOverflow's `"PRO-GOOGLE"` & `"PRO-GO"` evil mods ganged-up on the Quesiton+Answer & deleted it , i had to publish from github here & improve it here. )
+( History : I created a [question](https://stackoverflow.com/questions/64180191/) in StackOverflow(SO), where i have initially asked Which transpiler can convert `"Go"` source-code into `"C"` source-code, and then i had to change question & ask : Which transpiler (out of four specific transpiler) can convert from `Go` to `C/C++` and can still keep (almost all) high-level algorithms & structures used in source-code , fairly accurately same/intact in output source-code . And this project/data borned from that research, so later when StackOverflow's `"PRO-GOOGLE"` & `"PRO-GO"` do-evil mods ganged-up on my Quesiton+Answer & deleted it (vote to undelete [here](https://stackoverflow.com/users/recently-deleted-questions/3553808)) , i had to publish from this github project, & improve it here. )
 
 <a name="License"></a>
-<div width="100%"><b>LICENSE of this project "Transpiler.and.similar.List":</b><br />
- "Transpiler.and.similar.List" project pages, info, data, file, etc
+<div width="100%"><b>LICENSE of this project "Transpiler.And.Similar.List":</b><br />
+ "Transpiler.And.Similar.List" project pages, info, data, file, etc
  are <b>Released with following combined LICENSE(s) + 
  RESTRICTIONs + PERMISSIONs:</b><dl>
  <dd> 
   <b class="b">•</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc.<br />
-  <b class="b">•</b> Do Not Use Any Data/File From This Project Into Military,Offense/Attack Forces,etc.<br />
+  <b class="b">•</b> Do Not Use Any Data/File From This Project Into Military/Offense/Attack/Killing Forces,etc.<br />
   <b class="b">•</b> Do Not Use Any Data/File From This Project To File LawSuit Against Someone Who Uses It/Derivative To Save/Protect Life,Liberty,Privacy,Community,Earth,etc.<br />
   <b class="b">•</b> GNU Affero General Public License Version 3 
   (<a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">AGPL v3</a>).<br />
@@ -22,7 +22,7 @@ List Of Transpilers, TransCompilers, Decompilers, etc &amp; similar &amp; relate
   &#160;&#160;&#160;&#160;All rights reserved.<br />
   <br />
   <br />
-  "Transpiler.and.similar.List" : List of transpilers, transcompilers, etc.<br />
+  "Transpiler.And.Similar.List" : List of transpilers/transcompilers, etc.<br />
   Copyright (C) 2020  atErik (Erik T. Ashfolk).
   
   This program is free software: you can redistribute it and/or modify<br />
@@ -174,11 +174,11 @@ An actual EXAMPLE of "C"-to-"Go" CODE is shown [here][2] <sup>[2][3], [3][4]</su
 <br />
 
 FEW&#160; POINTS:  
-`•` Let us assume, you're more familiar with `"C"` & `"C++"`, than `"Go"`.  
-`•` In computer programming language, let us assume, `C`/`C++`/`Assembly` are your native computer language (these you have learned in University, & then practiced).  
-`•` So it should be okay to convert `non-C` & `non-C++`/`nonCpp` language `"Go"` aka: `"Golang"` , into `"C"` or `"C++"`, to understand better.  
-`•` Learning a second computer language (for example: `"Go"`) & hoping to be expert within 7-days or so , like your native computer language `"C"` or `"C++/Cpp"`, is a plain wrong expectation , and i consider a wrong advice . But one of the good advice can be this : Start to learn the second computer language in parallel, as it will take long time to become expert in that second computer language.  
-`•` So we do not want to keep any input (`"Go"`) code remaining in output (`C/C++`) source-code . But (some) `Assembly` is fine in output (if you're okay with `Assembly`) . Be aware of that ['Go' Has Problems][5] <sup>[2][6], [3][7]</sup> , [Security Vulnerabilities of 'Golang'][8] <sup>[2][9], [3][10], [4][11], [5][12]</sup>, etc are just few reasons to move away from `"Go"`, and use other language . You have full freedom & right to choose what you want to do.  
+`•` Let us assume, you're more familiar with `"C"` & `"C++"` more, than `"Go"`.  
+`•` In computer programming language, let us assume, `C`/`C++`/`Assembly` are your native computer language (these you have learned in School/University, & then practiced).  
+`•` So it should be okay to convert `non-C` & `non-C++` language `"Go"` aka: `"Golang"` , into `"C"` or `"C++"`, to understand better.  
+`•` Learning a second computer language (for example: `"Go"`) (or lets say: French) & hoping to become expert within 7-days or so like your native computer language (`"C"` or `"C++"`) (or lets say: English) , is not only a plain wrong expectation , if any fool suggested such then that i consider a wrong advice , because this will NOT take you to a LEVEL where you can begin to contribute in real open-source projects . But one of the right advice can be this : Start to learn+practice the second computer language in parallel (in a different, easy & forked project), as it will take long time & effort to reach expert level in that second computer language.  
+`•` So, we do not want to keep any input (`"Go"`) source-code remaining in output (`C/C++`) source-code . ( But some `Assembly` is fine in output if you're okay with `Assembly` language ) . And also be aware of that ['Go' Has Problems][5] <sup>[2][6], [3][7]</sup> , [Security Vulnerabilities of 'Golang'][8] <sup>[2][9], [3][10], [4][11], [5][12]</sup>, etc are just few reasons to move away from `"Go"`, and use other language . You have full freedom & right to choose what you want to do.  
 `•` Let us assume, Necessary Features or Functionality that i or you need to add, those are developed & optimized for `C/C++`, not-available in `"Go"`.  
 `•` Programs that i or you want to TRANSPILE/CONVERT from `Go-to-C` or from `Go-to-C++`, that type of programs should be developed with `C/C++`, as that type of programs work better with `C`, and even more better with `C++`.  
 `•` Recreating complex & large software/systems with years of development from scratch with another (second) computer language , is not-only hard , that is also not-suggested<sup>[1][13]</sup> (not-adviced) , So transcompilation steps are helpful to give a head-start by converting easier source-code . Transcompilation process always requires human developer based manual code conversion, as none of the Transpilers are perfect or supports ALL aspects of source/input language or different programming styles, codes, libraries, etc that are used in real practical projects/languages . Small project(s) or new project can be built from scratch, and even by using a second computer language.  
@@ -546,6 +546,8 @@ Disclaimer: IANAL.
 • If upstream software's dev also transpiles new feature, that you or your team has added into the software, then upstream dev can also add it into the upstream software.  
 • Abbreviations : IANAL = I Am Not A Lawyer . CWPL = Consult With Professional Lawyer.  
 <br />
+<br />
+Transpiler.And.Similar.List : <a href="#list">Copyright</a> (C) 2020  atErik (Erik T. Ashfolk).
 
 
   [1]: https://cs.stackexchange.com/questions/67284/
