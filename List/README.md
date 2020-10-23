@@ -1,4 +1,4 @@
-# `Transpiler.And.Similar.List/List/README.md`
+# <a href="../../README.md">Transpiler.And.Similar.List</a>/List/README&#46;md
 
 List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-code converter][1], &amp; similar &amp; related tools/apps.  
 
@@ -286,7 +286,7 @@ ANY USER/PEOPLE HAVE FULL FREEDOM+RIGHT+CHOICE TO CHOOSE ANY LANGUAGE & ANY TRAN
 <br />
 <br />
 <br />
-Transpiler.And.Similar.List : <a href="#list">Copyright</a> (C) 2020  atErik (Erik T. Ashfolk).
+Transpiler.And.Similar.List : <a href="#License">Copyright</a> (C) 2020  atErik (Erik T. Ashfolk).
 
 
   [1]: https://en.wikipedia.org/wiki/Source-to-source_compiler
