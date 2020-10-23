@@ -1,4 +1,4 @@
-# <a href="../README.md">Transpiler.And.Similar.List</a>/List/README&#46;md
+# <a href="../">Transpiler.And.Similar.List</a>/List/README&#46;md
 
 List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-code converter][1], &amp; similar &amp; related tools/apps.  
 
