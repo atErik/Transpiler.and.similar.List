@@ -69,7 +69,7 @@ Which TRANSPILER Can Keep High-Level Algorithms / Structures Used In Source-Code
   
 TRANSPILE : source-code to source-code conversion , where high-level structures, algorithms, etc (of input code) are kept same or accurate during conversion process, (in output code) . Sometime extra codes are needed in output code, to function it same as input code.  
   
-<h4>( YOU MAY GOTO LIST OF ALL TRANSPILERS DIRECTLY FROM <a href="Transpiler.And.Similar.List.md">HERE</a> )</h4>
+<h4>( YOU MAY GOTO LIST OF ALL TRANSPILERS DIRECTLY FROM <a href="List/">HERE</a> )</h4>
   
 For example, when input code (`"Go"` language code) contains:
 ```Go
@@ -187,7 +187,7 @@ FEW&#160; POINTS:
 <br />  
 <br />
 
-<h4>( YOU MAY GOTO LIST OF ALL TRANSPILERS DIRECTLY FROM <a href="https://github.com/atErik/Transpiler.and.similar.List/blob/main/Transpiler.And.Similar.List.md">HERE</a> )</h4>
+<h4>( YOU MAY GOTO LIST OF ALL TRANSPILERS DIRECTLY FROM <a href="List/">HERE</a> )</h4>
 <br />
 
 SOLUTIONS&#160; FOR&#160; `Go`-To-`C`<b>:</b>  
@@ -299,6 +299,9 @@ CONCLUSION OF `"Go"`-to-`"C"` FOUR SOLUTIONS<b>:</b>
   So, solution-"F" (go2cs-&gt;hurley) is best `"Go"`-to-`"C"` transpiler-set,  
   at this point, among previous choices (when this message was posted here).  
   *Note: none of these transpilers support all components of "input" language, but their developers are improving them . So, often check out supported component list, which is shown in their website.*
+<br />
+<br />
+<h4>( YOU MAY GOTO LIST OF ALL TRANSPILERS DIRECTLY FROM <a href="List/">HERE</a> )</h4>
 <br />
 
 ANOTHER&#8239;/&#8239;ALTERNATIVE OPTION & SOLUTION `Go`-To-`C++`<b>:</b>  
