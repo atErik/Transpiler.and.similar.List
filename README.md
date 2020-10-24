@@ -523,26 +523,58 @@ And remember, ANYONE/USER/people have full Freedom+Right to informaton what he/s
 
 <h4>COMPETITION&#8239; ON&#8239; CAPABILITIES&#8239;:</h4>
 Here are some results of a yearly COMPETITION on CPL, based on CAPABILITIES of CPL and tools<b>:</b>
-* https://en.wikipedia.org/wiki/ICFP_Programming_Contest  
-  In this competition, 1st prize means: "it is the programming tool of choice for discriminating hackers" . 2nd prize means: "it is a fine programming tool for many applications" . 3rd prize means: "it is also not too shabby" . And "Lightning" prize means: "it is very suitable for rapid prototyping".  
-  In 2019:&#160;&#160; 1st: `Rust` &#124; 2nd: `C++` &#124; 3rd: - &#124; Lightning: `C++` & `Haskell`.  
-  In 2018:&#160;&#160; 1st: `Rust` &#124; 2nd: `C++`, `Python`, `Ruby`, `JavaScript`, `bash`, `SQL` &#124; 3rd: - &#124; Lightning: `OCaml`.
-* RESULT <b>:</b> So from above section you can see, As of 2018 `Go`(Golang) HAS NOT ACHIEVED ANY PRIZE in any category . In 2002 `C` achieved 2nd prize . And in 2018 `C++` achieved 2nd prize again.
+<ul><li> https://en.wikipedia.org/wiki/ICFP_Programming_Contest <br />
+  In this competition, 1st prize means: "it is the programming tool of choice for discriminating hackers" . 2nd prize means: "it is a fine programming tool for many applications" . 3rd prize means: "it is also not too shabby" . And "Lightning" prize means: "it is very suitable for rapid prototyping".<br />
+  In 2019:&#160;&#160; 1st: <code>Rust</code> &#124; 2nd: <code>C++</code> &#124; 3rd: - &#124; Lightning: <code>C++</code> & <code>Haskell</code>.<br />
+  In 2018:&#160;&#160; 1st: <code>Rust</code> &#124; 2nd: <code>C++</code>, <code>Python</code>, <code>Ruby</code>, <code>JavaScript</code>, <code>bash</code>, <code>SQL</code> &#124; 3rd: - &#124; Lightning: <code>OCaml</code>.
+</li>
+<li> RESULT <b>:</b> So from above section you can see, As of 2018 <code>Go</code>(Golang) HAS NOT ACHIEVED ANY PRIZE in any category . In 2002 <code>C</code> achieved 2nd prize . And in 2018 <code>C++</code> achieved 2nd prize again.
+</li>
+</ul>
 <br />
 <br />
 
 &#160;&#160;&#160;abbreviations&#160;:&#160;`CPL` = Computer Programming Language &#124; `lang` = language.  
 
 <h4>FAST or SLOW&#160 (COMPARISON&#8239; OF&#8239; LANGAUGE&#8239; PERFORMANCE)&#8239;:</h4>
-See various benchmarks: [1][69], [2][70], [3][71], [4][72], [5][73], [6][74], [7][75].
-* Please also see these Q+A on CS.StackExchange site<b>:</b>  
-  [What Determines the Speed of a Programming-language?][76]  
-  [Why are some programming languages “faster” or “slower” than others?][77]  
-  `CS` = Computer-Science.
-* Benchmarks from "[The Computer Language Benchmarks Game][78]" (CLBG) are based on such criterias <b>:</b> Overall user runtime, Peak memory allocation, Gzip'ped size of the solution's source code, Sum of total CPU time over all threads, Individual CPU utilization.  
-  BE-AWARE <b>:</b> many notable developers pointed out results are not perfect benchmarks, due to: various programming techniques, configuration issues, weak programming, etc that exist in various software & hardware tools & human expertise, etc.  
-  In this CLBG [page][79] you can see performance chart on compiled program of different computer programming language (<b>CPL</b>) . I'm displaying names of selected few (not all) CPL in below from "Program Busy Time / Least Busy" category chart of July-1, 2020, in the ORDER of their placement shown there , So, better performing one (based on above mentioned criterias) is mentioned earlier in left-side , & less-better are mentioned later or after that <b>:</b> `C++` (`g++`), `C` (`gcc`), `Rust`, `Julia`, `Intel Fortran`, `Ada 2012`, `C# .NET Core`, `Free Pascal`, `F# .Net Core`, `Go`, `Java`, etc.
-* RESULT <b>:</b> So you can see in above section, there is a huge performance gap between `Go` & `C`, or `Go` & `C++` . The `"Go"`(Golang) is ~2 to ~5.25 TIMES SLOWER THAN `"C"` . `"Go"/"Golang"` is ~2.25 to ~7 TIMES SLOWER THAN `"C++"`.  
+See various benchmarks: 
+<a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/">1</a>, 
+<a href="https://julialang.org/benchmarks/">2</a>, 
+<a href="https://attractivechaos.github.io/plb/">3</a>, 
+<a href="https://github.com/drujensen/fib">4</a>, 
+<a href="http://www.hildstrom.com/projects/langcomp/index.html">5</a>, 
+<a href="https://github.com/kostya/benchmarks">6</a>, 
+<a href="https://modelingguru.nasa.gov/docs/DOC-2783">7</a>.
+<ul><li> Please also see these Q+A on CS.StackExchange site<b>:</b><br />
+<a href="https://cs.stackexchange.com/questions/40400/">What Determines the Speed of a Programming-language?</a><br />
+<a href="https://cs.stackexchange.com/questions/71979/">Why are some programming languages “faster” or “slower” than others?</a><br />
+`CS` = Computer-Science.
+</li>
+<li> Benchmarks from 
+"<a href="https://en.wikipedia.org/wiki/The_Computer_Language_Benchmarks_Game">The Computer Language Benchmarks Game</a>" 
+(CLBG) are based on such criterias <b>:</b> Overall user runtime, Peak memory allocation, 
+Gzip'ped size of the solution's source code, Sum of total CPU time over all threads, 
+Individual CPU utilization.<br />
+BE-AWARE <b>:</b> many notable developers pointed out results are not perfect benchmarks, 
+due to: various programming techniques, configuration issues, weak programming, etc 
+that exist in various software & hardware tools & human expertise, etc.<br />
+In this CLBG <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/q6600/which-programs-are-fastest.html">page</a> 
+you can see performance chart on compiled program of different computer programming 
+language (<b>CPL</b>) . I'm displaying names of selected few (not all) CPL in below 
+from "Program Busy Time / Least Busy" category chart of July-1, 2020, in the ORDER 
+of their placement shown there , So, better performing one (based on above mentioned 
+criterias) is mentioned earlier in left-side , & less-better are mentioned later or 
+after that <b>:</b> <code>C++</code> (<code>g++</code>), <code>C</code> (<code>gcc</code>), 
+<code>Rust</code>, <code>Julia</code>, <code>Intel Fortran</code>, <code>Ada 2012</code>, 
+<code>C# .NET Core</code>, <code>Free Pascal</code>, <code>F# .Net Core</code>, <code>Go</code>, 
+<code>Java</code>, etc.
+</li>
+<li> RESULT <b>:</b> So you can see in above section, there is a huge performance 
+gap between <code>Go</code> & <code>C</code>, or <code>Go</code> & <code>C++</code> . 
+The <code>"Go"</code>(Golang) is ~2 to ~5.25 TIMES SLOWER THAN <code>"C"</code> . 
+<code>"Go"/"Golang"</code> is ~2.25 to ~7 TIMES SLOWER THAN <code>"C++"</code>.
+</li>
+</ul>
 <br />
 <br />
 <br />
@@ -616,7 +648,7 @@ So here in below, i have tried to gather & post correct advices , after reading 
 * For example, If you don't understand a Book written in French, then learning French would be "good" but it will for sure take you many many months or years to actually understand many facets & layers of French in order to accumulate related layers of required understanding/knowledge on French, but "better" is to have the content (that Book) TRANSLATED by expert language-translators into your own NATIVE LANGUAGE OR simply find the translated version of that Book (many Book publishers publish translated editions when its popular), then you will actually understand it (that Book's translation) much much better . Normally human cannot learn ALL about French within even 6months<b>.</b>
 * If you want to add a very specific feature in a (specific) software, later we will call it "upstream" software, which that software's dev has denied to add, then ask again & this time propose to sponsor/pay to add that feature if you have (monetary) resource.  
 • But when that is not possible, you can try to add that feature by yourself in a "fork" of that software . Specify publicly in your fork, what exactly you're trying to do in your fork . You may even find more users contributing in your fork to develop/improve that feature, to ultimately include improvements in that upstream software.  
-• But, if you do not understand the language used in that (upstream) software very well, then one option is to learn it, & try to understand related sections , so "fork" that (upstream) software, & try to add new feature in that forked software . You can add copyright notice on your contributed code & on your code-files contribution, but usually you have to release it with same license type that is used by the "upstream" project, not with a different or incompatible license.<sup>[1][70], [2][71], [3][72], [4][73]</sup>  
+• But, if you do not understand the language used in that (upstream) software very well, then one option is to learn it, & try to understand related sections , so "fork" that (upstream) software, & try to add new feature in that forked software . You can add copyright notice on your contributed code & on your code-files contribution, but usually you have to release it with same license type that is used by the "upstream" project, not with a different or incompatible license.<sup><a href="https://softwareengineering.stackexchange.com/questions/330733/">1</a>, <a href="https://www.gnu.org/licenses/gpl-faq.html">2</a>, <a href="https://www.gnu.org/licenses/license-list.en.html#Expat">3</a>, <a href="https://en.wikipedia.org/wiki/Software_relicensing#Cases">4</a></sup>  
 Disclaimer: IANAL.  
 • If above steps are not working well or not-suitable enough to achieve your goal/objectives , then, one of the option you have is: "Transpile" the entire (upstream) software into the "destination" computer language which is your native computer language which you have LEARNED & understand better . By the way, this is not an easy option.  
 • So begin with by creating a new project in GitHub<sup>[1][74]</sup>, BitBucket<sup>[1][75]</sup>, GNU-Savannah<sup>[1][76]</sup>, SourceForge<sup>[1][77]</sup>, GitLab<sup>[1][78]</sup>, etc etc various open-source code collaboration repository sites<sup>[1][79]</sup> (aka: <b>SCH</b>=Source-Code-Hosting), choose such site where more devs with higher-skill on that "destination" computer language are hanging-out, and posses friendly collaborative spirit . Or, create project in multiple code-collaboration sites & SYNC each one after each code-update . Or, load Git<sup>[1][80], [2][81], [3][82]</sup> <b>VCS</b> (version control software<sup>[1][83]</sup>) in your own server or personal computer, & put your transpiled code in it. (Repo=Repository)  
@@ -625,7 +657,7 @@ Disclaimer: IANAL.
   Disclaimer: IANAL. CWPL.  
 • Usually, in a transpiled output/destination code , many many code-portions have to be re-worked/re-written by human, to functionally perform same-way as "upstream" (aka: input source-code) software , especially those portions, which you initially could-not transpile during manual transpilation/transformation process, and, there will also be many many non-transpiled source-code portions, when you have used mechanized (or automated) transpilation process or transpiler software , as these tools are not yet capable to transpile (all type of codes) completely, and instead transpiles only a subset(smaller portion) of (simple or limited-advanced) input source-code language into destination/output language . So you or a HUMAN have to write, fix, adjust, & adapt ("destination" language) source-code, and compile / run / test / improve it.  
 • Once you have achieved the state, where, your (transpiled and then improved output/destination code based) software can run same-way as upstream software , then, you can start adding your feature or functionality that you need or want to add . If you have publshed source-code publicly then, you may also find that other devs have began to join & contribute in this new project.  
-• In any OPEN-SOURCE project, one of the most helpful thing to bring in more code contributors is : Addition of DETAIL COMMENTS & NOTES on each code line & section, and describe what a code-line/code-section is actually doing . So create a ToDo for yourself & for any code-contributors, that, beside improving code directly, this new project also need contribution of more detail COMMENTS & NOTES ON CODE . So that some devs can spend time on understanding + identifying each line & section & algorithm, and start adding detail general human-friendly notes & comments . <b>Do not make comment & note helpful only for advanced devs , as that creates islands & separation & division . That is opposite of open-source spirit . Everyone, even general user, should be able to understand a code line/section, after reading comments & notes.<b>  
+• In any OPEN-SOURCE project, one of the most helpful thing to bring in more code contributors is : Addition of DETAIL COMMENTS & NOTES on each code line & section, and describe what a code-line/code-section is actually doing . So create a ToDo for yourself & for any code-contributors, that, beside improving code directly, this new project also need contribution of more detail COMMENTS & NOTES ON CODE . So that some devs can spend time on understanding + identifying each line & section & algorithm, and start adding detail general human-friendly notes & comments . <b>Do not make comment & note helpful only for advanced devs , as that creates islands & separation & division . That is opposite of open-source spirit . Everyone, even general user, should be able to understand a code line/section, after reading comments & notes.</b>  
 • If upstream software's dev also transpiles new feature or functionality that you & your team has added , or you have transpiled again from "C-to-Go" , and add into forked project of "upstream" , then upstream dev can also add new feat/functionality into the upstream software.  
 • When everyone is open-sourcing their work, means SHARING IMPROVED KNOWLEDGE WITH OTHERS , then everyone is benefitted more . Each of us, We all have learned something from another person who has shared something old or shared something that he has improved , SO IN THAT SAME WAY , we all need to share old & share improved works with others.  
 • Abbreviations : IANAL = I Am Not A (Professional) Lawyer &#124; CWPL = Consult With Professional Lawyer.  
