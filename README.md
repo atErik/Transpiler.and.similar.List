@@ -1,4 +1,4 @@
- # Transpiler.And.Similar.List
+# Transpiler.And.Similar.List
 
 List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-code converter][1], &amp; similar &amp; related tools/apps.  
   
@@ -243,7 +243,7 @@ Solution-Set A or &#35;1&#8239;:
   <li> (<b>A</b>-2) convert that <code>"C#"</code> source-code into 
   <code>"Lua"</code> code with this 
   "<a href="https://github.com/yanghuan/CSharp.lua">CSharp.lua</a>" transpiler.
-    <ul><li> <tt>D:&#92;&gt; dotnet CSharp.Lua.Launcher.dll -h</tt><br />
+    <ul><li> <tt>D:&#92;&gt; dotnet CSharp.Lua.Launcher.dll -h </tt><br />
 <pre><code>Usage: CSharp.lua [-s srcfolder] [-d dstfolder]
 Arguments
 -s : can be a directory where all cs files will be compiled, or a list of files, using ';' or ',' to separate
@@ -284,11 +284,11 @@ have high-level structures fairly intact that were used in initial
 <h5>SOLUTION B or &#35;2&#8239;:</h5>
 Solution-Set B or &#35;2&#8239;:
 <ul><li> steps: in this solution we attempt to do these:<br />
-<code>"Go"`--&gt;<code>"C#"</code>--&gt;<code>"WebAssembly"</code>--&gt;<code>"C"</code>. 
+<code>"Go"</code>--&gt;<code>"C#"</code>--&gt;<code>"WebAssembly"</code>--&gt;<code>"C"</code>. 
 (also see alternative Solution-E)
-  <ul><li> (<b>B</b>-1) use this "[go2cs][15]" transpiler to convert 
-  <code>"Go"</code>/<code>"Golang"</code> source-code into <code>"C#"</code> (C-sharp) 
-  based code.
+  <ul><li> (<b>B</b>-1) use this "<a href="https://github.com/GridProtectionAlliance/go2cs">go2cs</a>" 
+  transpiler to convert <code>"Go"</code>/<code>"Golang"</code> source-code 
+  into <code>"C#"</code> (C-sharp) based code.
     <ul><li> see sub-section inside above Solution-A-1.
     </li></ul>
   </li>
@@ -369,6 +369,7 @@ of all components of <code>Go</code>-language.
 <h4>EXTRA - SOLUTIONS&#8239;:</h4>
 
 <h5>SOLUTION E or &#35;5&#8239;:</h5>
+Solution-Set E or &#35;5&#8239;:
 <ul><li> steps: this Solution-E is alternative of above Solution-B.
   <ul><li> (<b>E</b>-1) use these commands to convert <code>"Go"</code> into 
   <code>"Go"-"Assembly"</code>, <code>"go2goasm"</code>, output of 
@@ -383,8 +384,8 @@ of all components of <code>Go</code>-language.
   decompiler<sup><a href="https://github.com/radareorg/radare2">2</a>, 
   <a href="https://github.com/radareorg/r2dec-js">3</a></sup> on <code>Go-"Assembly"</code> 
   source-code file, and manually change/convert incompatible portions into general 
-  <code>Assembly</code> until it(Boomerang) can do Asm-to-C conversion . Or use 
-  <a href="https://github.com/frranck/asm2c">asm2c</a>,etc transpiler, that can convert 
+  <code>Assembly</code> until Boomerang can do Asm-to-C conversion . Or use 
+  <a href="https://github.com/frranck/asm2c">asm2c</a>, etc transpiler, that can convert 
   <code>Assembly</code>(<code>Asm</code>) into <code>C</code> 
   (<code>Asm</code>-to-<code>C</code>) . Other solutions are mentioned 
   <a href="https://reverseengineering.stackexchange.com/questions/3748/">here</a>, 
@@ -406,17 +407,35 @@ Usually this solution is faster.
 <br />
 
 <h5>SOLUTION F or &#35;6<b>:</h5>
-* steps:
-  * (<b>F</b>-1) use "go2cs" to convert `"Go"` into `"C#"`(`CSharp`).  
-  see sub-section under Solution A-1, for usage.
-  * (<b>F</b>-2) use "[hurley][37]" to convert `C#` into `C`.
-* Conversion happens 2-TIMES : `"Go"`-&gt;`"C#"`-&gt;`"C"` . Many higher-level structures in `"Go"` will remain in final output . The "go2cs" does HQ conversion, but next step not that much, need more improvements.
+<ul><li> steps:
+  <ul><li> (<b>F</b>-1) use 
+  "<a href="https://github.com/GridProtectionAlliance/go2cs">go2cs</a>" 
+  to convert <code>"Go"</code> into 
+  <code>"C#"</code>(<code>CSharp</code>).<br />
+  see sub-section under Solution-A-1, for usage.
+  </li>
+  <li> (<b>F</b>-2) use 
+  "<a href="https://sourceforge.net/projects/hurley/">hurley]</a>" 
+  to convert <code>C#</code> into <code>C</code>.
+  </li>
+  </ul>
+</li>
+<li> Conversion happens 2-TIMES : 
+<code>"Go"</code>-&gt;<code>"C#"</code>-&gt;<code>"C"</code> . 
+Many higher-level structures in <code>"Go"</code> will remain in final output . 
+The "go2cs" does HQ conversion, but next step not that much, need more improvements.
+</li>
+</ul>
+<br />
 
 <h5><s>&#160;SOLUTION G or &#35;7<b>:</b>&#160;</s></h5>
-* <s>&#160;(<b>G</b>-1) "[go-transpiler][38]". According to it's dev, though original goal was to make a transpiler but now its a parser that checks if code is valid as per Golang grammar.&#160;</s>
+<ul><li> <s>&#160;(<b>G</b>-1) "<a href="https://github.com/supercoww/go-transpiler">go-transpiler</a>"(supercoww) . According to it's dev, though original goal was to make a transpiler but now its a parser that checks if code is valid as per Golang grammar.&#160;</s>
+</li>
+</ul>
+<br />
 
 <h5>OTHER&#8239;:</h5>
-* This "[esp32-transpiler][39]" can convert 'Go' into 'C' for Arduino (an embedded system), but only small subset of 'Go' lang spec is supported.  
+This "[esp32-transpiler][39]" can convert 'Go' into 'C' for Arduino (an embedded system), but only small subset of 'Go' lang spec is supported.  
 <br />
 
 <h5>CONCLUSION OF `"Go"`-To-`"C"` SOLUTIONS&#8239;:</h5>
