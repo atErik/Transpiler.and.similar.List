@@ -406,7 +406,7 @@ Usually this solution is faster.
 </ul>
 <br />
 
-<h5>SOLUTION F or &#35;6<b>:</h5>
+<h5>SOLUTION F or &#35;6&#8239;:</h5>
 <ul><li> steps:
   <ul><li> (<b>F</b>-1) use 
   "<a href="https://github.com/GridProtectionAlliance/go2cs">go2cs</a>" 
@@ -428,7 +428,7 @@ The "go2cs" does HQ conversion, but next step not that much, need more improveme
 </ul>
 <br />
 
-<h5><s>&#160;SOLUTION G or &#35;7<b>:</b>&#160;</s></h5>
+<h5><s>&#160;SOLUTION G or &#35;7:&#160;</s></h5>
 <ul><li> <s>&#160;(<b>G</b>-1) "<a href="https://github.com/supercoww/go-transpiler">go-transpiler</a>"(supercoww) . According to it's dev, though original goal was to make a transpiler but now its a parser that checks if code is valid as per Golang grammar.&#160;</s>
 </li>
 </ul>
