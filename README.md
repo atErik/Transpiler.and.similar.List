@@ -1,4 +1,4 @@
- # Transpiler.And.Similar.List
+<h1> Transpiler.And.Similar.List </h1>
 
 List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-code converter][1], &amp; similar &amp; related tools/apps.  
   
@@ -51,11 +51,14 @@ List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-cod
   <br />
   <br />
   <br />
-  <h3>IF&#8239; YOU&#8239; DO&#8239; NOT&#8239; AGREE&#8239; WITH&#8239; ABOVE&#160; LICENSE&#8239; RESTRICTIONS&#8239; &&#8239; PERMISSIONS&#8239;, THEN&#8239; YOU&#8239; CANNOT&#8239; USE&#8239; ANY&#8239; DATA/SERVICE&#8239; FROM&#8239; THIS&#8239; PROJECT&#8239; OR&#8239; WEB-PAGES&#8239;, PRESS&#160; BACK&#8239; BUTTON&#160; IN&#8239; YOUR&#8239; WEB-BROWSER&#8239;, AND COMPLETELY STOP USING/VIEWING THIS WEBPAGE/DATA ( AND ANY OTHER WEBPAGES/DATA UNDER IT ).<br />
-IF&#8239; YOU&#160; AGREE&#160; WITH&#8239; ABOVE&#160; LICENSE&#8239; RESTRICTIONS&#8239; &&#8239; PERMISSIONS&#8239;, THEN SCROLL DOWN & VIEW DATA.</h3>
+  <h3>IF&#8239; YOU&#160; DO&#8239; NOT&#8239; AGREE&#160; WITH&#8239; ABOVE&#160; LICENSE&#8239; RESTRICTIONS&#8239; &&#8239; PERMISSIONS&#8239;,&#160; THEN&#160; YOU&#160; CANNOT&#160; USE&#160; ANY&#160; DATA/SERVICE&#160; FROM&#160; THIS&#160; PROJECT&#8239; OR&#8239; WEB-PAGES&#8239;, PRESS&#160; BACK&#8239; BUTTON&#160; IN&#8239; YOUR&#8239; WEB-BROWSER&#8239;,&#160; AND&#160; COMPLETELY&#160; STOP&#160; USING/VIEWING&#8239; THIS&#8239; WEBPAGE/DATA ( AND&#8239; ANY&#8239; OTHER&#8239; WEBPAGES/DATA&#8239; UNDER&#8239; IT ).<br />
+IF&#160; YOU&#160; AGREE&#160; WITH&#160; ABOVE&#160; LICENSE&#160; RESTRICTIONS&#160; &&#160; PERMISSIONS&#160;, THEN&#160; SCROLL&#160; DOWN&#160; &&#160; VIEW&#160; DATA.</h3>
   </dd>
  </dl>
 </div>
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
@@ -69,17 +72,19 @@ IF&#8239; YOU&#160; AGREE&#160; WITH&#8239; ABOVE&#160; LICENSE&#8239; RESTRICTI
 # TRANSPILE&#8239;:
 &#160;&#160;&#160;&#160;<b>CPL</b>&#160;=&#160;Computer&#160;Programming&#160;Language.  
 
-Which TRANSPILER Can Convert/**[Transpile][1]**/Transcompile/Transform Input Source-Code (`"Go"` or Any/✱ other CPL) Into Output Source-Code (`"C"` or Any/✱ other CPL) <b>?</b>  
+Which TRANSPILER Can Convert/**[Transpile][1]**/Transcompile/Transform Input Source-Code (`"Go"` or Any/✱ other CPL) Into (A Different Language) Output Source-Code (`"C"` or Any/✱ other CPL) <b>?</b>  
 
-Which TRANSPILER Can Keep High-Level Algorithms / Structures Used In Source-Code (here: `"Go"` or Any/✱ other CPL) , Fairly Accurately Intact/Same In Generated / Output / Destination / Target Source-Code (here: `"C"` or Any/✱ other CPL), As Much As Possible <b>?</b>  
+Which TRANSPILER Can Keep High-Level Algorithms / Structures Used In Source-Code (here: `"Go"` or Any/✱ other CPL) , Fairly Accurately Intact/Same In (A Different Language) Generated / Output / Destination / Target Source-Code (here: `"C"` or Any/✱ other CPL), As Much As Possible <b>?</b>  
 <br />
 
 ( abbreviations : `lang` = language &#124; `C++` = `Cpp` = `C-plus-plus` &#124; `Go` = `Golang` )  
 
-TRANSPILE : source-code to source-code conversion , where high-level structures, algorithms, etc (of input code) are kept same or accurate during conversion process, (in output code) . Sometime extra codes are needed in output code, to function it same as input code.  
+TRANSPILE : source-code to source-code conversion , where high-level structures, algorithms, etc (of input code) are kept same or accurate during conversion process (in output code) . Sometime extra codes are needed in output code, to function same as input code.  
+<br />
 <br />
 
 <h4>( YOU MAY GOTO <a href="List/">LIST</a> OF ALL TRANSPILERS DIRECTLY FROM <a href="List/">HERE</a> )</h4>
+<br />
 <br />
 
 # SOURCE-CODE&#8239; EXAMPLES&#8239;:
@@ -206,7 +211,7 @@ An actual EXAMPLE of "C"-to-"Go" CODE is shown [here][3] <sup>[2][4], [3][5]</su
 <br />
 <br />
 
-# SOLUTIONS&#160; FOR&#160; `Go`-TO-`C`&#8239;:
+# SOLUTIONS&#160; FOR&#160; 'Go'-TO-'C'&#8239;:
 Currently, i SPECIFICALLY have these solutions/choices to use:  
 `•` Solution A or #1 : "[go2cs][15]", "[CSharp.lua][16]", "[lua2c][17]".  
 `•` Solution B or #2 : "[go2cs][15]", "[Blazor][18]", "[wasm2c][19]".  
@@ -222,9 +227,9 @@ Above (transpiler-set) solutions have what Pros/Cons ?
 <br />
 <br />
 
-<h4>SOLUTION&#160; ANALYSIS&#160; &amp;&#160; PROs/CONs&#160; &amp;&#160; PROBLEM(s):</h4>
+<h3>SOLUTION&#160; ANALYSIS&#160; &amp;&#160; PROs/CONs&#160; &amp;&#160; PROBLEM(s):</h3>
 
-<h5>SOLUTION A or &#35;1&#8239;:</h5>
+<h4>SOLUTION A or &#35;1&#8239;:</h4>
 Solution-Set A or &#35;1&#8239;:
 <ul><li> steps: we are attempting to do these:<br />
 <code>"Go"</code>--&gt;<code>"C#"</code>--&gt;<code>"Lua"</code>--&gt;<code>"C"</code>
@@ -281,7 +286,7 @@ have high-level structures fairly intact that were used in initial
 </ul>
 <br />
 
-<h5>SOLUTION B or &#35;2&#8239;:</h5>
+<h4>SOLUTION B or &#35;2&#8239;:</h4>
 Solution-Set B or &#35;2&#8239;:
 <ul><li> steps: in this solution we attempt to do these:<br />
 <code>"Go"</code>--&gt;<code>"C#"</code>--&gt;<code>"WebAssembly"</code>--&gt;<code>"C"</code>. 
@@ -314,7 +319,7 @@ also <code>"C++"</code> ).
 </ul>
 <br />
 
-<h5>SOLUTION C or &#35;3&#8239;:</h5>
+<h4>SOLUTION C or &#35;3&#8239;:</h4>
 Solution-Set C or &#35;3&#8239;:
 <ul><li> (<b>C</b>-1) use this "<a href="https://github.com/lpereira/gomoku">gomoku</a>" 
 transpiler to convert <code>"Go"</code>/<code>"Golang"</code> source-code into 
@@ -346,7 +351,7 @@ will still have high-level structures fairly intact that were used in initial
 </ul>
 <br />
 
-<h5>SOLUTION D or &#35;4&#8239;:</h5>
+<h4>SOLUTION D or &#35;4&#8239;:</h4>
 <ul><li> (<b>D</b>-1) use this "<a href="https://github.com/mukadr/go2c">go2c</a>"(mukadr) 
 transpiler to convert <code>"Go"</code> source-code into <code>"C"</code> 
 based code, though it can transpile <code>"Go"</code>-to-<code>"C"</code> 
@@ -366,9 +371,9 @@ of all components of <code>Go</code>-language.
 </ul>
 <br />
 
-<h4>EXTRA - SOLUTIONS&#8239;:</h4>
+<h3>EXTRA - SOLUTIONS&#8239;:</h3>
 
-<h5>SOLUTION E or &#35;5&#8239;:</h5>
+<h4>SOLUTION E or &#35;5&#8239;:</h4>
 Solution-Set E or &#35;5&#8239;:
 <ul><li> steps: this Solution-E is alternative of above Solution-B.
   <ul><li> (<b>E</b>-1) use these commands to convert <code>"Go"</code> into 
@@ -406,7 +411,7 @@ Usually this solution is faster.
 </ul>
 <br />
 
-<h5>SOLUTION F or &#35;6&#8239;:</h5>
+<h4>SOLUTION F or &#35;6&#8239;:</h4>
 <ul><li> steps:
   <ul><li> (<b>F</b>-1) use 
   "<a href="https://github.com/GridProtectionAlliance/go2cs">go2cs</a>" 
@@ -428,17 +433,17 @@ The "go2cs" does HQ conversion, but next step not that much, need more improveme
 </ul>
 <br />
 
-<h5><s>&#160;SOLUTION G or &#35;7:&#160;</s></h5>
+<h4><s>&#160;SOLUTION G or &#35;7:&#160;</s></h4>
 <ul><li> <s>&#160;(<b>G</b>-1) "<a href="https://github.com/supercoww/go-transpiler">go-transpiler</a>"(supercoww) . According to it's dev, though original goal was to make a transpiler but now its a parser that checks if code is valid as per Golang grammar.&#160;</s>
 </li>
 </ul>
 <br />
 
-<h5>OTHER&#8239;:</h5>
+<h4>OTHER&#8239;:</h4>
 This "<a href="https://github.com/andygeiss/esp32-transpiler">esp32-transpiler</a>" can convert 'Go' into 'C' for Arduino (an embedded system), but only small subset of 'Go' lang spec is supported.  
 <br />
 
-<h4>CONCLUSION OF `"Go"`-To-`"C"` SOLUTIONS&#8239;:</h4>
+<h3>CONCLUSION OF "Go"-To-"C" SOLUTIONS&#8239;:</h3>
 <ul><li> at this point:<br />
   So, solution-"A" (go2cs-&gt;CSharp.lua-&gt;lu2c) is better than solution-"B" (go2cs-&gt;Blazor-&gt;wasm2c).<br />
   solution-"E" (go2asm-&gt;asm2c) is obviously better than solution-"B" (go2cs-&gt;Blazor-&gt;wasm2c).<br />
@@ -459,7 +464,7 @@ This "<a href="https://github.com/andygeiss/esp32-transpiler">esp32-transpiler</
 <br />
 <br />
 
-# SOLUTIONS&#160; FOR&#160; `Go`-TO-`C++`&#8239;:
+# SOLUTIONS&#160; FOR&#160; 'Go'-TO-'C++'&#8239;:
 Many developers have pointed out, in some cases `C++` (based compiled program) can often be much better & faster than `C` ones, so i'm also displaying these few options in below to convert/transpile `Go` source-code directly (or via multiple stages) into `C++` source-code while keeping higher-level algorithms & structures fairly intact/accurate as much as possible , in this way output `C++` source-code is also easier to improve as/when necessary:
 * SOLUTION CHOICES&#8239;:
   * ALT-SOLUTION A or &#35;1<b>:</b> use [gomoku][20] for `Go` to `C++`.
@@ -482,7 +487,7 @@ Many developers have pointed out, in some cases `C++` (based compiled program) c
 
 &#160;&#160;&#160;&#160;abbreviations&#160;:&#160;`aka` = also known as  
 
-# TRANSPILER&#8239; INTERNALS&#8239;:
+# TRANSPILER&#160; INTERNALS&#8239;:
 Transpiler/Transcompiler<sup>[1][1]</sup> internally contains primarily three major components<b>:</b>
 * 1of3: Parser : it is used to create AST<sup>[1][32]</sup> from input/source code, by using Lexical<sup>[1][33]</sup> analysis and Syntax<sup>[1][34]</sup> analysis.  
   • [Comparison of Parser-Generators and Lexer-Generators][35].
@@ -506,12 +511,12 @@ Then we can compile such transpiled/transcompiled `C/C++` source-code (into bina
 
 So after `Go-to-C` or `Go-to-C++` source-code conversion , it will be possible to change source-code , to add required necessary feature or functionality , and improve `C` (or `C++`) source-code.  
 
-Some users have mis-conception (aka: brainwashed) about `"Go"` computer programming language , and some users intentionally lies purposefully as they work under some projects from "Google" or projects supported by "Google", or working under a project that uses Google products, for-example : Google's "Go" language, Google Advertisements, Violating Privacy-Rights (aka Spying on People,Citizens,Users,Persons), etc, etc , these are hard-core Google-PUSHERS/supporters , some of these ciminal/"evil" acts are very dangerous Anti-Humanity activities.  
+Some users have mis-conception (aka: brainwashed) about `"Go"` computer programming language , and some users intentionally lies purposefully as they work under some projects from "Google" or projects supported by "Google", or working under a project that uses Google products, for-example : Google's "Go" language, Google Advertisements, Violating Privacy-Rights (aka Spying on People,Citizens,Users,Persons), etc, etc , these are hard-core Google-PUSHERS/supporters , some of these criminal/"evil" acts are very dangerous Anti-Humanity activities.  
 
 We need to push Google (and it's parent company: Alphabet) and it's corporate-controllers by exposing their criminal & "evil" activities , so that their harmful & "evil" acts are Questioned & punished , so that in end Google (and Alphabet) & it's corp-controllers chooses real good & correct & non-"evil" ways to do good & correct & non-"evil" things for People, Citizens, Users , not-only inside USA but for entire World.  
 In entire world, country after country are now filing Lawsuit against years of Google's "evil"/hamrful practices . So if Google/Alphabet wants to do business with/for people/companies, they need to cultivate good & non-"evil" practices.<sup>[1](https://en.wikipedia.org/wiki/Criticism_of_Google), [2](https://en.wikipedia.org/wiki/Google_litigation), [3](https://www.bbc.com/news/business-52887340), [4](https://www.reuters.com/article/us-alphabet-google-privacy-lawsuit-idUSKBN23933H), [5](https://www.nytimes.com/2020/09/21/technology/google-antitrust-justice-department.html), [6](https://www.nationalreview.com/news/department-of-justice-state-attorneys-general-to-sue-google-for-antitrust-violations-report/)</sup>
 
-So I have added data/info from accredited computer COMPETITION, BENCHMARKS, etc to prove which computer programming language is better & which is not.  
+So, I have added data/info from accredited computer COMPETITION , BENCHMARKS , etc to prove which computer programming language is better & which is not.  
 
 And remember, ANYONE/USER/people have full Freedom+Right to informaton what he/she wants, and also have full Freedom+Right to convert one language into another.<sup>[1][48], [2][49], [3][50], [4][51], [5][52]</sup>  
 ( water is needed by human body to survive . human has right to water )  
@@ -664,6 +669,29 @@ Disclaimer: IANAL.
 <br />
 <br />
 <br />
+
+## LICENSE&#8239;:
+Some brainwashed+stupid people/users have question, Why this License has so many "restrictions" <b>?</b>  
+Does "Freedom/Right Of Speech" allows you to say/speak LIES or harmful things against someone ? NO.  
+Does "Freedom/Right Of Religion" allows you to disrespect+destroy another religion ? NO.  
+Does "Freedom/Right of People To Keep and Bear Arms" allows you to kill/shoot someone/anyone ? NO.  
+...  
+You cannot do "whatever" you want to, with your Freedom/Right, etc.  
+CIVILIZED SOCIETY/PEOPLE/COMMUNITY always have restrictions on how much or what you can do with such freedom/Right.  
+Civilized Society makes sure a Freedom/Right DOES-NOT & cannot allow someone to harm/kill someone-else or steal from someone or destroy something valueable.  
+...  
+right ?  
+...  
+So why software or sofwtare freedom will have Freedom to be used for KILLING Human, Steal from Human, Destroying Society/Community, Or Destroying Earth Or it's Elements !? !?  
+...  
+All+Everything must have peaceful & balanced "restrictions" in all abilities & where used , for greater benefit & goodness<b>.</b>  
+...  
+Those who want to use something for destruction, stealing, killing, etc, Those will always want "FULL" freedom.  
+Face+Challenge those Anti-Humanity type of people/users . They may look like human being, but all else is completely "evil".
+<br />
+<br />
+<br />
+
 Transpiler.And.Similar.List : <a href="#License">Copyright</a> (C) 2020  atErik (Erik T. Ashfolk).
 
 
