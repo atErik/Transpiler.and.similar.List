@@ -227,18 +227,23 @@ Above (transpiler-set) solutions have what Pros/Cons ?
 <h5>SOLUTION A or &#35;1&#8239;:</h5>
 Solution-Set A or &#35;1&#8239;:
 <ul><li> steps: we are attempting to do these:<br />
-  <code>"Go"</code>--&gt;<code>"C#"</code>--&gt;<code>"Lua"</code>--&gt;<code>"C"</code>
-  <ul><li> (<b>A</b>-1) use this "<a href="https://github.com/GridProtectionAlliance/go2cs">go2cs</a>" transpiler to convert <code>"Go"</code>/<code>"Golang"</code> source-code into <code>"C#"</code> (C-sharp) based code.
+<code>"Go"</code>--&gt;<code>"C#"</code>--&gt;<code>"Lua"</code>--&gt;<code>"C"</code>
+  <ul><li> (<b>A</b>-1) use this 
+  "<a href="https://github.com/GridProtectionAlliance/go2cs">go2cs</a>" 
+  transpiler to convert <code>"Go"</code>/<code>"Golang"</code> source-code 
+  into <code>"C#"</code> (C-sharp) based code.
     <ul><li> (place your GoProject here: <code>D:\Dev\GoProject\</code>)<br />
     (create & go inside this folder: <code>D:\Dev\Go-to-CS-GoProject\</code>)<br />
     Convert a single <code>Go</code> file: <code>go2cs -l D:\\Dev\\GoProject\\src\\Main.go</code><br />
     Convert entire <code>Go</code> project: <code>go2cs D:\\Dev\\GoProject</code><br />
-    Convert `Go` Standard Library: <code>go2cs -s -r D:\\Dev\\GoProject\\src\\</code>
+    Convert <code>Go</code> Standard Library: <code>go2cs -s -r D:\\Dev\\GoProject\\src\\</code>
     </li>
     </ul>
   </li>
-  <li> (<b>A</b>-2) convert that <code>"C#"</code> source-code into <code>"Lua"</code> code with this "<a href="https://github.com/yanghuan/CSharp.lua">CSharp.lua</a>" transpiler.
-   <ul><li> <tt>D:&#92;&gt; dotnet CSharp.Lua.Launcher.dll -h</tt><br />
+  <li> (<b>A</b>-2) convert that <code>"C#"</code> source-code into 
+  <code>"Lua"</code> code with this 
+  "<a href="https://github.com/yanghuan/CSharp.lua">CSharp.lua</a>" transpiler.
+    <ul><li> <tt>D:&#92;&gt; dotnet CSharp.Lua.Launcher.dll -h</tt><br />
 <pre><code>Usage: CSharp.lua [-s srcfolder] [-d dstfolder]
 Arguments
 -s : can be a directory where all cs files will be compiled, or a list of files, using ';' or ',' to separate
@@ -251,59 +256,154 @@ Options
     </li>
     </ul>
   </li>
-  <li> (<b>A</b>-3) convert that <code>"Lua"</code> source-code into <code>"C"</code> code with this "<a href="https://github.com/davidm/lua2c">lua2c</a>" transpiler.
-    <ul><li> (create & go into a folder 1st like this: <code>D:\Dev\Lua-to-C-GoProject\</code> or specify previous as destination folder in next command)<br />
+  <li> (<b>A</b>-3) convert that <code>"Lua"</code> source-code into 
+  <code>"C"</code> code with this "<a href="https://github.com/davidm/lua2c">lua2c</a>" 
+  transpiler.
+    <ul><li> (create & go into a folder 1st like this: <code>D:\Dev\Lua-to-C-GoProject\</code> 
+    or specify previous as destination folder in next command)<br />
     <code>lua</code> to <code>C</code> cmd: <code>lua lua2c.lua D:\Dev\CS-to-Lua-GoProject\Main.lua</code>
     </li>
     </ul>
   </li>
   </ul>
 </li>
-<li> in this solution-"A", a developer have to be familiar with <code>"C#"</code> & <code>"Lua"</code>, and you can also clearly see that transpile/conversion occurred 3-TIMES : <code>"Go"</code>--&gt;<code>"C#"</code>--&gt;<code>"Lua"</code>--&gt;<code>"C"</code>, which is not-very-good . Conversion done by <code>go2cs</code> is high-quality(<b>HQ</b>), but other tools in chain are not that much HQ, so overall conversion quality is not good.<br />
-  As dev/user also need to know middle language(s), ( and i'm not very familiar with <code>C#</code> or <code>Lua</code> ).<br />
-  In solution-"A", atleast final destination <code>"C"</code> code will still have high-level structures fairly intact that were used in initial <code>"Go"</code> source-code.
+<li> in this solution-"A", a developer have to be familiar with <code>"C#"</code> & 
+<code>"Lua"</code>, and you can also clearly see that transpile/conversion occurred 3-TIMES : 
+<code>"Go"</code>--&gt;<code>"C#"</code>--&gt;<code>"Lua"</code>--&gt;<code>"C"</code>, 
+which is not-very-good . Conversion done by <code>go2cs</code> is high-quality(<b>HQ</b>), 
+but other tools in chain are not that much HQ, so overall conversion quality is not good.<br />
+As dev/user also need to know middle language(s), ( and i'm not very familiar with 
+<code>C#</code> or <code>Lua</code> ).<br />
+In solution-"A", atleast final destination <code>"C"</code> code will still 
+have high-level structures fairly intact that were used in initial 
+<code>"Go"</code> source-code.
 </li>
 </ul>
+<br />
 
 <h5>SOLUTION B or &#35;2&#8239;:</h5>
 Solution-Set B or &#35;2&#8239;:
-* steps: in this solution we attempt to do these:  
-  `"Go"`--&gt;`"C#"`--&gt;`"WebAssembly"`--&gt;`"C"`. (also see alternative Solution-E)
-  * (<b>B</b>-1) use this "[go2cs][15]" transpiler to convert `"Go"`/`"Golang"` source-code into `"C#"` (C-sharp) based code.
-    * see sub-section inside above Solution-A-1.
-  * (<b>B</b>-2) convert that `"C#"` source-code into `"WebAssembly"` code with this "[Blazor][18]" transpiler.
-  * (<b>B</b>-3) convert that `"WebAssembly"` source-code into `"C"` code with this "[wasm2c][19]" transpiler.
-* in this solution-"B" also doing conversion 3-TIMES : `"Go"`--&gt;`"C#"`--&gt;`"WebAssembly"`--&gt;`"C"`, but these steps will completely breakdown all high-level structures & meaningful programming codes into large amount of micro (machine level) elements, etc,  
-  Thus its depriving me or developer from chance to improve source-code further or improve quickly.  
-  ( btw, in my case, i'm familiar with `"Assembly"` & `"C"` ).
+<ul><li> steps: in this solution we attempt to do these:<br />
+<code>"Go"`--&gt;<code>"C#"</code>--&gt;<code>"WebAssembly"</code>--&gt;<code>"C"</code>. 
+(also see alternative Solution-E)
+  <ul><li> (<b>B</b>-1) use this "[go2cs][15]" transpiler to convert 
+  <code>"Go"</code>/<code>"Golang"</code> source-code into <code>"C#"</code> (C-sharp) 
+  based code.
+    <ul><li> see sub-section inside above Solution-A-1.
+    </li></ul>
+  </li>
+  <li> (<b>B</b>-2) convert that <code>"C#"</code> source-code into 
+  <code>"WebAssembly"</code> code with this 
+  "<a href="https://github.com/aspnet/AspNetCore/tree/master/src/Components">Blazor</a>" 
+  transpiler.</li>
+  <li> (<b>B</b>-3) convert that <code>"WebAssembly"</code> source-code into 
+  <code>"C"</code> code with this 
+  "<a href="https://github.com/WebAssembly/wabt/tree/master/wasm2c">wasm2c</a>" 
+  transpiler.</li>
+  </ul>
+</li>
+<li> in this solution-"B" also doing conversion 3-TIMES : 
+<code>"Go"</code>--&gt;<code>"C#"</code>--&gt;<code>"WebAssembly"</code>--&gt;<code>"C"</code>, 
+but these steps will completely breakdown all high-level structures & meaningful 
+programming codes into large amount of micro (machine level) elements, etc,<br />
+Thus its depriving me or developer from chance to improve 
+source-code further or improve quickly.<br />
+( btw, in my case, i'm familiar with <code>"Assembly"</code> & <code>"C"</code> & 
+also <code>"C++"</code> ).
+</li>
+</ul>
+<br />
 
 <h5>SOLUTION C or &#35;3&#8239;:</h5>
-* (<b>C</b>-1) use this "[gomoku][20]" transpiler to convert `"Go"`/`"Golang"` source-code into `"C++"` based code.  
-  (<b>C</b>-2) convert that `"C++"` source-code into `"C"` code with (any one of these) transpilers like these: [Cfront][21], [Comeau C&#47;C&#43;&#43;][22], also see these SO(StackOverflow) pages for more info: [1][24], [2][25], [3][26], [4][27].  
-  Compiler tools can also convert `C++`-to-`C`:  
-  &#160;&#160;`clang -c CPPtoC.cpp -o CPPtoC.bc -emit-llvm`  
-  &#160;&#160;`clang -march=c CPPtoC.bc -o CPPtoC.c`  
-  &#160;&#160;&#160;or  
-  &#160;&#160;`llvm-g++ -c CPPtoC.cp -o CPPtoC.bc -emit-llvm`  
-  &#160;&#160;`llc -march=c CPPtoC.bc -o CPPtoC.c`
-* in this solution-"C" steps, transpile/conversion occurred 2-TIMES : `"Go"`--&gt;`"C++"`--&gt;`"C"`, and in both case destination languages are closer language, so final `"C"` code will still have high-level structures fairly intact that were used in initial `"Go"` source-code, which can be improved by a dev/user.
+Solution-Set C or &#35;3&#8239;:
+<ul><li> (<b>C</b>-1) use this "<a href="https://github.com/lpereira/gomoku">gomoku</a>" 
+transpiler to convert <code>"Go"</code>/<code>"Golang"</code> source-code into 
+<code>"C++"</code> based code.
+  <ul><li>(<b>C</b>-2) convert that <code>"C++"</code> source-code into <code>"C"</code> 
+  code with (any one of these) transpilers like these: 
+  <a href="http://www.softwarepreservation.org/projects/c_plus_plus">Cfront</a>, 
+  <a href="http://www.comeaucomputing.com/">Comeau C&#47;C&#43;&#43;</a>, 
+  also see these SO(StackOverflow) pages for more info: 
+  <a href="https://stackoverflow.com/questions/737257/">1</a>, 
+  <a href="https://stackoverflow.com/questions/15970804/">2</a>, 
+  <a href="https://stackoverflow.com/questions/1833484/">3</a>, 
+  <a href="https://stackoverflow.com/questions/5050349/">4</a>.<br />
+  Compiler tools can also convert <code>C++</code>-to-<code>C</code>:<br />
+  &#160;&#160;<code>clang -c CPPtoC.cpp -o CPPtoC.bc -emit-llvm</code><br />
+  &#160;&#160;<code>clang -march=c CPPtoC.bc -o CPPtoC.c</code><br />
+  &#160;&#160;&#160;or<br />
+  &#160;&#160;<code>llvm-g++ -c CPPtoC.cp -o CPPtoC.bc -emit-llvm</code><br />
+  &#160;&#160;<code>llc -march=c CPPtoC.bc -o CPPtoC.c</code>
+  </li>
+  </ul>
+</li>
+<li> in this solution-"C" steps , transpile/conversion occurred 2-TIMES : 
+<code>"Go"</code>--&gt;<code>"C++"</code>--&gt;<code>"C"</code>, and in both case 
+destination languages are closer language, so final <code>"C"</code> source-code 
+will still have high-level structures fairly intact that were used in initial 
+<code>"Go"</code> source-code, which can be improved by a dev/user.
+</li>
+</ul>
+<br />
 
 <h5>SOLUTION D or &#35;4&#8239;:</h5>
-* (<b>D</b>-1) use this "[go2c][23]"(mukadr) transpiler to convert `"Go"` source-code into `"C"` based code, though it can transpile `"Go"`-to-`"C"` by itself, but at this moment (when this was posted here), sadly this supports only a subset components of Go.  
-These transpilers can also be used for `Go2C` conversion : [goc][28], [go-transpiler][29](mewbak), etc, but these also only supports subset of `"Go"` language, at this moment (when this was posted here).
-* in this solution-"D", transpiler can convert 'Go' into 'C' directly in one-time w/o using any other intermediate transpilers : `Go`--&gt;`"C"` , but does not support conversion of all components of `Go`-language.
+<ul><li> (<b>D</b>-1) use this "<a href="https://github.com/mukadr/go2c">go2c</a>"(mukadr) 
+transpiler to convert <code>"Go"</code> source-code into <code>"C"</code> 
+based code, though it can transpile <code>"Go"</code>-to-<code>"C"</code> 
+by itself, but at this moment (when this was posted here), 
+sadly this supports only a subset components of Go.  
+These transpilers can also be used for <code>Go-to-C</code> conversion : 
+<a href="https://github.com/gopherc/goc">goc</a>, 
+<a href="https://github.com/mewbak/go-transpiler">go-transpiler</a>(mewbak), 
+etc, but these also only supports subset of <code>"Go"</code> language, 
+at this moment (when this was posted here).
+</li>
+<li> in this solution-"D", transpiler can convert 'Go' into 'C' directly 
+in one-time w/o using any other intermediate transpilers : 
+<code>Go</code>--&gt;<code>"C"</code> , but does not support conversion 
+of all components of <code>Go</code>-language.
+</li>
+</ul>
+<br />
 
-<h5>EXTRA - SOLUTIONS&#8239;:</h5>
+<h4>EXTRA - SOLUTIONS&#8239;:</h4>
 
 <h5>SOLUTION E or &#35;5&#8239;:</h5>
-* steps: this Solution-E is alternative of above Solution-B.
-  * (<b>E</b>-1) use these commands to convert `"Go"` into `"Go"-"Assembly"`, `"go2goasm"`, output of `"Go"`-tool is a Google/Golang flavored `"Assembly"`, its not completely Standard/regular `Assembly`, but close to it . Commands:  
-  `go tool compile -S Main.go`  
-  &#160;or  
-  `go build -gcflags -S Main.go`  
-  * (<b>E</b>-2) use [Boomerang][30] decompiler<sup>[2][31], [3][32]</sup> on `Go-"Assembly"` source-code file, and manually change/convert incompatible portions into general `Assembly` until it can do Asm-to-C . Or use [asm2c][33],etc transpiler, that can convert `Assembly`(`Asm`) into `C` (`Asm`-to-`C`) . Other solutions are mentioned [here][34], [2][35], [3][36].
-* Conversion happens 2-TIMES : `"Go"`-&gt;`"Assembly"`-&gt;`"C"` . Because of "go2asm" conversion, allmost all higher-level structures in `"Go"` will go away from `"Assembly"` (low-level language) . So, after `Assembly` to `C` conversion , `C` source-code will not-include any high-level structures of "Go" source, new high-level `C` will be something different, though functioning same way.  
-  Usually this solution is faster.
+<ul><li> steps: this Solution-E is alternative of above Solution-B.
+  <ul><li> (<b>E</b>-1) use these commands to convert <code>"Go"</code> into 
+  <code>"Go"-"Assembly"</code>, <code>"go2goasm"</code>, output of 
+  <code>"Go"</code>-tool is a Google/Golang flavored <code>"Assembly"</code>, 
+  its not completely Standard/regular <code>Assembly</code>, but close to it . 
+  Commands:<br />
+  <code>go tool compile -S Main.go</code><br />
+  &#160;or<br />
+  <code>go build -gcflags -S Main.go</code>
+  </li>
+  <li> (<b>E</b>-2) use <a href="https://sourceforge.net/projects/boomerang/">Boomerang</a> 
+  decompiler<sup><a href="https://github.com/radareorg/radare2">2</a>, 
+  <a href="https://github.com/radareorg/r2dec-js">3</a></sup> on <code>Go-"Assembly"</code> 
+  source-code file, and manually change/convert incompatible portions into general 
+  <code>Assembly</code> until it(Boomerang) can do Asm-to-C conversion . Or use 
+  <a href="https://github.com/frranck/asm2c">asm2c</a>,etc transpiler, that can convert 
+  <code>Assembly</code>(<code>Asm</code>) into <code>C</code> 
+  (<code>Asm</code>-to-<code>C</code>) . Other solutions are mentioned 
+  <a href="https://reverseengineering.stackexchange.com/questions/3748/">here</a>, 
+  <a href="https://stackoverflow.com/questions/1376856/">2</a>, 
+  <a href="https://reverseengineering.stackexchange.com/questions/2096/">3</a>.
+  </li>
+  </ul>
+</li>
+<li> Conversion happens 2-TIMES : 
+<code>"Go"</code>-&gt;<code>"Assembly"</code>-&gt;<code>"C"</code> . Because of 
+"go2asm" conversion, allmost all higher-level structures in <code>"Go"</code> 
+will go away from <code>"Assembly"</code> (low-level language) . So, after 
+<code>Assembly</code> to <code>C</code> conversion , <code>C</code> source-code 
+will not-include any high-level structures of "Go" source, new high-level 
+<code>C</code> will be something different, though functioning same way.<br />
+Usually this solution is faster.
+</li>
+</ul>
+<br />
 
 <h5>SOLUTION F or &#35;6<b>:</h5>
 * steps:
