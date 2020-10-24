@@ -1,4 +1,4 @@
-# Transpiler.And.Similar.List
+ # Transpiler.And.Similar.List
 
 List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-code converter][1], &amp; similar &amp; related tools/apps.  
   
@@ -438,7 +438,7 @@ The "go2cs" does HQ conversion, but next step not that much, need more improveme
 This "<a href="https://github.com/andygeiss/esp32-transpiler">esp32-transpiler</a>" can convert 'Go' into 'C' for Arduino (an embedded system), but only small subset of 'Go' lang spec is supported.  
 <br />
 
-<h5>CONCLUSION OF `"Go"`-To-`"C"` SOLUTIONS&#8239;:</h5>
+<h4>CONCLUSION OF `"Go"`-To-`"C"` SOLUTIONS&#8239;:</h4>
 <ul><li> at this point:<br />
   So, solution-"A" (go2cs-&gt;CSharp.lua-&gt;lu2c) is better than solution-"B" (go2cs-&gt;Blazor-&gt;wasm2c).<br />
   solution-"E" (go2asm-&gt;asm2c) is obviously better than solution-"B" (go2cs-&gt;Blazor-&gt;wasm2c).<br />
@@ -463,10 +463,10 @@ This "<a href="https://github.com/andygeiss/esp32-transpiler">esp32-transpiler</
 Many developers have pointed out, in some cases `C++` (based compiled program) can often be much better & faster than `C` ones, so i'm also displaying these few options in below to convert/transpile `Go` source-code directly (or via multiple stages) into `C++` source-code while keeping higher-level algorithms & structures fairly intact/accurate as much as possible , in this way output `C++` source-code is also easier to improve as/when necessary:
 * SOLUTION CHOICES&#8239;:
   * ALT-SOLUTION A or &#35;1<b>:</b> use [gomoku][20] for `Go` to `C++`.
-  * ALT-SOLUTION B or &#35;2<b>:</b> use [go2cpp][40] for `Go` to `C++20`/`C++17`.
-  * ALT-SOLUTION C or &#35;3<b>:</b> use [GoLite Transpiler][41] for `GoLite` (subset of `Go`) to `C++` . GoLite Transp supports only subset of `Go`.
-  * ALT-SOLUTION D or &#35;4<b>:</b> use [go2cs][15] for `Go` to `C#`(C-Sharp), then use any of these: [cs2cpp][42], [Alter-Native][43], [CoreRT][44], [OneLang][45], [Ranger][46], etc to convert `C#` into `C++`.
-  * ALT-SOLUTION E or &#35;5<b>:</b> use [go-transpiler][47](Theodus) for `Go` to `C++`.
+  * ALT-SOLUTION B or &#35;2<b>:</b> use [go2cpp][24] for `Go` to `C++20`/`C++17`.
+  * ALT-SOLUTION C or &#35;3<b>:</b> use [GoLite Transpiler][25] for `GoLite` (subset of `Go`) to `C++` . GoLite Transp supports only subset of `Go`.
+  * ALT-SOLUTION D or &#35;4<b>:</b> use [go2cs][15] for `Go` to `C#`(C-Sharp), then use any of these: [cs2cpp][26], [Alter-Native][27], [CoreRT][28], [OneLang][29], [Ranger][30], etc to convert `C#` into `C++`.
+  * ALT-SOLUTION E or &#35;5<b>:</b> use [go-transpiler][31](Theodus) for `Go` to `C++`.
 * WHICH&#160; `Go`-To-`C++` SOLUTION&#160; (out of above solutions) IS BETTER <b>?</b>  
   ( better at keeping high-level algorithms/structures,etc fairly or accurately same in output source-code )
 * CONCLUSION ON `"Go"`-TO-`"C++"`<b>:</b>  
@@ -484,15 +484,15 @@ Many developers have pointed out, in some cases `C++` (based compiled program) c
 
 # TRANSPILER&#8239; INTERNALS&#8239;:
 Transpiler/Transcompiler<sup>[1][1]</sup> internally contains primarily three major components<b>:</b>
-* 1of3: Parser : it is used to create AST<sup>[1][48]</sup> from input/source code, by using Lexical<sup>[1][49]</sup> analysis and Syntax<sup>[1][50]</sup> analysis.  
-  • [Comparison of Parser-Generators and Lexer-Generators][51].
-* 2of3: Transformation : with one or more steps, input code's AST will be converted into output/target code's AST . Uses semantic<sup>[1][52]</sup> analysis, Intermediate Representation (<b>IR</b>)<sup>[1][53]</sup> generation . IR is aka: Intermediate Language (<b>IL</b>)<sup>[1][54]</sup>.
+* 1of3: Parser : it is used to create AST<sup>[1][32]</sup> from input/source code, by using Lexical<sup>[1][33]</sup> analysis and Syntax<sup>[1][34]</sup> analysis.  
+  • [Comparison of Parser-Generators and Lexer-Generators][35].
+* 2of3: Transformation : with one or more steps, input code's AST will be converted into output/target code's AST . Uses semantic<sup>[1][36]</sup> analysis, Intermediate Representation (<b>IR</b>)<sup>[1][37]</sup> generation . IR is aka: Intermediate Language (<b>IL</b>)<sup>[1][38]</sup>.
 * 3of3: Generator : output AST is used to generate output/target language code.
-* Transpiler can/may use MetaProgramming<sup>[1][55]</sup>, NLP(Natural Language Processing)<sup>[1][56]</sup>, Finite-state Automata<sup>[1][57], [2][58]</sup>, Lexical Analysis<sup>[1][49]</sup>, Syntax/AST Analysis<sup>[1][48]</sup>, Parser<sup>[1][59], [2][60]</sup>, etc<sup>[1][51]</sup>, etc, to convert source-code of one CLP(computer programming language) into source-code of another CLP.
+* Transpiler can/may use MetaProgramming<sup>[1][39]</sup>, NLP(Natural Language Processing)<sup>[1][40]</sup>, Finite-state Automata<sup>[1][41], [2][42]</sup>, Lexical Analysis<sup>[1][33]</sup>, Syntax/AST Analysis<sup>[1][32]</sup>, Parser<sup>[1][43], [2][44]</sup>, etc<sup>[1][35]</sup>, etc, to convert source-code of one CLP(computer programming language) into source-code of another CLP.
 * Notes/References:  
-  `•` [Transpiler][61].  
-  `•` [How to write a transpiler][14], [2][62].  
-  `•` [Transpiling between any languages][63].  
+  `•` [Transpiler][45].  
+  `•` [How to write a transpiler][14], [2][46].  
+  `•` [Transpiling between any languages][47].  
 <br />
 <br />
 <br />
@@ -513,7 +513,7 @@ In entire world, country after country are now filing Lawsuit against years of G
 
 So I have added data/info from accredited computer COMPETITION, BENCHMARKS, etc to prove which computer programming language is better & which is not.  
 
-And remember, ANYONE/USER/people have full Freedom+Right to informaton what he/she wants, and also have full Freedom+Right to convert one language into another.<sup>[1][64], [2][65], [3][66], [4][67], [5][68]</sup>  
+And remember, ANYONE/USER/people have full Freedom+Right to informaton what he/she wants, and also have full Freedom+Right to convert one language into another.<sup>[1][48], [2][49], [3][50], [4][51], [5][52]</sup>  
 ( water is needed by human body to survive . human has right to water )  
 ( information is needed inside the human brain for taking correct & good decision , to survive & to survive better . human has right to information )  
 <br />
@@ -552,13 +552,13 @@ See various benchmarks: [1][69], [2][70], [3][71], [4][72], [5][73], [6][74], [7
 # COMPARISONS&#8239; OF&#8239; CPL&#8239; COMPONENTS&#8239;:
 
 Comparison of Programming Language's instructions, functions, components, etc:  
-`•` [Basic instructions][80].  
-`•` [Syntax][81].  
-`•` [Higher-order function][82].  
-`•` [Operators][83].  
-`•` [Object-Oriented Programming(OOP)][84].  
-`•` [OOP Constructor][85].  
-`•` [Exception handling][86].  
+`•` [Basic instructions][53].  
+`•` [Syntax][54].  
+`•` [Higher-order function][55].  
+`•` [Operators][56].  
+`•` [Object-Oriented Programming(OOP)][57].  
+`•` [OOP Constructor][58].  
+`•` [Exception handling][59].  
 <br />
 <br />
 <br />
@@ -580,24 +580,24 @@ So, Which one is BEST, that will always change or most-likely be different at di
 <br />
 
 # PRE&#8239; &&#8239; POST&#8239; STEPS&#8239; OF&#8239; TRANSPILATION&#8239;:
-Most of the time, certain code/strings need to be modified/changed, & prepared in each initial source-code (here `"Go"`) files (with [PreProcessor][87] type of software), before the primary transpiler can be used.  
+Most of the time, certain code/strings need to be modified/changed, & prepared in each initial source-code (here `"Go"`) files (with [PreProcessor][60] type of software), before the primary transpiler can be used.  
 And, often you also have to change some specific style of code/string in each output (here `"C"` or `"C++"`) file , and you also have to fix or change something that was not automatically generated by transpiler in output source-code.  
 So use below code/string replacing script-codes, mentioned in below linked SO/SE pages:
 * These SO(StackOverflow)/&#8239;SE(StackExchange) Q+A(s) are showing various solutions:  
-  `•` [Use sed to replace a multi line string][88].  
-  `•` [Do recursive find &amp; replace string with awk or sed][89].  
-  `•` [Find &amp; replace string in all files recursively using grep &amp; sed][90].  
-  `•` [How can I replace a newline &#40;&#92;n&#41; using sed&#63;][91].  
-  `•` [Re2c][92]: fast flexible scanner for regular expression matching.  
-  `•` [Recursively read folders & execute command on each][93].  
-  `•` [Process all files in all directories][94].  
-  `•` [Execute command on all files in a directory][95].  
-  `•` [In Bash, Handle paths that have spaces and wildcards][96].  
+  `•` [Use sed to replace a multi line string][61].  
+  `•` [Do recursive find &amp; replace string with awk or sed][62].  
+  `•` [Find &amp; replace string in all files recursively using grep &amp; sed][63].  
+  `•` [How can I replace a newline &#40;&#92;n&#41; using sed&#63;][64].  
+  `•` [Re2c][65]: fast flexible scanner for regular expression matching.  
+  `•` [Recursively read folders & execute command on each][66].  
+  `•` [Process all files in all directories][67].  
+  `•` [Execute command on all files in a directory][68].  
+  `•` [In Bash, Handle paths that have spaces and wildcards][69].  
 <br />
 <br />
 <br />
 
-ANY USER/PEOPLE HAVE FULL FREEDOM+RIGHT TO INFORMATION ON ANY LANGUAGE AND ANY TOOL/TRANSPILER TO TRANSLATE/TRANSFORM ANY LANGUAGE<sup>[1][64], [2][65], [3][66], [4][67], [5][68]</sup>.  
+ANY USER/PEOPLE HAVE FULL FREEDOM+RIGHT TO INFORMATION ON ANY LANGUAGE AND ANY TOOL/TRANSPILER TO TRANSLATE/TRANSFORM ANY LANGUAGE<sup>[1][48], [2][49], [3][50], [4][51], [5][52]</sup>.  
 
 &#160;&#160;&#160;abbreviations&#160;:&#160;`CPL` = Computer Programming Language &#124; `lang` = Language.  
 <br />
@@ -612,16 +612,16 @@ So here in below, i have tried to gather & post correct advices , after reading 
   * And there are also some USE CASES where using `Go` is better, if that is the case for your software need or project's target, then you should avoid conversion/transpilation of `Go` into something else, instead improve existing `Go` codebase, if you can after learning it . And again, which steps you will take, that freedom & choice is yours.
   * So, transpile into `C`/`C++`, when features & specialties & benefits of `C`/`C++` usage are needed, And know firsthand/early, where (aka: in which USE CASES) `C`/`C++` excels and where `Go` excels, then decide to do+follow correct & balanced steps.
     * Use multiple search-engine websites to find-out <b>:</b> "<i>When to use Go/Golang</i>", "<i>When to not use Go/Golang</i>", "<i>When to use `C/C++`</i>", "<i>When to not use `C/C++`</i>", or use only `C` or `C++` or `Go` or `Golang`, etc.
-* Anyone can transpile/translate/transform any source-code for personal use or for test purpose, etc, etc . Information related activities are fundamental human rights <sup>[1][64], [2][65], [3][66], [4][67], [5][68]</sup> . Everyone has fundamental Rights to transpile/translate/transform any lang/code into any native/other lang code, for-example: to defend ourselve from harmful instructions, conversations, lies, etc.
+* Anyone can transpile/translate/transform any source-code for personal use or for test purpose, etc, etc . Information related activities are fundamental human rights <sup>[1][48], [2][49], [3][50], [4][51], [5][52]</sup> . Everyone has fundamental Rights to transpile/translate/transform any lang/code into any native/other lang code, for-example: to defend ourselve from harmful instructions, conversations, lies, etc.
 * For example, If you don't understand a Book written in French, then learning French would be "good" but it will for sure take you many many months or years to actually understand many facets & layers of French in order to accumulate related layers of required understanding/knowledge on French, but "better" is to have the content (that Book) TRANSLATED by expert language-translators into your own NATIVE LANGUAGE OR simply find the translated version of that Book (many Book publishers publish translated editions when its popular), then you will actually understand it (that Book's translation) much much better . Normally human cannot learn ALL about French within even 6months<b>.</b>
 * If you want to add a very specific feature in a (specific) software, later we will call it "upstream" software, which that software's dev has denied to add, then ask again & this time propose to sponsor/pay to add that feature if you have (monetary) resource.  
 • But when that is not possible, you can try to add that feature by yourself in a "fork" of that software . Specify publicly in your fork, what exactly you're trying to do in your fork . You may even find more users contributing in your fork to develop/improve that feature, to ultimately include improvements in that upstream software.  
-• But, if you do not understand the language used in that (upstream) software very well, then one option is to learn it, & try to understand related sections , so "fork" that (upstream) software, & try to add new feature in that forked software . You can add copyright notice on your contributed code & on your code-files contribution, but usually you have to release it with same license type that is used by the "upstream" project, not with a different or incompatible license.<sup>[1][97], [2][98], [3][99], [4][100]</sup>  
+• But, if you do not understand the language used in that (upstream) software very well, then one option is to learn it, & try to understand related sections , so "fork" that (upstream) software, & try to add new feature in that forked software . You can add copyright notice on your contributed code & on your code-files contribution, but usually you have to release it with same license type that is used by the "upstream" project, not with a different or incompatible license.<sup>[1][70], [2][71], [3][72], [4][73]</sup>  
 Disclaimer: IANAL.  
 • If above steps are not working well or not-suitable enough to achieve your goal/objectives , then, one of the option you have is: "Transpile" the entire (upstream) software into the "destination" computer language which is your native computer language which you have LEARNED & understand better . By the way, this is not an easy option.  
-• So begin with by creating a new project in GitHub<sup>[1][101]</sup>, BitBucket<sup>[1][102]</sup>, GNU-Savannah<sup>[1][103]</sup>, SourceForge<sup>[1][104]</sup>, GitLab<sup>[1][105]</sup>, etc etc various open-source code collaboration repository sites<sup>[1][25]</sup> (aka: <b>SCH</b>=Source-Code-Hosting), choose such site where more devs with higher-skill on that "destination" computer language are hanging-out, and posses friendly collaborative spirit . Or, create project in multiple code-collaboration sites & SYNC each one after each code-update . Or, load Git<sup>[1][106], [2][107], [3][108]</sup> <b>VCS</b> (version control software<sup>[1][109]</sup>) in your own server or personal computer, & put your transpiled code in it. (Repo=Repository)  
+• So begin with by creating a new project in GitHub<sup>[1][74]</sup>, BitBucket<sup>[1][75]</sup>, GNU-Savannah<sup>[1][76]</sup>, SourceForge<sup>[1][77]</sup>, GitLab<sup>[1][78]</sup>, etc etc various open-source code collaboration repository sites<sup>[1][79]</sup> (aka: <b>SCH</b>=Source-Code-Hosting), choose such site where more devs with higher-skill on that "destination" computer language are hanging-out, and posses friendly collaborative spirit . Or, create project in multiple code-collaboration sites & SYNC each one after each code-update . Or, load Git<sup>[1][80], [2][81], [3][82]</sup> <b>VCS</b> (version control software<sup>[1][83]</sup>) in your own server or personal computer, & put your transpiled code in it. (Repo=Repository)  
 • Transpile a specific version of upstream software inside your own computer, then immediately upload output source-code of transpilation, into your SCH or VCS, either publish it publicly if you want to share it , Or create "private"-type repo (without publishing it publicly) . If you're skilled enough to develop all side by yourself, then "private"-type repo is useful, Or, keep it "private" until you completely convert all remaining `Go` into `C/C++` . After complete "Go-to-C" or "Go-to-C++" conversion, If you publish publicly then other devs/users can see & may join to improve it or contribute in it.  
-• In source-code conversion/transformation steps, if input source-code is `GPL` licensed, then output also have to be licensed under `GPL` (in most cases. CWPL) . And without all copyright-holder(s) & code-contributor's permission/approval, the `GPL` license (generally) cannot be changed into another license . When input source-code is licensed under `Apache`, `BSD`, `MIT`, etc (or code was released in Public Domain) then output can have same Or different license . If you use or have used your own hand, eye, brain to transform/transpile (aka: source-to-source code conversion) manually some portions or significant portions of source-code , then you can claim copyright ONLY on the portions of code which you yourself have manually by yourself modified or transformed or written (without using any machine/software based transpilation) , so in such case you can add your name under the input/"upstream" software's copyright-holder(s) name, in the destination language (here `"C/C++"`) source-code .  If you have used machine or mechanized process or software to do complete code transpilation, then you cannot claim any copyright on any portion which were transpiled in such way (because, a machine has done it, not you), and in such case, input/"upstream" software's copyright-holder(s) name(s) must be added/declared back into the destination/output source-code, (and again, you cannot add your name under those "upstream"/input software's copyright-holders).<sup>[1][110]</sup>&#160;  So far, there is no Transpiler software, that can do complete 100% conversion of large or real-life useful practical projects , human conversion/transpilation is always needed .  Usually If you have seen (input) source-code or source-algorithms, and then if you have written / transformed / transpiled those algorithms with your own hand, eye, brain, etc manually by yourself into a DIFFERENT destination/output language based code, here `C/C++`, only then, it is a totally new work done/created by you .  When you need to transpile propietory functions done by a machine-code binary program(s) then you first have to find another developer-user who will first convert machine-code or proprietory source-code or dissassembed `Assembly` source-code, etc into "Algorithms", flow-chart, etc, etc first , then you can only see that "Algorithms",etc, (you cannot & must-not see see any source-codes), and then you can write new source-codes (in same or different computer programming language) with your own (human) hand , then such will be treated as "new work", otherwise it will be treated as a "derivative work") . So, in such "new work" case, you can add your name as copyright-holder, without adding any input / "upstream" software's previous copyright-holder(s) name(s) , & you can also use whichever license you prefer, in the output source-code.  
+• In source-code conversion/transformation steps, if input source-code is `GPL` licensed, then output also have to be licensed under `GPL` (in most cases. CWPL) . And without all copyright-holder(s) & code-contributor's permission/approval, the `GPL` license (generally) cannot be changed into another license . When input source-code is licensed under `Apache`, `BSD`, `MIT`, etc (or code was released in Public Domain) then output can have same Or different license . If you use or have used your own hand, eye, brain to transform/transpile (aka: source-to-source code conversion) manually some portions or significant portions of source-code , then you can claim copyright ONLY on the portions of code which you yourself have manually by yourself modified or transformed or written (without using any machine/software based transpilation) , so in such case you can add your name under the input/"upstream" software's copyright-holder(s) name, in the destination language (here `"C/C++"`) source-code .  If you have used machine or mechanized process or software to do complete code transpilation, then you cannot claim any copyright on any portion which were transpiled in such way (because, a machine has done it, not you), and in such case, input/"upstream" software's copyright-holder(s) name(s) must be added/declared back into the destination/output source-code, (and again, you cannot add your name under those "upstream"/input software's copyright-holders).<sup>[1][84]</sup>&#160;  So far, there is no Transpiler software, that can do complete 100% conversion of large or real-life useful practical projects , human conversion/transpilation is always needed .  Usually If you have seen (input) source-code or source-algorithms, and then if you have written / transformed / transpiled those algorithms with your own hand, eye, brain, etc manually by yourself into a DIFFERENT destination/output language based code, here `C/C++`, only then, it is a totally new work done/created by you .  When you need to transpile propietory functions done by a machine-code binary program(s) then you first have to find another developer-user who will first convert machine-code or proprietory source-code or dissassembed `Assembly` source-code, etc into "Algorithms", flow-chart, etc, etc first , then you can only see that "Algorithms",etc, (you cannot & must-not see see any source-codes), and then you can write new source-codes (in same or different computer programming language) with your own (human) hand , then such will be treated as "new work", otherwise it will be treated as a "derivative work") . So, in such "new work" case, you can add your name as copyright-holder, without adding any input / "upstream" software's previous copyright-holder(s) name(s) , & you can also use whichever license you prefer, in the output source-code.  
   Disclaimer: IANAL. CWPL.  
 • Usually, in a transpiled output/destination code , many many code-portions have to be re-worked/re-written by human, to functionally perform same-way as "upstream" (aka: input source-code) software , especially those portions, which you initially could-not transpile during manual transpilation/transformation process, and, there will also be many many non-transpiled source-code portions, when you have used mechanized (or automated) transpilation process or transpiler software , as these tools are not yet capable to transpile (all type of codes) completely, and instead transpiles only a subset(smaller portion) of (simple or limited-advanced) input source-code language into destination/output language . So you or a HUMAN have to write, fix, adjust, & adapt ("destination" language) source-code, and compile / run / test / improve it.  
 • Once you have achieved the state, where, your (transpiled and then improved output/destination code based) software can run same-way as upstream software , then, you can start adding your feature or functionality that you need or want to add . If you have publshed source-code publicly then, you may also find that other devs have began to join & contribute in this new project.  
@@ -658,90 +658,64 @@ Transpiler.And.Similar.List : <a href="#License">Copyright</a> (C) 2020  atErik 
   [21]: http://www.softwarepreservation.org/projects/c_plus_plus
   [22]: http://www.comeaucomputing.com/
   [23]: https://github.com/mukadr/go2c
-  [24]: https://stackoverflow.com/questions/737257/
-  [25]: https://stackoverflow.com/questions/15970804/
-  [26]: https://stackoverflow.com/questions/1833484/
-  [27]: https://stackoverflow.com/questions/5050349/
-  [28]: https://github.com/gopherc/goc
-  [29]: https://github.com/mewbak/go-transpiler
-  [30]: https://sourceforge.net/projects/boomerang/
-  [31]: https://github.com/radareorg/radare2
-  [32]: https://github.com/radareorg/r2dec-js
-  [33]: https://github.com/frranck/asm2c
-  [34]: https://reverseengineering.stackexchange.com/questions/3748/
-  [35]: https://stackoverflow.com/questions/1376856/
-  [36]: https://reverseengineering.stackexchange.com/questions/2096/
-  [37]: https://sourceforge.net/projects/hurley/
-  [38]: https://github.com/supercoww/go-transpiler
-  [39]: https://github.com/andygeiss/esp32-transpiler
-  [40]: https://github.com/xyproto/go2cpp
-  [41]: https://github.com/vaquierm/GoLite_Transpiler
-  [42]: https://github.com/ASDAlexander77/cs2cpp
-  [43]: https://github.com/AlexAlbala/Alter-Native
-  [44]: https://github.com/dotnet/corert
-  [45]: https://github.com/onelang/OneLang
-  [46]: https://github.com/terotests/Ranger
-  [47]: https://github.com/Theodus/go-transpiler
-  [48]: https://en.wikipedia.org/wiki/Abstract_syntax_tree
-  [49]: https://en.wikipedia.org/wiki/Lexical_analysis
-  [50]: https://en.wikipedia.org/wiki/Syntax_analysis
-  [51]: https://en.wikipedia.org/wiki/Comparison_of_parser_generators
-  [52]: https://en.wikipedia.org/wiki/Semantic_analysis_%28compilers%29
-  [53]: https://en.wikipedia.org/wiki/Intermediate_representation
-  [54]: https://en.wikipedia.org/wiki/Intermediate_language
-  [55]: https://en.wikipedia.org/wiki/Metaprogramming
-  [56]: https://en.wikipedia.org/wiki/Natural_language_processing
-  [57]: https://en.wikipedia.org/wiki/Finite-state_machine
-  [58]: https://en.wikipedia.org/wiki/Automata-based_programming
-  [59]: https://en.wikipedia.org/wiki/Parser_generator
-  [60]: https://en.wikipedia.org/wiki/Parsing#Computer_languages
-  [61]: https://devopedia.org/transpiler
-  [62]: https://stackoverflow.com/questions/29193069/
-  [63]: https://engineering.mongodb.com/post/transpiling-between-any-programming-languages-part-1
-  [64]: https://en.wikipedia.org/wiki/Freedom_of_Information
-  [65]: http://www.unesco.org/new/en/communication-and-information/freedom-of-expression/freedom-of-information/about/
-  [66]: https://www.ohchr.org/EN/NewsEvents/Pages/RightToKnow.aspx
-  [67]: https://en.wikipedia.org/wiki/Freedom_of_speech
-  [68]: https://www.un.org/en/sections/issues-depth/human-rights/
-  [69]: https://benchmarksgame-team.pages.debian.net/benchmarksgame/
-  [70]: https://julialang.org/benchmarks/
-  [71]: https://attractivechaos.github.io/plb/
-  [72]: https://github.com/drujensen/fib
-  [73]: http://www.hildstrom.com/projects/langcomp/index.html
-  [74]: https://github.com/kostya/benchmarks
-  [75]: https://modelingguru.nasa.gov/docs/DOC-2783
-  [76]: https://cs.stackexchange.com/questions/40400/
-  [77]: https://cs.stackexchange.com/questions/71979/
-  [78]: https://en.wikipedia.org/wiki/The_Computer_Language_Benchmarks_Game
-  [79]: https://benchmarksgame-team.pages.debian.net/benchmarksgame/q6600/which-programs-are-fastest.html
-  [80]: https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28basic_instructions%29
-  [81]: https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28syntax%29
-  [82]: https://en.wikipedia.org/wiki/Higher-order_function#Support_in_programming_languages
-  [83]: https://en.wikipedia.org/wiki/Operator_%28computer_programming%29#Operator_features_in_programming_languages
-  [84]: https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28object-oriented_programming%29
-  [85]: https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29
-  [86]: https://en.wikipedia.org/wiki/Exception_handling_syntax
-  [87]: https://en.wikipedia.org/wiki/Preprocessor
-  [88]: https://unix.stackexchange.com/questions/26284/
-  [89]: https://stackoverflow.com/questions/1583219/
-  [90]: https://stackoverflow.com/questions/15920276/
-  [91]: https://stackoverflow.com/questions/1251999/
-  [92]: https://sourceforge.net/projects/re2c/
-  [93]: https://stackoverflow.com/questions/1333813/
-  [94]: https://stackoverflow.com/questions/55789226/
-  [95]: https://stackoverflow.com/questions/10523415/
-  [96]: https://unix.stackexchange.com/a/607424/367237
-  [97]: https://gitlab.com/the-language/lua2rust
-  [98]: https://objectivec2swift.com/#/converter/code/
-  [99]: https://github.com/LuizZak/SwiftRewriter
-  [100]: https://github.com/elliotchance/c2go
-  [101]: https://en.wikipedia.org/wiki/GitHub
-  [102]: https://en.wikipedia.org/wiki/Bitbucket
-  [103]: https://en.wikipedia.org/wiki/GNU_Savannah
-  [104]: https://en.wikipedia.org/wiki/SourceForge
-  [105]: https://en.wikipedia.org/wiki/GitLab
-  [106]: https://git.kernel.org/pub/scm/git/git.git/
-  [107]: https://git-scm.com/
-  [108]: https://en.wikipedia.org/wiki/Git
-  [109]: https://en.wikipedia.org/wiki/Comparison_of_version_control_software
-  [110]: https://opensource.stackexchange.com/questions/10521/
+  [24]: https://github.com/xyproto/go2cpp
+  [25]: https://github.com/vaquierm/GoLite_Transpiler
+  [26]: https://github.com/ASDAlexander77/cs2cpp
+  [27]: https://github.com/AlexAlbala/Alter-Native
+  [28]: https://github.com/dotnet/corert
+  [29]: https://github.com/onelang/OneLang
+  [30]: https://github.com/terotests/Ranger
+  [31]: https://github.com/Theodus/go-transpiler
+  [32]: https://en.wikipedia.org/wiki/Abstract_syntax_tree
+  [33]: https://en.wikipedia.org/wiki/Lexical_analysis
+  [34]: https://en.wikipedia.org/wiki/Syntax_analysis
+  [35]: https://en.wikipedia.org/wiki/Comparison_of_parser_generators
+  [36]: https://en.wikipedia.org/wiki/Semantic_analysis_%28compilers%29
+  [37]: https://en.wikipedia.org/wiki/Intermediate_representation
+  [38]: https://en.wikipedia.org/wiki/Intermediate_language
+  [39]: https://en.wikipedia.org/wiki/Metaprogramming
+  [40]: https://en.wikipedia.org/wiki/Natural_language_processing
+  [41]: https://en.wikipedia.org/wiki/Finite-state_machine
+  [42]: https://en.wikipedia.org/wiki/Automata-based_programming
+  [43]: https://en.wikipedia.org/wiki/Parser_generator
+  [44]: https://en.wikipedia.org/wiki/Parsing#Computer_languages
+  [45]: https://devopedia.org/transpiler
+  [46]: https://stackoverflow.com/questions/29193069/
+  [47]: https://engineering.mongodb.com/post/transpiling-between-any-programming-languages-part-1
+  [48]: https://en.wikipedia.org/wiki/Freedom_of_Information
+  [49]: http://www.unesco.org/new/en/communication-and-information/freedom-of-expression/freedom-of-information/about/
+  [50]: https://www.ohchr.org/EN/NewsEvents/Pages/RightToKnow.aspx
+  [51]: https://en.wikipedia.org/wiki/Freedom_of_speech
+  [52]: https://www.un.org/en/sections/issues-depth/human-rights/
+  [53]: https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28basic_instructions%29
+  [54]: https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28syntax%29
+  [55]: https://en.wikipedia.org/wiki/Higher-order_function#Support_in_programming_languages
+  [56]: https://en.wikipedia.org/wiki/Operator_%28computer_programming%29#Operator_features_in_programming_languages
+  [57]: https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28object-oriented_programming%29
+  [58]: https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29
+  [59]: https://en.wikipedia.org/wiki/Exception_handling_syntax
+  [60]: https://en.wikipedia.org/wiki/Preprocessor
+  [61]: https://unix.stackexchange.com/questions/26284/
+  [62]: https://stackoverflow.com/questions/1583219/
+  [63]: https://stackoverflow.com/questions/15920276/
+  [64]: https://stackoverflow.com/questions/1251999/
+  [65]: https://sourceforge.net/projects/re2c/
+  [66]: https://stackoverflow.com/questions/1333813/
+  [67]: https://stackoverflow.com/questions/55789226/
+  [68]: https://stackoverflow.com/questions/10523415/
+  [69]: https://unix.stackexchange.com/a/607424/367237
+  [70]: https://gitlab.com/the-language/lua2rust
+  [71]: https://objectivec2swift.com/#/converter/code/
+  [72]: https://github.com/LuizZak/SwiftRewriter
+  [73]: https://github.com/elliotchance/c2go
+  [74]: https://en.wikipedia.org/wiki/GitHub
+  [75]: https://en.wikipedia.org/wiki/Bitbucket
+  [76]: https://en.wikipedia.org/wiki/GNU_Savannah
+  [77]: https://en.wikipedia.org/wiki/SourceForge
+  [78]: https://en.wikipedia.org/wiki/GitLab
+  [79]: https://stackoverflow.com/questions/15970804/
+  [80]: https://git.kernel.org/pub/scm/git/git.git/
+  [81]: https://git-scm.com/
+  [82]: https://en.wikipedia.org/wiki/Git
+  [83]: https://en.wikipedia.org/wiki/Comparison_of_version_control_software
+  [84]: https://opensource.stackexchange.com/questions/10521/
