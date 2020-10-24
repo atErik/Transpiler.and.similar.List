@@ -435,24 +435,26 @@ The "go2cs" does HQ conversion, but next step not that much, need more improveme
 <br />
 
 <h5>OTHER&#8239;:</h5>
-This "[esp32-transpiler][39]" can convert 'Go' into 'C' for Arduino (an embedded system), but only small subset of 'Go' lang spec is supported.  
+This "<a href="https://github.com/andygeiss/esp32-transpiler">esp32-transpiler</a>" can convert 'Go' into 'C' for Arduino (an embedded system), but only small subset of 'Go' lang spec is supported.  
 <br />
 
 <h5>CONCLUSION OF `"Go"`-To-`"C"` SOLUTIONS&#8239;:</h5>
-* at this point:  
-  So, solution-"A" (go2cs-&gt;CSharp.lua-&gt;lu2c) is better than solution-"B" (go2cs-&gt;Blazor-&gt;wasm2c).  
-  solution-"E" (go2asm-&gt;asm2c) is obviously better than solution-"B" (go2cs-&gt;Blazor-&gt;wasm2c).  
-  solution-"F" (go2cs-&gt;hurley) is better than solution-"A" (go2cs-&gt;CSharp.lua-&gt;lu2c).  
-  solution-"C" (gomoku-&gt;cfront) is better than solution-"A" (go2cs-&gt;CSharp.lua-&gt;lu2c).  
-  solution-"F" (go2cs-&gt;hurley) is better than solution-"C" (gomoku-&gtcfront;).
-  solution-"C" (gomoku-&gt;cfront) is better than solution-"D" (go2c/goc/go-transpiler).  
-  So, solution-"F" (go2cs-&gt;hurley) is best `"Go"`-to-`"C"` transpiler-set,  
-  at this point, among previous choices (when this message was posted here 2020-Oct-22).  
-  <i>Note: none of these transpilers support all components of "input" language, but their developers are improving them . So, often check out supported component list, which is shown in their website.</i>  
+<ul><li> at this point:<br />
+  So, solution-"A" (go2cs-&gt;CSharp.lua-&gt;lu2c) is better than solution-"B" (go2cs-&gt;Blazor-&gt;wasm2c).<br />
+  solution-"E" (go2asm-&gt;asm2c) is obviously better than solution-"B" (go2cs-&gt;Blazor-&gt;wasm2c).<br />
+  solution-"F" (go2cs-&gt;hurley) is better than solution-"A" (go2cs-&gt;CSharp.lua-&gt;lu2c).<br />
+  solution-"C" (gomoku-&gt;cfront) is better than solution-"A" (go2cs-&gt;CSharp.lua-&gt;lu2c).<br />
+  solution-"F" (go2cs-&gt;hurley) is better than solution-"C" (gomoku-&gtcfront;).<br />
+  solution-"C" (gomoku-&gt;cfront) is better than solution-"D" (go2c/goc/go-transpiler).<br />
+  So, solution-"F" (go2cs-&gt;hurley) is best <code>"Go"</code>-to-<code>"C"</code> transpiler-set,<br />
+  at this point, among previous choices (when this message was posted here 2020-Oct-22).<br />
+  <i>Note: none of these transpilers support all components of "input" language, but their developers are improving them , So, often check out supported component list & which is shown in their website, and compare.</i>
+</li>
+</ul>
 <br />
 <br />
 
-<h4>( YOU MAY GOTO LIST OF ALL TRANSPILERS DIRECTLY FROM <a href="List/">HERE</a> )</h4>
+<h4>( YOU MAY GOTO <a href="List/">LIST</a> OF ALL TRANSPILERS DIRECTLY FROM <a href="List/">HERE</a> )</h4>
 <br />
 <br />
 <br />
