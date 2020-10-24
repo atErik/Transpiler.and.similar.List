@@ -239,14 +239,13 @@ Solution-Set A or &#35;1&#8239;:
   </li>
   <li> (<b>A</b>-2) convert that <code>"C#"</code> source-code into <code>"Lua"</code> code with this "<a href="https://github.com/yanghuan/CSharp.lua">CSharp.lua</a>" transpiler.
    <ul><li> <tt>D:&#92;&gt; dotnet CSharp.Lua.Launcher.dll -h</tt><br />
-<pre><code>Usage: CSharp.lua [-s srcfolder] [-d dstfolder]<br />
-Arguments<br />
--s : can be a directory where all cs files will be compiled, or a list of files, using ';' or ',' to separate<br />
--d : destination directory, will put the out lua files<br />
-Options<br />
--h : show the help message and exit<br />
-...<br />
-</code></pre>(source 
+<pre><code>Usage: CSharp.lua [-s srcfolder] [-d dstfolder]
+Arguments
+-s : can be a directory where all cs files will be compiled, or a list of files, using ';' or ',' to separate
+-d : destination directory, will put the out lua files
+Options
+-h : show the help message and exit
+...</code></pre>(source 
     folder should be: <code>D:\Dev\Go-to-CS-GoProject\</code>)<br />
     (create & specify destination folder: <code>D:\Dev\CS-to-Lua-GoProject\</code>)
     </li>
