@@ -70,14 +70,16 @@ IF&#8239; YOU&#160; AGREE&#160; WITH&#8239; ABOVE&#160; LICENSE&#8239; RESTRICTI
 &#160;&#160;&#160;&#160;<b>CPL</b>&#160;=&#160;Computer&#160;Programming&#160;Language.  
 
 Which TRANSPILER Can Convert/**[Transpile][1]**/Transcompile/Transform Input Source-Code (`"Go"` or Any/✱ other CPL) Into Output Source-Code (`"C"` or Any/✱ other CPL) <b>?</b>  
+
 Which TRANSPILER Can Keep High-Level Algorithms / Structures Used In Source-Code (here: `"Go"` or Any/✱ other CPL) , Fairly Accurately Intact/Same In Generated / Output / Destination / Target Source-Code (here: `"C"` or Any/✱ other CPL), As Much As Possible <b>?</b>  
 <br />
 
-( abbreviations : `lang` = language &#124; . `C++` = `Cpp` = `C-plus-plus` . `Go` = `Golang` )  
+( abbreviations : `lang` = language &#124; `C++` = `Cpp` = `C-plus-plus` &#124; `Go` = `Golang` )  
 
 TRANSPILE : source-code to source-code conversion , where high-level structures, algorithms, etc (of input code) are kept same or accurate during conversion process, (in output code) . Sometime extra codes are needed in output code, to function it same as input code.  
-  
-<h4>( YOU MAY GOTO LIST OF ALL TRANSPILERS DIRECTLY FROM <a href="List/">HERE</a> )</h4>
+<br />
+
+<h4>( YOU MAY GOTO <a href="List/">LIST</a> OF ALL TRANSPILERS DIRECTLY FROM <a href="List/">HERE</a> )</h4>
 <br />
 
 # SOURCE-CODE&#8239; EXAMPLES&#8239;:
@@ -200,7 +202,7 @@ An actual EXAMPLE of "C"-to-"Go" CODE is shown [here][3] <sup>[2][4], [3][5]</su
 <br />  
 <br />
 
-<h4>( YOU MAY GOTO LIST OF ALL TRANSPILERS DIRECTLY FROM <a href="List/">HERE</a> )</h4>
+<h4>( YOU MAY GOTO <a href="List/">LIST</a> OF ALL TRANSPILERS DIRECTLY FROM <a href="List/">HERE</a> )</h4>
 <br />
 <br />
 
@@ -220,49 +222,65 @@ Above (transpiler-set) solutions have what Pros/Cons ?
 <br />
 <br />
 
-<h4>SOLUTION&#160; ANALYSIS&#160; &amp;&#160; PROs/CONs&#160; &amp;&#160; PROBLEM(s):</hr>
+<h4>SOLUTION&#160; ANALYSIS&#160; &amp;&#160; PROs/CONs&#160; &amp;&#160; PROBLEM(s):</h4>
 
 <h5>SOLUTION A or &#35;1&#8239;:</h5>
-* steps: we are attempting to do these:  
-  `"Go"`--&gt;`"C#"`--&gt;`"Lua"`--&gt;`"C"`
-  * (**A**-1) use this "[go2cs][15]" transpiler to convert `"Go"`/`"Golang"` source-code into `"C#"` (C-sharp) based code.
-    * (place your GoProject here: `D:\Dev\GoProject\`)  
-    (create & go inside this folder: `D:\Dev\Go-to-CS-GoProject\`)  
-    Convert a single Go file: `go2cs -l D:\\Dev\\GoProject\\src\\Main.go`  
-    Convert entire Go project: `go2cs D:\\Dev\\GoProject`  
-    Convert Go Standard Library: `go2cs -s -r D:\\Dev\\GoProject\\src\\`
-  * (**A**-2) convert that `"C#"` source-code into `"Lua"` code with this "[CSharp.lua][16]" transpiler.
-    * D:&#92;&gt; `dotnet CSharp.Lua.Launcher.dll -h`  
-    Usage: CSharp.lua [-s srcfolder] [-d dstfolder]  
-    Arguments  
-    `-s` : can be a directory where all cs files will be compiled, or a list of files, using ';' or ',' to separate  
-    `-d` : destination directory, will put the out lua files  
-    Options  
-    `-h` : show the help message and exit  
-    ...  
-    (source folder should be: `D:\Dev\Go-to-CS-GoProject\`)  
-    (create & specify destination folder: `D:\Dev\CS-to-Lua-GoProject\`)
-  * (**A**-3) convert that `"Lua"` source-code into `"C"` code with this "[lua2c][17]" transpiler.
-    * (create & go into a folder 1st like this: `D:\Dev\Lua-to-C-GoProject\` or specify previous as destination folder in next command)  
-    `lua` to `C` cmd: `lua lua2c.lua D:\Dev\CS-to-Lua-GoProject\Main.lua`
-* in this solution-"A", a developer have to be familiar with `"C#"` & `"Lua"`, and you can also clearly see that transpile/conversion occurred 3-TIMES : `"Go"`--&gt;`"C#"`--&gt;`"Lua"`--&gt;`"C"`, which is not-very-good . Conversion done by `go2cs` is high-quality(HQ), but other tools in chain are not that much HQ, so overall conversion quality is not good.  
-  As dev/user also need to know middle language(s), ( and i'm not very familiar with `C#` or `Lua` ).  
-  In solution-"A", atleast final destination `"C"` code will still have high-level structures fairly intact that were used in initial `"Go"` source-code.
+Solution-Set A or &#35;1&#8239;:
+<ul><li> steps: we are attempting to do these:<br />
+  <code>"Go"</code>--&gt;<code>"C#"</code>--&gt;<code>"Lua"</code>--&gt;<code>"C"</code>
+  <ul><li> (<b>A</b>-1) use this "<a href="https://github.com/GridProtectionAlliance/go2cs">go2cs</a>" transpiler to convert <code>"Go"</code>/<code>"Golang"</code> source-code into <code>"C#"</code> (C-sharp) based code.
+    <ul><li> (place your GoProject here: <code>D:\Dev\GoProject\</code>)<br />
+    (create & go inside this folder: <code>D:\Dev\Go-to-CS-GoProject\</code>)<br />
+    Convert a single <code>Go</code> file: <code>go2cs -l D:\\Dev\\GoProject\\src\\Main.go</code><br />
+    Convert entire <code>Go</code> project: <code>go2cs D:\\Dev\\GoProject</code><br />
+    Convert `Go` Standard Library: <code>go2cs -s -r D:\\Dev\\GoProject\\src\\</code>
+    </li>
+    </ul>
+  </li>
+  <li> (<b>A</b>-2) convert that <code>"C#"</code> source-code into <code>"Lua"</code> code with this "<a href="https://github.com/yanghuan/CSharp.lua">CSharp.lua</a>" transpiler.
+   <ul><li> <tt>D:&#92;&gt; dotnet CSharp.Lua.Launcher.dll -h</tt><br />
+<pre><code>Usage: CSharp.lua [-s srcfolder] [-d dstfolder]<br />
+Arguments<br />
+-s : can be a directory where all cs files will be compiled, or a list of files, using ';' or ',' to separate<br />
+-d : destination directory, will put the out lua files<br />
+Options<br />
+-h : show the help message and exit<br />
+...<br />
+</code></pre>(source 
+    folder should be: <code>D:\Dev\Go-to-CS-GoProject\</code>)<br />
+    (create & specify destination folder: <code>D:\Dev\CS-to-Lua-GoProject\</code>)
+    </li>
+    </ul>
+  </li>
+  <li> (<b>A</b>-3) convert that <code>"Lua"</code> source-code into <code>"C"</code> code with this "<a href="https://github.com/davidm/lua2c">lua2c</a>" transpiler.
+    <ul><li> (create & go into a folder 1st like this: <code>D:\Dev\Lua-to-C-GoProject\</code> or specify previous as destination folder in next command)<br />
+    <code>lua</code> to <code>C</code> cmd: <code>lua lua2c.lua D:\Dev\CS-to-Lua-GoProject\Main.lua</code>
+    </li>
+    </ul>
+  </li>
+  </ul>
+</li>
+<li> in this solution-"A", a developer have to be familiar with <code>"C#"</code> & <code>"Lua"</code>, and you can also clearly see that transpile/conversion occurred 3-TIMES : <code>"Go"</code>--&gt;<code>"C#"</code>--&gt;<code>"Lua"</code>--&gt;<code>"C"</code>, which is not-very-good . Conversion done by <code>go2cs</code> is high-quality(<b>HQ</b>), but other tools in chain are not that much HQ, so overall conversion quality is not good.<br />
+  As dev/user also need to know middle language(s), ( and i'm not very familiar with <code>C#</code> or <code>Lua</code> ).<br />
+  In solution-"A", atleast final destination <code>"C"</code> code will still have high-level structures fairly intact that were used in initial <code>"Go"</code> source-code.
+</li>
+</ul>
 
 <h5>SOLUTION B or &#35;2&#8239;:</h5>
+Solution-Set B or &#35;2&#8239;:
 * steps: in this solution we attempt to do these:  
   `"Go"`--&gt;`"C#"`--&gt;`"WebAssembly"`--&gt;`"C"`. (also see alternative Solution-E)
-  * (**B**-1) use this "[go2cs][15]" transpiler to convert `"Go"`/`"Golang"` source-code into `"C#"` (C-sharp) based code.
+  * (<b>B</b>-1) use this "[go2cs][15]" transpiler to convert `"Go"`/`"Golang"` source-code into `"C#"` (C-sharp) based code.
     * see sub-section inside above Solution-A-1.
-  * (**B**-2) convert that `"C#"` source-code into `"WebAssembly"` code with this "[Blazor][18]" transpiler.
-  * (**B**-3) convert that `"WebAssembly"` source-code into `"C"` code with this "[wasm2c][19]" transpiler.
+  * (<b>B</b>-2) convert that `"C#"` source-code into `"WebAssembly"` code with this "[Blazor][18]" transpiler.
+  * (<b>B</b>-3) convert that `"WebAssembly"` source-code into `"C"` code with this "[wasm2c][19]" transpiler.
 * in this solution-"B" also doing conversion 3-TIMES : `"Go"`--&gt;`"C#"`--&gt;`"WebAssembly"`--&gt;`"C"`, but these steps will completely breakdown all high-level structures & meaningful programming codes into large amount of micro (machine level) elements, etc,  
   Thus its depriving me or developer from chance to improve source-code further or improve quickly.  
   ( btw, in my case, i'm familiar with `"Assembly"` & `"C"` ).
 
 <h5>SOLUTION C or &#35;3&#8239;:</h5>
-* (**C**-1) use this "[gomoku][20]" transpiler to convert `"Go"`/`"Golang"` source-code into `"C++"` based code.  
-  (**C**-2) convert that `"C++"` source-code into `"C"` code with (any one of these) transpilers like these: [Cfront][21], [Comeau C&#47;C&#43;&#43;][22], also see these SO(StackOverflow) pages for more info: [1][24], [2][25], [3][26], [4][27].  
+* (<b>C</b>-1) use this "[gomoku][20]" transpiler to convert `"Go"`/`"Golang"` source-code into `"C++"` based code.  
+  (<b>C</b>-2) convert that `"C++"` source-code into `"C"` code with (any one of these) transpilers like these: [Cfront][21], [Comeau C&#47;C&#43;&#43;][22], also see these SO(StackOverflow) pages for more info: [1][24], [2][25], [3][26], [4][27].  
   Compiler tools can also convert `C++`-to-`C`:  
   &#160;&#160;`clang -c CPPtoC.cpp -o CPPtoC.bc -emit-llvm`  
   &#160;&#160;`clang -march=c CPPtoC.bc -o CPPtoC.c`  
@@ -272,7 +290,7 @@ Above (transpiler-set) solutions have what Pros/Cons ?
 * in this solution-"C" steps, transpile/conversion occurred 2-TIMES : `"Go"`--&gt;`"C++"`--&gt;`"C"`, and in both case destination languages are closer language, so final `"C"` code will still have high-level structures fairly intact that were used in initial `"Go"` source-code, which can be improved by a dev/user.
 
 <h5>SOLUTION D or &#35;4&#8239;:</h5>
-* (**D**-1) use this "[go2c][23]"(mukadr) transpiler to convert `"Go"` source-code into `"C"` based code, though it can transpile `"Go"`-to-`"C"` by itself, but at this moment (when this was posted here), sadly this supports only a subset components of Go.  
+* (<b>D</b>-1) use this "[go2c][23]"(mukadr) transpiler to convert `"Go"` source-code into `"C"` based code, though it can transpile `"Go"`-to-`"C"` by itself, but at this moment (when this was posted here), sadly this supports only a subset components of Go.  
 These transpilers can also be used for `Go2C` conversion : [goc][28], [go-transpiler][29](mewbak), etc, but these also only supports subset of `"Go"` language, at this moment (when this was posted here).
 * in this solution-"D", transpiler can convert 'Go' into 'C' directly in one-time w/o using any other intermediate transpilers : `Go`--&gt;`"C"` , but does not support conversion of all components of `Go`-language.
 
@@ -280,23 +298,23 @@ These transpilers can also be used for `Go2C` conversion : [goc][28], [go-transp
 
 <h5>SOLUTION E or &#35;5&#8239;:</h5>
 * steps: this Solution-E is alternative of above Solution-B.
-  * (**E**-1) use these commands to convert `"Go"` into `"Go"-"Assembly"`, `"go2goasm"`, output of `"Go"`-tool is a Google/Golang flavored `"Assembly"`, its not completely Standard/regular `Assembly`, but close to it . Commands:  
+  * (<b>E</b>-1) use these commands to convert `"Go"` into `"Go"-"Assembly"`, `"go2goasm"`, output of `"Go"`-tool is a Google/Golang flavored `"Assembly"`, its not completely Standard/regular `Assembly`, but close to it . Commands:  
   `go tool compile -S Main.go`  
   &#160;or  
   `go build -gcflags -S Main.go`  
-  * (**E**-2) use [Boomerang][30] decompiler<sup>[2][31], [3][32]</sup> on `Go-"Assembly"` source-code file, and manually change/convert incompatible portions into general `Assembly` until it can do Asm-to-C . Or use [asm2c][33],etc transpiler, that can convert `Assembly`(`Asm`) into `C` (`Asm`-to-`C`) . Other solutions are mentioned [here][34], [2][35], [3][36].
+  * (<b>E</b>-2) use [Boomerang][30] decompiler<sup>[2][31], [3][32]</sup> on `Go-"Assembly"` source-code file, and manually change/convert incompatible portions into general `Assembly` until it can do Asm-to-C . Or use [asm2c][33],etc transpiler, that can convert `Assembly`(`Asm`) into `C` (`Asm`-to-`C`) . Other solutions are mentioned [here][34], [2][35], [3][36].
 * Conversion happens 2-TIMES : `"Go"`-&gt;`"Assembly"`-&gt;`"C"` . Because of "go2asm" conversion, allmost all higher-level structures in `"Go"` will go away from `"Assembly"` (low-level language) . So, after `Assembly` to `C` conversion , `C` source-code will not-include any high-level structures of "Go" source, new high-level `C` will be something different, though functioning same way.  
   Usually this solution is faster.
 
-<h5>SOLUTION F or &#35;6<b>:</h5>  
+<h5>SOLUTION F or &#35;6<b>:</h5>
 * steps:
-  * (**F**-1) use "go2cs" to convert `"Go"` into `"C#"`(`CSharp`).  
+  * (<b>F</b>-1) use "go2cs" to convert `"Go"` into `"C#"`(`CSharp`).  
   see sub-section under Solution A-1, for usage.
-  * (**F**-2) use "[hurley][37]" to convert `C#` into `C`.
+  * (<b>F</b>-2) use "[hurley][37]" to convert `C#` into `C`.
 * Conversion happens 2-TIMES : `"Go"`-&gt;`"C#"`-&gt;`"C"` . Many higher-level structures in `"Go"` will remain in final output . The "go2cs" does HQ conversion, but next step not that much, need more improvements.
 
 <h5><s>&#160;SOLUTION G or &#35;7<b>:</b>&#160;</s></h5>
-* <s>&#160;(**G**-1) "[go-transpiler][38]". According to it's dev, though original goal was to make a transpiler but now its a parser that checks if code is valid as per Golang grammar.&#160;</s>
+* <s>&#160;(<b>G</b>-1) "[go-transpiler][38]". According to it's dev, though original goal was to make a transpiler but now its a parser that checks if code is valid as per Golang grammar.&#160;</s>
 
 <h5>OTHER&#8239;:</h5>
 * This "[esp32-transpiler][39]" can convert 'Go' into 'C' for Arduino (an embedded system), but only small subset of 'Go' lang spec is supported.  
@@ -312,9 +330,10 @@ These transpilers can also be used for `Go2C` conversion : [goc][28], [go-transp
   solution-"C" (gomoku-&gt;cfront) is better than solution-"D" (go2c/goc/go-transpiler).  
   So, solution-"F" (go2cs-&gt;hurley) is best `"Go"`-to-`"C"` transpiler-set,  
   at this point, among previous choices (when this message was posted here 2020-Oct-22).  
-  *Note: none of these transpilers support all components of "input" language, but their developers are improving them . So, often check out supported component list, which is shown in their website.*  
+  <i>Note: none of these transpilers support all components of "input" language, but their developers are improving them . So, often check out supported component list, which is shown in their website.</i>  
 <br />
 <br />
+
 <h4>( YOU MAY GOTO LIST OF ALL TRANSPILERS DIRECTLY FROM <a href="List/">HERE</a> )</h4>
 <br />
 <br />
@@ -347,7 +366,7 @@ Many developers have pointed out, in some cases `C++` (based compiled program) c
 Transpiler/Transcompiler<sup>[1][1]</sup> internally contains primarily three major components<b>:</b>
 * 1of3: Parser : it is used to create AST<sup>[1][48]</sup> from input/source code, by using Lexical<sup>[1][49]</sup> analysis and Syntax<sup>[1][50]</sup> analysis.  
   • [Comparison of Parser-Generators and Lexer-Generators][51].
-* 2of3: Transformation : with one or more steps, input code's AST will be converted into output/target code's AST . Uses semantic<sup>[1][52]</sup> analysis, Intermediate Representation (IR)<sup>[1][53]</sup> generation . IR is aka: Intermediate Language (IL)<sup>[1][54]</sup>.
+* 2of3: Transformation : with one or more steps, input code's AST will be converted into output/target code's AST . Uses semantic<sup>[1][52]</sup> analysis, Intermediate Representation (<b>IR</b>)<sup>[1][53]</sup> generation . IR is aka: Intermediate Language (<b>IL</b>)<sup>[1][54]</sup>.
 * 3of3: Generator : output AST is used to generate output/target language code.
 * Transpiler can/may use MetaProgramming<sup>[1][55]</sup>, NLP(Natural Language Processing)<sup>[1][56]</sup>, Finite-state Automata<sup>[1][57], [2][58]</sup>, Lexical Analysis<sup>[1][49]</sup>, Syntax/AST Analysis<sup>[1][48]</sup>, Parser<sup>[1][59], [2][60]</sup>, etc<sup>[1][51]</sup>, etc, to convert source-code of one CLP(computer programming language) into source-code of another CLP.
 * Notes/References:  
@@ -380,7 +399,7 @@ And remember, ANYONE/USER/people have full Freedom+Right to informaton what he/s
 <br />
 <br />
 
-&#160;&#160;&#160;abbreviations&#160;:&#160;`CPL` = Computer Programming Language . `lang` = language.  
+&#160;&#160;&#160;abbreviations&#160;:&#160;`CPL` = Computer Programming Language &#124; `lang` = language.  
 
 <h4>COMPETITION&#8239; ON&#8239; CAPABILITIES&#8239;:</h4>
 Here are some results of a yearly COMPETITION on CPL, based on CAPABILITIES of CPL and tools<b>:</b>
@@ -392,7 +411,7 @@ Here are some results of a yearly COMPETITION on CPL, based on CAPABILITIES of C
 <br />
 <br />
 
-&#160;&#160;&#160;abbreviations&#160;:&#160;`CPL` = Computer Programming Language . `lang` = language.  
+&#160;&#160;&#160;abbreviations&#160;:&#160;`CPL` = Computer Programming Language &#124; `lang` = language.  
 
 <h4>FAST or SLOW&#160 (COMPARISON&#8239; OF&#8239; LANGAUGE&#8239; PERFORMANCE)&#8239;:</h4>
 See various benchmarks: [1][69], [2][70], [3][71], [4][72], [5][73], [6][74], [7][75].
@@ -408,7 +427,7 @@ See various benchmarks: [1][69], [2][70], [3][71], [4][72], [5][73], [6][74], [7
 <br />
 <br />
 
-&#160;&#160;&#160;abbreviations&#160;:&#160;`CPL` = Computer Programming Language . `lang` = Language.  
+&#160;&#160;&#160;abbreviations&#160;:&#160;`CPL` = Computer Programming Language &#124; `lang` = Language.  
 
 # COMPARISONS&#8239; OF&#8239; CPL&#8239; COMPONENTS&#8239;:
 
@@ -460,7 +479,7 @@ So use below code/string replacing script-codes, mentioned in below linked SO/SE
 
 ANY USER/PEOPLE HAVE FULL FREEDOM+RIGHT TO INFORMATION ON ANY LANGUAGE AND ANY TOOL/TRANSPILER TO TRANSLATE/TRANSFORM ANY LANGUAGE<sup>[1][64], [2][65], [3][66], [4][67], [5][68]</sup>.  
 
-&#160;&#160;&#160;abbreviations&#160;:&#160;`CPL` = Computer Programming Language . `lang` = Language.  
+&#160;&#160;&#160;abbreviations&#160;:&#160;`CPL` = Computer Programming Language &#124; `lang` = Language.  
 <br />
 <br />
 <br />
@@ -489,7 +508,7 @@ Disclaimer: IANAL.
 • In any OPEN-SOURCE project, one of the most helpful thing to bring in more code contributors is : Addition of DETAIL COMMENTS & NOTES on each code line & section, and describe what a code-line/code-section is actually doing . So create a ToDo for yourself & for any code-contributors, that, beside improving code directly, this new project also need contribution of more detail COMMENTS & NOTES ON CODE . So that some devs can spend time on understanding + identifying each line & section & algorithm, and start adding detail general human-friendly notes & comments . <b>Do not make comment & note helpful only for advanced devs , as that creates islands & separation & division . That is opposite of open-source spirit . Everyone, even general user, should be able to understand a code line/section, after reading comments & notes.<b>  
 • If upstream software's dev also transpiles new feature or functionality that you & your team has added , or you have transpiled again from "C-to-Go" , and add into forked project of "upstream" , then upstream dev can also add new feat/functionality into the upstream software.  
 • When everyone is open-sourcing their work, means SHARING IMPROVED KNOWLEDGE WITH OTHERS , then everyone is benefitted more . Each of us, We all have learned something from another person who has shared something old or shared something that he has improved , SO IN THAT SAME WAY , we all need to share old & share improved works with others.  
-• Abbreviations : IANAL = I Am Not A (Professional) Lawyer . CWPL = Consult With Professional Lawyer.  
+• Abbreviations : IANAL = I Am Not A (Professional) Lawyer &#124; CWPL = Consult With Professional Lawyer.  
 <br />
 <br />
 <br />
