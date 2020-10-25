@@ -49,7 +49,7 @@ List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-cod
   <br />
   <br />
   <h3>IF&#8239; YOU&#160; DO&#8239; NOT&#8239; AGREE&#160; WITH&#8239; ABOVE&#160; LICENSE&#8239; RESTRICTIONS&#8239; &&#8239; PERMISSIONS&#8239;,&#160; THEN&#160; YOU&#160; CANNOT&#160; USE&#160; ANY&#160; DATA/SERVICE&#160; FROM&#160; THIS&#160; PROJECT&#8239; OR&#8239; WEB-PAGES&#8239;, PRESS&#160; BACK&#8239; BUTTON&#160; IN&#8239; YOUR&#8239; WEB-BROWSER&#8239;,&#160; AND&#160; COMPLETELY&#160; STOP&#160; USING/VIEWING&#8239; THIS&#8239; WEBPAGE/DATA ( AND&#8239; ANY&#8239; OTHER&#8239; WEBPAGES/DATA&#8239; UNDER&#8239; IT ).</h3>
-  <h3>IF&#160; YOU&#160; AGREE&#160; WITH&#160; ABOVE&#160; LICENSE&#160; RESTRICTIONS&#160; &&#160; PERMISSIONS&#160;, THEN&#160; SCROLL&#160; DOWN&#160; &&#160; VIEW&#160; DATA.</h3>
+  <h3>IF&#160; YOU&#160; AGREE&#160; WITH&#160; ABOVE&#160; LICENSE&#160; RESTRICTIONS&#160; &&#160; PERMISSIONS&#160;,&#160; ONLY&#160; THEN&#160; SCROLL&#160; DOWN&#160; &&#160; VIEW&#160; DATA.</h3>
   </dd>
  </dl>
 </div>
@@ -86,14 +86,14 @@ abbreviations : `JS` = JavaScript &#124; `Asm` = Assembly &#124; `C++` = `Cpp` =
 
 By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of&#160; SOURCE-CODE&#8239; TO&#8239; SOURCE-CODE&#160; CONVERTER/&#8239;TRANSPILER<b>:</b>
 * `Go` to `C`:  
-`•` [go2c][7] (mukadr)  
-`•` [go-transpiler][8] (mewbak)  
+`•` [go2c][7](mukadr)  
+`•` [go-transpiler][8](mewbak)  
 `•` [goc][9]  
 `•` [emgo](https://github.com/ziutek/emgo) (Subset of `Go` into `C` as intermediate) (32bit embedded hardware)  
 `•` <s>&#160;[go-transpiler][10] (supercoww)&#160;</s>
 * `Go/Golang` to `C++/Cpp`:  
 `•` [gomoku][11]  
-`•` [go-transpiler][12] (Theodus) (powered by tardisgo)
+`•` [go-transpiler][12](Theodus) (powered by tardisgo)
 * `Go` to `C++20` & `C++17`:  
 `•` [go2cpp][13] (xyproto)
 * `Go/Golang` to `C#` (C-sharp):  
@@ -112,7 +112,7 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of&#160; 
 * `C` to `C++`:  
 `•` [ctcpp][22]
 * `Go` to `✱` & `C`:  
-`•` [go-transpiler][8] (mewbak)
+`•` [go-transpiler][8](mewbak)
 * `Rust` &amp; `✱` to `C`:  
 `•` [llvm-cbe][23]  
 * `Rust` to `C`:  
@@ -120,8 +120,8 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of&#160; 
 `•` [mrustc][24](thePowersGang) (John Hodge Mutabah's Rust Compiler)
 * `Java` to `C`:  
 `•` [java2c][25]  
-`•` [java2c][26] (RaphaelCohn)  
-`•` [jack][27] (BadLogic)
+`•` [java2c][26](RaphaelCohn)  
+`•` [jack][27](BadLogic)
 * `Java` to `objC`:  
 `•` [j2objc][28] (`Java` to `objC` for iOS)
 * `Python` program&#47;source to `C/C++` code:  
@@ -132,13 +132,13 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of&#160; 
 `•` [shedskin](https://github.com/shedskin/shedskin) (`Python` 2.4-2.6 into `C++`)
 * `Python` to `C`:  
 `•` [Cython](https://cython.org/)<sup><a href="https://pypi.org/project/Cython/">2</a></sup>  
-`•` [transpiler][33] (gaurav139v)  
+`•` [transpiler][33](gaurav139v)  
 `•` [transpyle][34] (`Python`&lt;--&gt;`C`)  
 `•` [py2cmod][35] (`Python` To `C` Module Generator)  
 `•` [RPython][36]<sup>[2][37]</sup> (Subset of `Python` --&gt;`C`)  
 `•` [ptc][38]
 * `Lua` to `C`:  
-`•` [lua2c][39] (davidm)
+`•` [lua2c][39](davidm)
 * `WebAssembly`-source to `C`:  
 `•` [wasm2c][40]
 * `WebAssembly`-binary to `C`: 
@@ -195,13 +195,13 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of&#160; 
 * `CoffeeScript` to `Rust`:  
 `•` [RusteeScript][74]
 * `Lua` to `Rust`:  
-`•` [lua2rust][75] (the-language)
+`•` [lua2rust][75](the-language)
 * `objC` to `Swift`:  
 `•` [Swiftify][76]  
 `•` [SwiftRewriter][77]
 * `C` to `Go`:  
 `•` [Tool to convert &#40;translate&#41; C to Go&#63;][3]  
-`•` [c2go][78] (elliotchance)  
+`•` [c2go][78](elliotchance)  
 `•` [c4go][79]
 * `C`-`Assembly` source to `Go`-`Assembly` source:  
 `•` [c2goasm][80]
@@ -231,7 +231,7 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of&#160; 
 * `Go` to `JavaScript`:  
 `•` [gopherjs][95]
 * `Go` to `Java`:  
-`•` [go-transpiler][12] (Theodus) (powered by tardisgo)
+`•` [go-transpiler][12](Theodus) (powered by tardisgo)
 * `Go` to `Haxe`:  
 `•` [tardisgo][96]
 * `Go` to `Ruby`:  
@@ -304,13 +304,16 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of&#160; 
 `•` <a href="https://github.com/draperlaboratory/llvm-cbe">llvm-cbe</a>(DraperLaboratory) LLVM-C-BackEnd  
 <br />
 <br />
+
 abbreviation : `CPL` = Computer Programming Language.
 <br />
 <br />
-ANY USER/PEOPLE HAVE FULL FREEDOM+RIGHT+CHOICE TO CHOOSE ANY LANGUAGE & ANY TRANSPILER<sup>[1][2], [2][3], [3][4], [4][5], [5][6]</sup>.
+
+ANY USER/PEOPLE HAVE FULL FREEDOM+RIGHT+CHOICE TO CHOOSE ANY LANGUAGE & ANY TRANSPILER<sup>[1][2], [2][3], [3][4], [4][5], [5][6]</sup>.  
 <br />
 <br />
 <br />
+
 LIST&#160; OF&#160; COMPILERS&#8239;:  
 compilers usually transforms/converts source-code into binary machine-code.  
 `•` <a href="https://en.wikipedia.org/wiki/List_of_compilers">List of Compilers</a> (wikipedia).  
@@ -319,6 +322,7 @@ compilers usually transforms/converts source-code into binary machine-code.
 <br />
 <br />
 <br />
+
 <a href="https://github.com/BayesWitnesses/m2cgen">m2cgen</a> : Transform ML models into a native code (`Java`, `C`, `Python`, `Go`, `JavaScript`, `Visual Basic`, `C#`, `R`, `PowerShell`, `PHP`, `Dart`, `Haskell`, `Ruby`) with zero dependencies.  
 
 
