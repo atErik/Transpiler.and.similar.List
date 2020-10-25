@@ -51,8 +51,8 @@ List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-cod
   <br />
   <br />
   <br />
-  <h3>IF&#8239; YOU&#160; DO&#8239; NOT&#8239; AGREE&#160; WITH&#8239; ABOVE&#160; LICENSE&#8239; RESTRICTIONS&#8239; &&#8239; PERMISSIONS&#8239;,&#160; THEN&#160; YOU&#160; CANNOT&#160; USE&#160; ANY&#160; DATA/SERVICE&#160; FROM&#160; THIS&#160; PROJECT&#8239; OR&#8239; WEB-PAGES&#8239;, PRESS&#160; BACK&#8239; BUTTON&#160; IN&#8239; YOUR&#8239; WEB-BROWSER&#8239;,&#160; AND&#160; COMPLETELY&#160; STOP&#160; USING/VIEWING&#8239; THIS&#8239; WEBPAGE/DATA ( AND&#8239; ANY&#8239; OTHER&#8239; WEBPAGES/DATA&#8239; UNDER&#8239; IT ).<br />
-IF&#160; YOU&#160; AGREE&#160; WITH&#160; ABOVE&#160; LICENSE&#160; RESTRICTIONS&#160; &&#160; PERMISSIONS&#160;, THEN&#160; SCROLL&#160; DOWN&#160; &&#160; VIEW&#160; DATA.</h3>
+  <h3>IF&#8239; YOU&#160; DO&#8239; NOT&#8239; AGREE&#160; WITH&#8239; ABOVE&#160; LICENSE&#8239; RESTRICTIONS&#8239; &&#8239; PERMISSIONS&#8239;,&#160; THEN&#160; YOU&#160; CANNOT&#160; USE&#160; ANY&#160; DATA/SERVICE&#160; FROM&#160; THIS&#160; PROJECT&#8239; OR&#8239; WEB-PAGES&#8239;, PRESS&#160; BACK&#8239; BUTTON&#160; IN&#8239; YOUR&#8239; WEB-BROWSER&#8239;,&#160; AND&#160; COMPLETELY&#160; STOP&#160; USING/VIEWING&#8239; THIS&#8239; WEBPAGE/DATA ( AND&#8239; ANY&#8239; OTHER&#8239; WEBPAGES/DATA&#8239; UNDER&#8239; IT ).</h3>
+  <h3>IF&#160; YOU&#160; AGREE&#160; WITH&#160; ABOVE&#160; LICENSE&#160; RESTRICTIONS&#160; &&#160; PERMISSIONS&#160;,&#160; ONLY&#160; THEN&#160; SCROLL&#160; DOWN&#160; &&#160; VIEW&#160; DATA.</h3>
   </dd>
  </dl>
 </div>
@@ -70,11 +70,11 @@ IF&#160; YOU&#160; AGREE&#160; WITH&#160; ABOVE&#160; LICENSE&#160; RESTRICTIONS
 <br />
 
 # TRANSPILE&#8239;:
-&#160;&#160;&#160;&#160;<b>CPL</b>&#160;=&#160;Computer&#160;Programming&#160;Language.  
+&#160;&#160;&#160;&#160;<b>CPL</b>&#160;=&#160;Computer&#160;Programming&#160;Language &#124; <b>f.e.</b> = for-example &#124; <b>i.e.</b> = in-example &#124; <b>e.g.</b> = example-goes-to.  
 
-Which TRANSPILER Can Convert/**[Transpile][1]**/Transcompile/Transform Input Source-Code (`"Go"` or Any/✱ other CPL) Into (A Different Language) Output Source-Code (`"C"` or Any/✱ other CPL) <b>?</b>  
+Which TRANSPILER Can Convert/**[Transpile][1]**/Transcompile/Transform Input Source-Code (for-example: `"Go"` or Any/✱ other CPL) Into (A Different Language) Output Source-Code (for-example: `"C"` or Any/✱ other CPL) <b>?</b>  
 
-Which TRANSPILER Can Keep High-Level Algorithms / Structures Used In Source-Code (here: `"Go"` or Any/✱ other CPL) , Fairly Accurately Intact/Same In (A Different Language) Generated / Output / Destination / Target Source-Code (here: `"C"` or Any/✱ other CPL), As Much As Possible <b>?</b>  
+Which TRANSPILER Can Keep High-Level Algorithms / Structures Used In Input Source-Code (f.e: `"Go"` or Any/✱ other CPL) Fairly Accurately Intact/Same After Conversion Into A Different Language Based Generated / Output / Destination / Target Source-Code (f.e: `"C"` or Any/✱ other CPL), As Much As Possible <b>?</b>  
 <br />
 
 ( abbreviations : `lang` = language &#124; `C++` = `Cpp` = `C-plus-plus` &#124; `Go` = `Golang` )  
@@ -199,7 +199,7 @@ An actual EXAMPLE of "C"-to-"Go" CODE is shown [here][3] <sup>[2][4], [3][5]</su
 `•` In computer programming language, let us assume, `C`/`C++`/`Assembly` are your native computer language (these you have learned in School/University, & then practiced).  
 `•` So it should be okay to convert `non-C` & `non-C++` language `"Go"` aka: `"Golang"` , into `"C"` or `"C++"`, to understand better.  
 `•` Learning a second computer language (for example: `"Go"`) (or lets say: French) & hoping to become expert within 7-days or so like your native computer language (`"C"` or `"C++"`) (or lets say: English) , is not only a plain wrong expectation , if any fool suggested such then that i consider a wrong advice , because this will NOT take you to a LEVEL where you can begin to contribute in real open-source projects . But one of the right advice can be this : Start to learn+practice the second computer language in parallel (in a different, easy & forked project), as it will take long time & effort to reach expert level in that second computer language.  
-`•` So, we do not want to keep any input (`"Go"`) source-code remaining in output (`C/C++`) source-code . ( But some `Assembly` is fine in output if you're okay with `Assembly` language ) . And also be aware of that ['Go' Has Problems][6] <sup>[2][7], [3][8]</sup> , [Security Vulnerabilities of 'Golang'][9] <sup>[2][10], [3][11], [4][12], [5][13]</sup>, etc are just few reasons to move away from `"Go"`, and use other language . You have full freedom & right to choose what you want to do.  
+`•` So, we do not want to keep any input (`"Go"`) source-code remaining in output (`C/C++`) source-code . ( But some `Assembly` is fine in output if you're okay with `Assembly` language ) . And also be aware of that ['Go' Has Problems](https://github.com/ksimka/go-is-not-good) <sup>[2][6], [3][7], [4][8]</sup> , [Security Vulnerabilities of 'Golang'][9] <sup>[2][10], [3][11], [4][12], [5][13]</sup>, etc are just few reasons to move away from `"Go"`, and use other language . You have full freedom & right to choose what you want to do.  
 `•` Let us assume, Necessary Features or Functionality that i or you need to add, those are developed & optimized for `C/C++`, not-available in `"Go"`.  
 `•` Programs that i or you want to TRANSPILE/CONVERT from `Go-to-C` or from `Go-to-C++`, that type of programs should be developed with `C/C++`, as that type of programs work better with `C`, and even more better with `C++`.  
 `•` Recreating complex & large software/systems with years of development from scratch with another (second) computer language , is not-only hard , that is also not-suggested<sup>[1][14]</sup> (not-adviced) , So transcompilation steps are helpful to give a head-start by converting easier source-code . Transcompilation process always requires human developer based manual code conversion, as none of the Transpilers are perfect or supports ALL aspects of source/input language or different programming styles, codes, libraries, etc that are used in real practical projects/languages . Small project(s) or new project can be built from scratch, and even by using a second computer language.  
@@ -488,8 +488,9 @@ Many developers have pointed out, in some cases `C++` (based compiled program) c
 &#160;&#160;&#160;&#160;abbreviations&#160;:&#160;`aka` = also known as  
 
 # TRANSPILER&#160; INTERNALS&#8239;:
+![Transcompiler](Transcompiler_Diagram.png "Transcompiler Diagram Image")  
 Transpiler/Transcompiler<sup>[1][1]</sup> internally contains primarily three major components<b>:</b>
-* 1of3: Parser : it is used to create AST<sup>[1][32]</sup> from input/source code, by using Lexical<sup>[1][33]</sup> analysis and Syntax<sup>[1][34]</sup> analysis.  
+* 1of3: Parser : it is used to create Abstract Syntax Tree(AST)<sup>[1][32]</sup> from input/source code, by using Lexical<sup>[1][33]</sup> analysis and Syntax<sup>[1][34]</sup> analysis.  
   • [Comparison of Parser-Generators and Lexer-Generators][35].
 * 2of3: Transformation : with one or more steps, input code's AST will be converted into output/target code's AST . Uses semantic<sup>[1][36]</sup> analysis, Intermediate Representation (<b>IR</b>)<sup>[1][37]</sup> generation . IR is aka: Intermediate Language (<b>IL</b>)<sup>[1][38]</sup>.
 * 3of3: Generator : output AST is used to generate output/target language code.
@@ -498,6 +499,7 @@ Transpiler/Transcompiler<sup>[1][1]</sup> internally contains primarily three ma
   `•` [Transpiler][45].  
   `•` [How to write a transpiler][14], [2][46].  
   `•` [Transpiling between any languages][47].  
+  `•` Shown "Transpiler Diagram Image" in above, is a modified image of original image, which was obtained from <a href="http://RoseCompiler.org/">RoseCompiler</a> website . Rose compiler is released with BSD modified license, and it was developed at <a href="https://computing.llnl.gov/projects/rose-compiler">Lawrence Livermore National Laboratory</a>(LLNL), Livermore, California, United States.  
 <br />
 <br />
 <br />
@@ -541,7 +543,7 @@ Here are some results of a yearly COMPETITION on CPL, based on CAPABILITIES of C
 
 &#160;&#160;&#160;abbreviations&#160;:&#160;`CPL` = Computer Programming Language &#124; `lang` = language.  
 
-<h4>FAST or SLOW&#160 (COMPARISON&#8239; OF&#8239; LANGAUGE&#8239; PERFORMANCE)&#8239;:</h4>
+<h4>FAST or SLOW&#160; (COMPARISON&#8239; OF&#8239; LANGAUGE&#8239; PERFORMANCE)&#8239;:</h4>
 See various benchmarks: 
 <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/">1</a>, 
 <a href="https://julialang.org/benchmarks/">2</a>, 
@@ -671,7 +673,7 @@ Disclaimer: IANAL.
 <br />
 
 ## LICENSE&#8239;:
-Some brainwashed+stupid people/users have question, Why this License has so many "restrictions" <b>?</b>  
+Some brainwashed or stupid people/users have question, Why this License has so many "restrictions" <b>?</b> ... , ...  
 Does "Freedom/Right Of Speech" allows you to say/speak LIES or harmful things against someone ? NO.  
 Does "Freedom/Right Of Religion" allows you to disrespect+destroy another religion ? NO.  
 Does "Freedom/Right of People To Keep and Bear Arms" allows you to kill/shoot someone/anyone ? NO.  
@@ -686,8 +688,8 @@ So why software or sofwtare freedom will have Freedom to be used for KILLING Hum
 ...  
 All+Everything must have peaceful & balanced "restrictions" in all abilities & where used , for greater benefit & goodness<b>.</b>  
 ...  
-Those who want to use something for destruction, stealing, killing, etc, Those will always want "FULL" freedom.  
-Face+Challenge those Anti-Humanity type of people/users . They may look like human being, but all else is completely "evil".
+Those who want to use something for destruction, stealing, killing, etc , Those will always want "FULL" freedom, etc.  
+Face+Challenge those Anti-Humanity (or Pro-Destruction or Pro-Stealing) type of persons/users . Some of them may look like human being, but all else is completely "evil".
 <br />
 <br />
 <br />
