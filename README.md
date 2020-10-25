@@ -83,7 +83,7 @@ TRANSPILE : source-code to source-code conversion , where high-level structures,
 <br />
 <br />
 
-<h4>( YOU MAY GOTO <a href="List/">LIST</a> OF ALL TRANSPILERS DIRECTLY FROM <a href="List/">HERE</a> )</h4>
+<h4>( YOU MAY GOTO <a href="List/">LIST OF ALL TRANSPILERS</a> DIRECTLY FROM <a href="List/">HERE</a> )</h4>
 <br />
 <br />
 
@@ -207,7 +207,7 @@ An actual EXAMPLE of "C"-to-"Go" CODE is shown [here][3] <sup>[2][4], [3][5]</su
 <br />  
 <br />
 
-<h4>( YOU MAY GOTO <a href="List/">LIST</a> OF ALL TRANSPILERS DIRECTLY FROM <a href="List/">HERE</a> )</h4>
+<h4>( YOU MAY GOTO <a href="List/">LIST OF ALL TRANSPILERS</a> DIRECTLY FROM <a href="List/">HERE</a> )</h4>
 <br />
 <br />
 
@@ -459,7 +459,7 @@ This "<a href="https://github.com/andygeiss/esp32-transpiler">esp32-transpiler</
 <br />
 <br />
 
-<h4>( YOU MAY GOTO <a href="List/">LIST</a> OF ALL TRANSPILERS DIRECTLY FROM <a href="List/">HERE</a> )</h4>
+<h4>( YOU MAY GOTO <a href="List/">LIST OF ALL TRANSPILERS</a> DIRECTLY FROM <a href="List/">HERE</a> )</h4>
 <br />
 <br />
 <br />
