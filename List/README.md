@@ -1,12 +1,13 @@
-# <a href="../">Transpiler.And.Similar.List</a>/List/README&#46;md
+<h1><a href="../">Transpiler.And.Similar.List</a>/List/README&#46;md</h1>
 
 List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-code converter][1], &amp; similar &amp; related tools/apps.  
 
 <a name="License"></a>
-<div width="100%"><b>LICENSE of this project "Transpiler.And.Similar.List":</b><br />
+<div width="100%"><b>LICENSE of this project 
+ "Transpiler.And.Similar.List":</b><br />
  "Transpiler.And.Similar.List" project pages, info, data, file, etc
- are <b>Released with following combined LICENSE(s) + 
- RESTRICTIONs + PERMISSIONs:</b><dl>
+ are <b>Released with following 
+ combined LICENSE(s) + RESTRICTIONs + PERMISSIONs:</b><dl>
  <dd> 
   <b class="b">•</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc.<br />
   <b class="b">•</b> Do Not Use Any Data/File From This Project Into Military/Offense/Attack/Killing Forces,etc.<br />
@@ -47,7 +48,8 @@ List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-cod
   <br />
   <br />
   <br />
-  <h3>IF YOU DO NOT AGREE WITH ABOVE LICENSE RESTRICTIONS & PERMISSIONS , THEN YOU CANNOT USE ANY DATA/SERVICE FROM THIS PROJECT , PRESS BACK BUTTON IN YOUR WEB-BROWSER , AND COMPLETELY STOP USING/VIEWING THIS WEBPAGE/DATA.</h3>
+  <h3>IF&#8239; YOU&#160; DO&#8239; NOT&#8239; AGREE&#160; WITH&#8239; ABOVE&#160; LICENSE&#8239; RESTRICTIONS&#8239; &&#8239; PERMISSIONS&#8239;,&#160; THEN&#160; YOU&#160; CANNOT&#160; USE&#160; ANY&#160; DATA/SERVICE&#160; FROM&#160; THIS&#160; PROJECT&#8239; OR&#8239; WEB-PAGES&#8239;, PRESS&#160; BACK&#8239; BUTTON&#160; IN&#8239; YOUR&#8239; WEB-BROWSER&#8239;,&#160; AND&#160; COMPLETELY&#160; STOP&#160; USING/VIEWING&#8239; THIS&#8239; WEBPAGE/DATA ( AND&#8239; ANY&#8239; OTHER&#8239; WEBPAGES/DATA&#8239; UNDER&#8239; IT ).</h3>
+  <h3>IF&#160; YOU&#160; AGREE&#160; WITH&#160; ABOVE&#160; LICENSE&#160; RESTRICTIONS&#160; &&#160; PERMISSIONS&#160;, THEN&#160; SCROLL&#160; DOWN&#160; &&#160; VIEW&#160; DATA.</h3>
   </dd>
  </dl>
 </div>
@@ -57,15 +59,19 @@ List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-cod
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />
+
 &#160;&#160;&#160;&#160;<b>CPL</b>&#160;=&#160;Computer&#160;Programming&#160;Language.<br />
 <br />
 <br />
 
 
-To <b>search</b> inside this page, press Ctrl+F (Search in this page), and then type word or letters that you are looking for, then press left/up arrow to go backward or previous word, or press right/down arrow to go forward or next word.
+To <b>search</b> inside this page, press Ctrl+F (or select option "Search in this page", etc), and then type word or letters that you are looking for, then press left/up arrow to go backward or previous word, Or press right/down arrow to go forward or next word.
 
 
-( abbreviations : `lang` = language &#124; . `C++` = `Cpp` = `C-plus-plus` . `Go` = `Golang` )  
+( abbreviations : `lang` = language &#124; `C++` = `Cpp` = `C-plus-plus` &#124; `Go` = `Golang` )  
   
 ANYONE/USER/people have full freedom+right+choice to choose what he/she wants, and also have full freedom+right to convert one language into another.<sup>[1][2], [2][3], [3][4], [4][5], [5][6]</sup>  
 
@@ -73,14 +79,17 @@ abbreviations : `CPL` = Computer Programming Language
 
 <a name="list"></a>
 <h2>LIST&#8239;:</h2>
+<b>LIST&#160; OF&#160; TRANSPILERS&#8239;,&#160; TRANSCOMPILERS.</b>  
+Transpiler usually transforms/converts source-code of one language, into source-code of another language, while keeping most of the algorithms, structures, etc in input source-code, same/intact in the output source-code.  
 
-abbreviations: `JS` = JavaScript &#124; `Asm` = Assembly &#124; `C++` = `Cpp` = C plus plus &#124; `AS` = ActionScript &#124; `✱` = any = others = few others
+abbreviations : `JS` = JavaScript &#124; `Asm` = Assembly &#124; `C++` = `Cpp` = C plus plus &#124; `AS` = ActionScript &#124; `✱` = any = others = few others.
 
-By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of SOURCE-CODE CONVERTER/&#8239;TRANSPILER from various websites<b>:</b>
+By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of&#160; SOURCE-CODE&#8239; TO&#8239; SOURCE-CODE&#160; CONVERTER/&#8239;TRANSPILER<b>:</b>
 * `Go` to `C`:  
 `•` [go2c][7] (mukadr)  
 `•` [go-transpiler][8] (mewbak)  
 `•` [goc][9]  
+`•` [emgo](https://github.com/ziutek/emgo) (Subset of `Go` into `C` as intermediate) (32bit embedded hardware)  
 `•` <s>&#160;[go-transpiler][10] (supercoww)&#160;</s>
 * `Go/Golang` to `C++/Cpp`:  
 `•` [gomoku][11]  
@@ -108,18 +117,21 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of SOURCE
 `•` [llvm-cbe][23]  
 * `Rust` to `C`:  
 `•` [llvm-cbe][23]  
-`•` [mrustc][24]
+`•` [mrustc][24](thePowersGang) (John Hodge Mutabah's Rust Compiler)
 * `Java` to `C`:  
 `•` [java2c][25]  
 `•` [java2c][26] (RaphaelCohn)  
 `•` [jack][27] (BadLogic)
 * `Java` to `objC`:  
-`•` [j2objc][28]
+`•` [j2objc][28] (`Java` to `objC` for iOS)
 * `Python` program&#47;source to `C/C++` code:  
 `•` [Convert Python program to C&#47;C&#43;&#43; code&#63;][29]  
 `•` [nuitka][30]<sup>[2][31]</sup>  
-`•` [py14][32] (`Python` to `C++14`)
+`•` [py14][32](LukasMartinelli) (`Python` to `C++14`)  
+`•` [pythran](https://github.com/serge-sans-paille/pythran)  
+`•` [shedskin](https://github.com/shedskin/shedskin) (`Python` 2.4-2.6 into `C++`)
 * `Python` to `C`:  
+`•` [Cython](https://cython.org/)<sup><a href="https://pypi.org/project/Cython/">2</a></sup>  
 `•` [transpiler][33] (gaurav139v)  
 `•` [transpyle][34] (`Python`&lt;--&gt;`C`)  
 `•` [py2cmod][35] (`Python` To `C` Module Generator)  
@@ -129,6 +141,8 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of SOURCE
 `•` [lua2c][39] (davidm)
 * `WebAssembly`-source to `C`:  
 `•` [wasm2c][40]
+* `WebAssembly`-binary to `C`: 
+`•` [wasmdec](https://github.com/wwwg/wasmdec)
 * `Assembly`-source to `C`:  
 `•` [Boomerang][41]  
 `•` [RetDec][42]  
@@ -141,7 +155,8 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of SOURCE
 * `JavaScript`/`JS`/`TypeScript` to `C`:  
 `•` [ts2c][49]
 * `Perl` to `C`:  
-`•` [Perl2C][50]
+`•` [Perl2C][50]  
+`•` (perlcc](https://metacpan.org/pod/distribution/B-C/script/perlcc.PL)  
 * `Lisp` to `C`:  
 `•` [LispTranspiler][51]/`lispc`  
 `•` [ECL][52]<sup>[2][53]</sup> (`Common-Lisp`-to-`C`)
@@ -224,7 +239,7 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of SOURCE
 * `Go` to `JSON`:  
 `•` [go2json][98]
 * `Go` to `Go-"Assembly"`<sup>[1][99]</sup>:  
-`•` run cmd: `go tool compile -S Main.go` (Google/Golang flavored `"Assembly"`<sup>[2][100]</sup>, its NOT general `Assembly`),  
+`•` run cmd: `go tool compile -S Main.go` (Google/`Golang` flavored `"Assembly"`<sup>[2][100]</sup>, its NOT general `Assembly`),  
   or, run this cmd: `go build -gcflags -S Main.go`
 * `C#` &lt;--&gt; `VB.Net`:  
 `•` [roslyn][101]
@@ -241,18 +256,27 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of SOURCE
 * `C++` to `Python`:  
 `•` [seasnake](https://github.com/pybee/seasnake)  
 `•` [cpp2python](https://github.com/andreikop/cpp2python)  
+* `JS`/`JavaScript` to `WebAssembly`:  
+`•` [NectarJS](https://github.com/NectarJS/nectarjs)
 * From `Java`, `Kotlin`, `Scala`  
   to `JavaScript`, `C++`, `D`, `C#`, `PHP`, `AS3`, `Dart`, `Haxe`:  
 `•` [jtransc][102]
 * `Java` to `✱`:  
 `•` [spoon][103]<sup>[2][104]</sup>
-* `Haxe` to `ActionScript 3`/`AS3`, `AS2`, `JavaScript`/`JS`, `Java`, `C++`, `C#`, `PHP`, `Python`, `Lua`, `Neko`:  
+* `Haxe` &lt;-to-&gt; `ActionScript 3`/`AS3`, `AS2`, `JavaScript`/`JS`, `Java`, `C++`, `C#`, `PHP`, `Python`, `Lua`, `Neko`:  
 `•` [Haxe][105]
+* `Nim` &lt;-to-&gt; `C`, `C++`, `objC`, `JavaScript`/`JS`:  
+`•` [Nim](https://nim-lang.org/)<sup><a href="https://en.wikipedia.org/wiki/Nim_%28programming_language%29">2</a>, <a href="https://github.com/nim-lang/Nim">3</a></sup>
 * `C` to `✱`:  
 `•` [CIL][106]  
 `•` [Coccinelle][107] <sup>[2][108], [3][109]</sup>
+* From `Lua`(v5.1.3, v5.2), `Javascript`, `Perl` 5, `C`, `Java`, `Common Lisp`(partial) 
+  to `C`:  
+`•` [clue](https://github.com/davidgiven/clue)
+* From `Ć` &lt;-to-&gt; `C`, `C++`, `C#`, `Java`, `JavaScript`, `Python`, `Swift` Or `OpenCL C`:  
+`•` [cito](https://github.com/pfusik/cito)(pfusik)
 * From `JavaScript`, `Java`, `Go`, `Swift`, `PHP`, `C++`, `C#`, `Scala`  
-  to `JavaScript`, `Java`, `Go`, `Swift`, `PHP`, `C++`, `C#`, `Scala`:  
+  &lt;-to-&gt; `JavaScript`, `Java`, `Go`, `Swift`, `PHP`, `C++`, `C#`, `Scala`:  
 `•` [Ranger][110] (multi/cross language transpiler)
 * From `Java`  
   to `Java`, `C`, `C++`, `JavaScript`, `C#`, `R`, `PHP`, `Python`, `VisualBasic`/`VBA`:  
@@ -265,17 +289,19 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of SOURCE
 * `pseudo` based Algorithms<sup>[1][115]</sup>/Libs to idiomatic<sup>[1][116]</sup> `Python 3`, `JS`, `Go`, `C#`, `Ruby`:  
 `•` [pseudo][117]
 * `CUDA` to Portable HIP<sup>[1][118]</sup> `C++/Cpp`:  
-`•` [HIPIFY][119]<sup>[2][120], [3][121]</sup>  
+`•` [HIPIFY][119]<sup>[2][120], [3][121], <a href="https://news.ycombinator.com/item?id=16611979">4</a></sup>  
 `•` [cu2c][122] (`CUDA` to `C++`)
 * `✱` to `✱` <sup>[1][123]</sup> : Framework/Library, etc:  
 `•` [RascalMPL][124] <sup>[2][125], [3][126]</sup>  
 `•` [JetBrains MPS][127] <sup>[2][128] </sup>  
-`•` [DMS Software Reengineering Toolkit][129] (DMS)  
-`•` [ROSE compiler framework][130]
+`•` [ROSE compiler framework][130] (`C`(`C89` & `C98`), `C++`(`C++98` & `C++11`), `UPC`, `Fortran` (77/95/2003), `OpenMP`, `Java`, `Python`, `PHP`)  
+`•` [DMS Software Reengineering Toolkit][129] (DMS) (proprietory, not-openSource)  
+`•` <a href="https://cri.ensmp.fr/pips/home.html">PIPS</a> <sup><a href="https://pips4u.org/">2</a></sup> (Parallélisation interprocédurale de programmes scientifiques, aka: A Workbench for Interprocedural Program Analyses and Parallelization) can transpile `C` & `Fortran` &lt;-to-&gt; `C` & `Fortran` & `SmallTalk`, developed by Mines-ParisTech<sup><a href="http://www.minesparis.psl.eu/">1</a></sup>.
 * Transpiling internals, tools, etc:  
 `•` [Comparison of Parser-Generators][35]: see various types of internal parser engines.  
 `•` [walkngo][131] (Walker for Go-AST)  
 `•` [llvm2c][132](staticafi) fork of [llvm2c][133](petrv7) LLVM bitcode to `C`  
+`•` <a href="https://github.com/draperlaboratory/llvm-cbe">llvm-cbe</a>(DraperLaboratory) LLVM-C-BackEnd  
 <br />
 <br />
 abbreviation : `CPL` = Computer Programming Language.
@@ -285,7 +311,22 @@ ANY USER/PEOPLE HAVE FULL FREEDOM+RIGHT+CHOICE TO CHOOSE ANY LANGUAGE & ANY TRAN
 <br />
 <br />
 <br />
+LIST&#160; OF&#160; COMPILERS&#8239;:  
+compilers usually transforms/converts source-code into binary machine-code.  
+`•` <a href="https://en.wikipedia.org/wiki/List_of_compilers">List of Compilers</a> (wikipedia).  
+`•` <a href="https://github.com/dbohdan/compilers-targeting-c">List of Compilers Targeting C</a> (means, uses `C` as output or intermediate). Dev: D. Bohdan.  
 <br />
+<br />
+<br />
+<br />
+<a href="https://github.com/BayesWitnesses/m2cgen">m2cgen</a> : Transform ML models into a native code (`Java`, `C`, `Python`, `Go`, `JavaScript`, `Visual Basic`, `C#`, `R`, `PowerShell`, `PHP`, `Dart`, `Haskell`, `Ruby`) with zero dependencies.  
+
+
+<br />
+<br />
+<br />
+<br />
+
 Transpiler.And.Similar.List : <a href="#License">Copyright</a> (C) 2020  atErik (Erik T. Ashfolk).
 
 
