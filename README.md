@@ -15,6 +15,8 @@ List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-cod
   <b class="b">•</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc.<br />
   <b class="b">•</b> Do Not Use Any Data/File From This Project Into Military/Offense/Attack/Killing Forces,etc.<br />
   <b class="b">•</b> Do Not Use Any Data/File From This Project To File LawSuit Against Someone Who Uses It/Derivative To Save/Protect Life,Liberty,Privacy,Community,Earth,etc.<br />
+  <b class="b">•</b> Do Not Use Remove Any Of These Restrictions & Permissions.<br />
+  <b class="b">•</b> No-Permission Given/Granted To Anyone To Send Me/Us About "Information" Take Down Or Removal Notice/Request , As Access To "Information" Is A Fundamental Right , And So Information Cannot Be Taken Down Or Removed . People's Security Inside A Country Has More Priority Than Their Country's Corrupt Government/Officials Or Businessman's Continuation Of Criminal-Acts . Security+Safety+Stablity Of People Increases With Correct Information . Information (On An Item) Can Be Informative & Used For Correct/Good Purpose Or For Taking Correct/Good (Informed) Decision After Analysis With It Or Information Can Be Used For Defense Or Can Be Used To Reduce Crime . Items Are Not Located Here in this List/Documents.<br />
   <b class="b">•</b> GNU Affero General Public License Version 3 
   (<a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">AGPL v3</a>).<br />
   <b class="b">•</b> Copyright <b>©</b> 2020 atErik (Erik T. Ashfolk) (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
@@ -333,20 +335,17 @@ transpiler to convert <code>"Go"</code>/<code>"Golang"</code> source-code into
   <a href="https://stackoverflow.com/questions/15970804/">2</a>, 
   <a href="https://stackoverflow.com/questions/1833484/">3</a>, 
   <a href="https://stackoverflow.com/questions/5050349/">4</a>.<br />
-  Compiler tools can also convert <code>C++</code>-to-<code>C</code>:<br />
+  Compiler tools can also convert <code>C++</code>-to-<code>C</code><sup><a href="https://github.com/JuliaComputing/llvm-cbe">1</a></sup>:<br />
   &#160;&#160;<code>clang -c CPPtoC.cpp -o CPPtoC.bc -emit-llvm</code><br />
   &#160;&#160;<code>clang -march=c CPPtoC.bc -o CPPtoC.c</code><br />
   &#160;&#160;&#160;or<br />
-  &#160;&#160;<code>llvm-g++ -c CPPtoC.cp -o CPPtoC.bc -emit-llvm</code><br />
-  &#160;&#160;<code>llc -march=c CPPtoC.bc -o CPPtoC.c</code>
+  &#160;&#160;<code>llvm-g++ -c CPPtoC.cpp -o CPPtoC.bc -emit-llvm</code><br />
+  &#160;&#160;<code>llc -march=c -enable-correct-eh-support CPPtoC.bc -o CPPtoC.c</code>
   </li>
   </ul>
 </li>
 <li> in this solution-"C" steps , transpile/conversion occurred 2-TIMES : 
-<code>"Go"</code>--&gt;<code>"C++"</code>--&gt;<code>"C"</code>, and in both case 
-destination languages are closer language, so final <code>"C"</code> source-code 
-will still have high-level structures fairly intact that were used in initial 
-<code>"Go"</code> source-code, which can be improved by a dev/user.
+<code>"Go"</code>--&gt;<code>"C++"</code>--&gt;<code>"C"</code> . In "Go"-to-"C++" conversion by "gomoku", only subset (smaller portion) of "Go" is supported, but it can keep high-level structures/algorithms, etc intact . Then, in "C++"-to-"C" conversion stage, output quality varies . When LLVM/llc, etc are used, then output "C" does not have input's high-level structures intact anymore . Comeau C&#47;C&#43;&#43; appears able to keep high-level structures intact during "C++"-to-"C" conversion, but it is a proprietary (aka: not-openSource) & older tool.
 </li>
 </ul>
 <br />
