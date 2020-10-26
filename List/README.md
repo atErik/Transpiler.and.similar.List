@@ -319,23 +319,23 @@ ANY USER/PEOPLE HAVE FULL FREEDOM+RIGHT+CHOICE TO CHOOSE ANY LANGUAGE & ANY TRAN
 <h3>LIST&#160; OF&#160; DECOMPILERS&#8239;:</h3>
 <a href="https://en.wikipedia.org/wiki/Decompiler">Decompiler</a> usually transforms/converts very-low-level binary machine-code or very low-level `Assembly` source-code , into a slightly higher-level source-code , for-example: `C` or `C++`, etc or `Assembly` for another or same hardware platform.  
 Decompiling process usually have these deficienies<sup><a href="https://unix.stackexchange.com/a/418353/367237">1</a></sup> : if there were Comments, they are irreversibly lost . Variable names are lost . Loops may be changed/unrolled for performance . Functions may be rearranged, etc . Decompiler's output is still helpful for analysis, etc.<br />
-`•` <a href="https://github.com/BoomerangDecompiler/boomerang">Boomerang</a><sup><a href="https://sourceforge.net/projects/boomerang/">2</a></sup>, is a decompiler, that supports : x86 (IA-32 only), PPC, ST20 architectures , file formats: ELF, PE, DOS MZ, DOS/4GW LE, Mach-O , and can convert machine-code into `"C"` based output.  
-`•` <a href="https://github.com/eteran/edb-debugger">edb</a>, is a cross platform AArch32/x86/x86-64 debugger, disassembler, decompiler.  
-`•` <a href="https://www.backerstreet.com/rec/recdload.htm">REC</a> (Reverse Engineering Compiler), is a decompiler, etc . It can convert binary into `"C"` source-code.  
-`•` <a href="https://github.com/uxmal/reko">reko</a><sup><a href="https://sourceforge.net/projects/decompiler/">2</a></sup>, is a binary (to `"C"` source-code) decompiler, disassembler, etc . Supports x86, x86-64, etc.  
-`•` <a href="https://github.com/avast/retdec">RetDec</a><sup><a href="https://retdec.com/">2</a></sup>, is a retargetable machine-code decompiler based on LLVM.  
-`•` <a href="http://www.hex-rays.com/idapro/">Ida-Pro</a> is developed by Hex-Rays . Commercial . But there is a Community plan (with limited feature) available for <a href="https://www.hex-rays.com/products/ida/support/download_freeware/">free</a> : lacks all features introduced in IDA > v7.0, lacks support for many processors, file formats, etc, comes without technical support, etc . It is a decompiler, disassembler, etc, etc . IDA disassembles binary into `Assembly`-source, then an add-on called "Hex-Rays" can decompile that `Assembly` into `C/C++` source-code.  
-`•` <a href="https://derevenets.com/">Snowman</a> : it can convert ARM, x86, and x86-64 architecture based ELF, Mach-O or PE formatted binary machine-code file or `Assembly`-code , into `C/C++` output.  
-`•` <a href="https://www.pnfsoftware.com/">JEB decompiler</a><sup><a href="https://en.wikipedia.org/wiki/JEB_decompiler">2</a></sup>, is a decompiler & disassembler . Converts dalvik bytecode into Java source-code. Dalvik is a VM for Android OS.  
- `•` <a href="https://www.capstone-engine.org/showcase.html">List</a> of Decompiler(s), DisAssembler(s), etc.  
+• <a href="https://github.com/BoomerangDecompiler/boomerang">Boomerang</a><sup><a href="https://sourceforge.net/projects/boomerang/">2</a></sup>, is a decompiler, that supports : x86 (IA-32 only), PPC, ST20 architectures , file formats: ELF, PE, DOS MZ, DOS/4GW LE, Mach-O , and can convert machine-code into `"C"` based output.<br />
+• <a href="https://github.com/eteran/edb-debugger">edb</a>, is a cross platform AArch32/x86/x86-64 debugger, disassembler, decompiler.<br />
+• <a href="https://www.backerstreet.com/rec/recdload.htm">REC</a> (Reverse Engineering Compiler), is a decompiler, etc . It can convert binary into `"C"` source-code.<br />
+• <a href="https://github.com/uxmal/reko">reko</a><sup><a href="https://sourceforge.net/projects/decompiler/">2</a></sup>, is a binary (to `"C"` source-code) decompiler, disassembler, etc . Supports x86, x86-64, etc.<br />
+• <a href="https://github.com/avast/retdec">RetDec</a><sup><a href="https://retdec.com/">2</a></sup>, is a retargetable machine-code decompiler based on LLVM.<br />
+• <a href="http://www.hex-rays.com/idapro/">Ida-Pro</a> is developed by Hex-Rays . Commercial . But there is a Community plan (with limited feature) available for <a href="https://www.hex-rays.com/products/ida/support/download_freeware/">free</a> : lacks all features introduced in IDA > v7.0, lacks support for many processors, file formats, etc, comes without technical support, etc . It is a decompiler, disassembler, etc, etc . IDA disassembles binary into `Assembly`-source, then an add-on called "Hex-Rays" can decompile that `Assembly` into `C/C++` source-code.<br />
+• <a href="https://derevenets.com/">Snowman</a> : it can convert ARM, x86, and x86-64 architecture based ELF, Mach-O or PE formatted binary machine-code file or `Assembly`-code , into `C/C++` output.<br />
+• <a href="https://www.pnfsoftware.com/">JEB decompiler</a><sup><a href="https://en.wikipedia.org/wiki/JEB_decompiler">2</a></sup>, is a decompiler & disassembler . Converts dalvik bytecode into Java source-code. Dalvik is a VM for Android OS.<br />
+ • <a href="https://www.capstone-engine.org/showcase.html">List</a> of Decompiler(s), DisAssembler(s), etc.<br />
 <br />
 <br />
 <br />
 
 <h3>LIST&#160; OF&#160; COMPILERS&#8239;:</h3>
-<a href="https://en.wikipedia.org/wiki/Compiler">Compiler</a> usually transforms/converts source-code into executable binary machine-code file for different hardware platform.  
-`•` <a href="https://en.wikipedia.org/wiki/List_of_compilers">List of Compilers</a> (wikipedia).  
-`•` <a href="https://github.com/dbohdan/compilers-targeting-c">List of Compilers Targeting C</a> (means, uses `C` as output or intermediate). Dev: D. Bohdan.  
+<a href="https://en.wikipedia.org/wiki/Compiler">Compiler</a> usually transforms/converts source-code into executable binary machine-code file for different hardware platform.<br />
+• <a href="https://en.wikipedia.org/wiki/List_of_compilers">List of Compilers</a> (wikipedia).<br />
+• <a href="https://github.com/dbohdan/compilers-targeting-c">List of Compilers Targeting C</a> (means, uses `C` as output or intermediate). Dev: D. Bohdan.<br />
 <br />
 <br />
 <br />
@@ -343,23 +343,24 @@ Decompiling process usually have these deficienies<sup><a href="https://unix.sta
 
 <h3>LIST&#160; OF&#160; DISASSEMBLERS&#8239;:</h3>
 <a href="https://en.wikipedia.org/wiki/Disassembler">Disassembler</a> usually performs analysis on binary executable code/file for a hardware, and often loads varius poertion of input into hardware for better analysis, and finally converts those into `Assembly` source-code for further anyalysis.<br />
-`•` <a href="https://lldb.llvm.org/">lldb</a><sup><a href="https://lldb.llvm.org/use/tutorial.html">2</a></sup>, is default debugger for Xcode in macOS , it can utilize existing libraries in larger LLVM Project : such as the Clang expression parser, LLVM disassembler, etc . It can debug `C`, `Objective-C`(`objC`) and `C++` on mac desktop & iOS devices & in simulator . Add these tools to enhance it : <a href="https://github.com/cyrus-and/gdb-dashboard">gdb-dashboard</a> or <a href="https://github.com/cs01/gdbgui">gdbgui</a>.  
-`•` <a href="https://github.com/cojocar/bin2llvm">bin2llvm</a>, a binary (ARM) to LLVM translator.  
-`•` <a href="https://github.com/netromdk/dispar">dispar</a>, loads binaries (32+64 bit Mach-O & universal binaries), libraries, core dumps etc to do analysis of their structure and data in `Assembly`; most notably their strings, symbols, and functions.  
-`•` <a href="https://github.com/wisk/medusa">medusa</a>, is interactive disassembler . Supports ELF, PE, Mach-O, Gameboy, ST62ROM binaries (x86, x86-64, ).  
-`•` <a href="https://github.com/vivisect/vivisect">Vivisect</a>/Vdb/Vtrace, is a combined disassembler, static analysis, symbolic execution and debugger framework.  
-`•` <a href="https://github.com/Jormit/zdb">zdb</a>, is a debugger & disassembler (and decompiler) for 64 bit ELF binary to `Assembly`.  
-`•` <a href="https://github.com/zyantific/zydis">zydis</a><sup><a href="https://zydis.re/">2</a></sup>, is a x86/x86-64 disassembler library . Has bindings for <a href="https://github.com/jpap/go-zydis">Go</a>, `Pascal`, `Python 3`, `Rust`, `LuaJIT`.  
-`•` <a href="https://x64dbg.com/#start">x64dbg</a>, is a x64 / x32 debugger, etc for Windows.  
-`•` <a href="https://github.com/aquynh/capstone">capstone</a> <sup><a href="http://www.capstone-engine.org/">2</a></sup>.  
-`•` <a href="https://github.com/radareorg/radare2">radare2</a>(r2), is a complete framework for reverse-engineering analysis of binaries; .  
-`•` <a href="https://en.wikipedia.org/wiki/Ghidra">Ghidra</a><sup><a href="https://ghidra-sre.org/">2</a></sup>, developed by <a href="https://en.wikipedia.org/wiki/National_Security_Agency">NSA</a> of USA.  
-`•` <a href="https://binary.ninja/">Binary.Ninja</a><sup><a href="https://en.wikipedia.org/wiki/Binary_Ninja">2</a></sup>, is a reverse-engineering analysis platform developed by Vector 35 Inc.  
+• <a href="https://lldb.llvm.org/">lldb</a><sup><a href="https://lldb.llvm.org/use/tutorial.html">2</a></sup>, is default debugger for Xcode in macOS , it can utilize existing libraries in larger LLVM Project : such as the Clang expression parser, LLVM disassembler, etc . It can debug `C`, `Objective-C`(`objC`) and `C++` on mac desktop & iOS devices & in simulator . Add these tools to enhance it : <a href="https://github.com/cyrus-and/gdb-dashboard">gdb-dashboard</a> or <a href="https://github.com/cs01/gdbgui">gdbgui</a>.<br />
+• <a href="https://github.com/cojocar/bin2llvm">bin2llvm</a>, a binary (ARM) to LLVM translator.<br />
+• <a href="https://github.com/netromdk/dispar">dispar</a>, loads binaries (32+64 bit Mach-O & universal binaries), libraries, core dumps etc to do analysis of their structure and data in `Assembly`; most notably their strings, symbols, and functions.<br />
+• <a href="https://github.com/wisk/medusa">medusa</a>, is interactive disassembler . Supports ELF, PE, Mach-O, Gameboy, ST62ROM binaries (x86, x86-64, ).<br />
+• <a href="https://github.com/vivisect/vivisect">Vivisect</a>/Vdb/Vtrace, is a combined disassembler, static analysis, symbolic execution and debugger framework.<br />
+• <a href="https://github.com/Jormit/zdb">zdb</a>, is a debugger & disassembler (and decompiler) for 64 bit ELF binary to `Assembly`.<br />
+• <a href="https://github.com/zyantific/zydis">zydis</a><sup><a href="https://zydis.re/">2</a></sup>, is a x86/x86-64 disassembler library . Has bindings for <a href="https://github.com/jpap/go-zydis">Go</a>, `Pascal`, `Python 3`, `Rust`, `LuaJIT`.<br />
+• <a href="https://x64dbg.com/#start">x64dbg</a>, is a x64 / x32 debugger, etc for Windows.<br />
+• <a href="https://github.com/aquynh/capstone">capstone</a> <sup><a href="http://www.capstone-engine.org/">2</a></sup>.<br />
+• <a href="https://github.com/radareorg/radare2">radare2</a>(r2), is a complete framework for reverse-engineering analysis of binaries.<br />
+• <a href="https://en.wikipedia.org/wiki/Ghidra">Ghidra</a><sup><a href="https://ghidra-sre.org/">2</a></sup>, developed by <a href="https://en.wikipedia.org/wiki/National_Security_Agency">NSA</a> of USA.<br />
+• <a href="https://binary.ninja/">Binary.Ninja</a><sup><a href="https://en.wikipedia.org/wiki/Binary_Ninja">2</a></sup>, is a reverse-engineering analysis platform developed by Vector 35 Inc.<br />
 <br />
 <br />
 <br />
 <br />
 
+...<br />
 <a href="https://github.com/BayesWitnesses/m2cgen">m2cgen</a> : Transform ML models into a native code (`Java`, `C`, `Python`, `Go`, `JavaScript`, `Visual Basic`, `C#`, `R`, `PowerShell`, `PHP`, `Dart`, `Haskell`, `Ruby`) with zero dependencies.  
 
 
