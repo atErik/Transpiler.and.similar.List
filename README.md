@@ -16,7 +16,7 @@ List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-cod
   <b class="b">•</b> Do Not Use Any Data/File From This Project Into Military/Offense/Attack/Killing Forces,etc.<br />
   <b class="b">•</b> Do Not Use Any Data/File From This Project To File LawSuit Against Someone Who Uses It/Derivative To Save/Protect Life,Liberty,Privacy,Community,Earth,etc.<br />
   <b class="b">•</b> Do Not Use Remove Any Of These Restrictions & Permissions.<br />
-  <b class="b">•</b> No-Permission Given/Granted To Anyone To Send Me/Us About "Information" Take Down Or Removal Notice/Request , As Access To "Information" Is A Fundamental Right , And So Information Cannot Be Taken Down Or Removed . People's Security Inside A Country Has More Priority Than Their Country's Corrupt Government/Officials Or Businessman's Continuation Of Criminal-Acts . Security+Safety+Stablity Of People Increases With Correct Information . Information (On An Item) Can Be Informative & Used For Correct/Good Purpose Or For Taking Correct/Good (Informed) Decision After Analysis With It Or Information Can Be Used For Defense Or Can Be Used To Reduce Crime . Items Are Not Located Here in this List/Documents.<br />
+  <b class="b">•</b> No-Permission Given/Granted To Anyone To Send Me/Us About "Information" Take Down Or Removal Notice/Request , As Access To "Information" Is A Fundamental Right , And So Information Cannot Be Taken Down Or Removed . People's Security Inside A Country Has More Priority Than Their Country's Corrupt-Government Officials Or Businessman's Continuation Of Criminal-Acts . People Of One Country Or Corrupt-Gov Of One Country Or "National-Security" Of One Country Or even Multiple Of Them , Do Not Have Right To Kill/Deprive People Of Another/Inside Country Or Other People, Nor They Are Above The "Human-Rights" / "Humanity" . Corrupt Laws Or InHumane Laws Are Never Above "Human-Rights" or "Humanity" . Security+Safety+Stablity Of People Begin-With & Increases-With Correct Information . Information (On An Item) Can Be Informative & Used For Correct/Good Purpose Or For Taking Correct/Good (Informed) Decision After Analysis With It Or Information Can Be Used For Defense Or Can Be Used To Reduce Crime . Items Are Not Located Here in this List/Documents.<br />
   <b class="b">•</b> GNU Affero General Public License Version 3 
   (<a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">AGPL v3</a>).<br />
   <b class="b">•</b> Copyright <b>©</b> 2020 atErik (Erik T. Ashfolk) (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
@@ -495,10 +495,10 @@ Transpiler/Transcompiler<sup>[1][1]</sup> internally contains primarily three ma
 * 3of3: Generator : output AST is used to generate output/target language code.
 * Transpiler can/may use MetaProgramming<sup>[1][39]</sup>, NLP(Natural Language Processing)<sup>[1][40]</sup>, Finite-state Automata<sup>[1][41], [2][42]</sup>, Lexical Analysis<sup>[1][33]</sup>, Syntax/AST Analysis<sup>[1][32]</sup>, Parser<sup>[1][43], [2][44]</sup>, etc<sup>[1][35]</sup>, etc, to convert source-code of one CLP(computer programming language) into source-code of another CLP.
 * Notes/References:  
-  `•` [Transpiler][45].  
-  `•` [How to write a transpiler][14], [2][46].  
-  `•` [Transpiling between any languages][47].  
-  `•` Shown "Transpiler Diagram Image" in above, is a modified image of original image, which was obtained from <a href="http://RoseCompiler.org/">RoseCompiler</a> website . Rose compiler is released with BSD modified license, and it was developed at <a href="https://computing.llnl.gov/projects/rose-compiler">Lawrence Livermore National Laboratory</a>(LLNL), Livermore, California, United States.  
+ `•` [Transpiler][45].  
+ `•` [How to write a transpiler][14], [2][46].  
+ `•` [Transpiling between any languages][47].  
+ `•` Shown "Transpiler Diagram Image" in above, is a modified image of original image, which was obtained from <a href="http://RoseCompiler.org/">RoseCompiler</a> website . Rose compiler is released with BSD modified license, and it was developed at <a href="https://computing.llnl.gov/projects/rose-compiler">Lawrence Livermore National Laboratory</a>(LLNL), Livermore, California, United States.  
 <br />
 <br />
 <br />
@@ -512,7 +512,7 @@ Then we can compile such transpiled/transcompiled `C/C++` source-code (into bina
 
 So after `Go-to-C` or `Go-to-C++` source-code conversion , it will be possible to change source-code , to add required necessary feature or functionality , and improve `C` (or `C++`) source-code.  
 
-Some users have mis-conception (aka: brainwashed) about `"Go"` computer programming language , and some users intentionally lies purposefully as they work under some projects from "Google" or projects supported by "Google", or working under a project that uses Google products, for-example : Google's "Go" language, Google Advertisements, Violating Privacy-Rights (aka Spying on People,Citizens,Users,Persons), etc, etc , these are hard-core Google-PUSHERS/supporters , some of these criminal/"evil" acts are very dangerous Anti-Humanity activities.  
+Some users have mis-conception (aka: brainwashed) about `"Go"` computer programming language , and some users intentionally lies purposefully as they work under some projects from "Google" or projects supported by "Google", or working under a project that uses Google products, for-example : Google's "Go" language, Google Advertisements, Violating Privacy-Rights (aka Spying on People,Citizens,Users,Persons), etc, etc , these are hard-core Google-PUSHERS/supporters , some of these criminal/"evil" acts are very dangerous Anti-Humanity (Anti-Human-Rights) activities.  
 
 We need to push Google (and it's parent company: Alphabet) and it's corporate-controllers by exposing their criminal & "evil" activities , so that their harmful & "evil" acts are Questioned & punished , so that in end Google (and Alphabet) & it's corp-controllers chooses real good & correct & non-"evil" ways to do good & correct & non-"evil" things for People, Citizens, Users , not-only inside USA but for entire World.  
 In entire world, country after country are now filing Lawsuit against years of Google's "evil"/hamrful practices . So if Google/Alphabet wants to do business with/for people/companies, they need to cultivate good & non-"evil" practices.<sup>[1](https://en.wikipedia.org/wiki/Criticism_of_Google), [2](https://en.wikipedia.org/wiki/Google_litigation), [3](https://www.bbc.com/news/business-52887340), [4](https://www.reuters.com/article/us-alphabet-google-privacy-lawsuit-idUSKBN23933H), [5](https://www.nytimes.com/2020/09/21/technology/google-antitrust-justice-department.html), [6](https://www.nationalreview.com/news/department-of-justice-state-attorneys-general-to-sue-google-for-antitrust-violations-report/)</sup>
@@ -520,8 +520,19 @@ In entire world, country after country are now filing Lawsuit against years of G
 So, I have added data/info from accredited computer COMPETITION , BENCHMARKS , etc to prove which computer programming language is better & which is not.  
 
 And remember, ANYONE/USER/people have full Freedom+Right to informaton what he/she wants, and also have full Freedom+Right to convert one language into another.<sup>[1][48], [2][49], [3][50], [4][51], [5][52]</sup>  
-( water is needed by human body to survive . human has right to water )  
-( information is needed inside the human brain for taking correct & good decision , to survive & to survive better . human has right to information )  
+
+Do not ever forget, there are people & groups who are pushing more & more for violation of human-rights , and also there are people who are pushing for establishing more human-rights.  
+
+Some Common-Sense & Human-Rights:
+* ( water is needed by human body to survive . human has right of access to water & sanitation <sup><a href="https://www.unwater.org/water-facts/human-rights/">1</a>, <a href="https://www.un.org/es/comun/docs/?symbol=A/RES/64/292&lang=E">2</a></sup> . <i>California, USA has California Water Code : “every human being has the right to safe, clean, affordable, and accessible water.”<sup><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=WAT&sectionNum=106.3">1</a></sup></i> . Other USA states have no such specific right. )
+* ( information is needed inside the human brain for taking correct & good decision , to survive & to survive better . human has right to information <sup>[1][53], [2][54], [3][55]</sup>.<br />
+1946 UNGA Resolution 59, and 1948 Article-19 of UDHR (Universal Declaration of Human Rights) : <i>“Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.”</i> <sup>[1][56]</sup> . USA signed+Agreed to it.<br />
+In "American Convention On Human Rights" (A.K.A.: Pact Of San Jose, Costa Rica) (B-32)<sup>[1][55]</sup> : <i>“Article 13. Freedom of Thought and Expression: 1. Everyone has the right to freedom of thought and expression. This right includes freedom to seek, receive, and impart information and ideas of all kinds, regardless of frontiers, either orally, in writing, in print, in the form of art, or through any other medium of one's choice. 2. ... 3. The right of expression may not be restricted by indirect methods or means, such as the abuse of government or private controls over newsprint, radio broadcasting frequencies, or equipment used in the dissemination of information, or by any other means tending to impede the communication and circulation of ideas and opinions. ... Article 14. Right of Reply: 1. Anyone injured by inaccurate or offensive statements or ideas disseminated to the public in general by a legally regulated medium of communication has the right to reply or to make a correction using the same communications outlet, under such conditions as the law may establish. ...”</i><br />
+By Deceptively Using "National-Security" Excuse, A Corrupt-Gov Cannot Kill People Or Deprive People Or Violate Human-Rights Of Other People Or People Who Are Inside Their Own Country . When A Corrupt-Gov Or A Gov-Run-By-People-From-Business-Corporations Or A Gov-Run-By-Bribery-From-Business-Corporation(s) Can Deceptively Use "National-Security" Excuse To Commit More "Human-Rights" Violation, Then There Is No "Human-Rights" Left, & Nor Will "Human-Rights" Exist Anywhere . No One/Multi Human/Person, And No One/Multi Group, And No One Gov Is Or No Multi-Govs Are Above The "Human-Rights"/"Humanity"<b>.</b><br />
+And By The Way, Exposing The Crime(s)+Violation(s) Of Corrupt-Gov(s) & Corrupt Corporations Is The Real "National-Security" Act , And This Must Be Done With “Freedom Of Press” , Which Is Another Part Of Human-Right : Access To Information . It Exists/Written In USA's First Ammendment Of "Bill Of Rights"(BoR) . It Is In BoR Because Entities Similar To Colonial-British Once Violated "Human-Rights" Massively Around The World And Inside America , And It Is In "Bill Of Rights" There To Protect Humans Again From Similar Future Entities, For-Example: Evil-Zionism Evil-Corporatism, etc, Who Are Again Destroying+Violating "Human-Rights" Around The World And Inside America. )
+* ( Freedom of Expression on the Internet <sup>[1][57]</sup> )
+* ( Press Freedom <sup>[1][58]</sup> )
+<br />
 <br />
 <br />
 
@@ -529,7 +540,7 @@ And remember, ANYONE/USER/people have full Freedom+Right to informaton what he/s
 
 <h4>COMPETITION&#8239; ON&#8239; CAPABILITIES&#8239;:</h4>
 Here are some results of a yearly COMPETITION on CPL, based on CAPABILITIES of CPL and tools<b>:</b>
-<ul><li> https://en.wikipedia.org/wiki/ICFP_Programming_Contest <br />
+<ul><li> <a href="https://en.wikipedia.org/wiki/ICFP_Programming_Contest">https://en.wikipedia.org/wiki/ICFP_Programming_Contest</a> <br />
   In this competition, 1st prize means: "it is the programming tool of choice for discriminating hackers" . 2nd prize means: "it is a fine programming tool for many applications" . 3rd prize means: "it is also not too shabby" . And "Lightning" prize means: "it is very suitable for rapid prototyping".<br />
   In 2019:&#160;&#160; 1st: <code>Rust</code> &#124; 2nd: <code>C++</code> &#124; 3rd: - &#124; Lightning: <code>C++</code> & <code>Haskell</code>.<br />
   In 2018:&#160;&#160; 1st: <code>Rust</code> &#124; 2nd: <code>C++</code>, <code>Python</code>, <code>Ruby</code>, <code>JavaScript</code>, <code>bash</code>, <code>SQL</code> &#124; 3rd: - &#124; Lightning: <code>OCaml</code>.
@@ -558,7 +569,7 @@ See various benchmarks:
 </li>
 <li> Benchmarks from 
 "<a href="https://en.wikipedia.org/wiki/The_Computer_Language_Benchmarks_Game">The Computer Language Benchmarks Game</a>" 
-(CLBG) are based on such criterias <b>:</b> Overall user runtime, Peak memory allocation, 
+(<b>CLBG</b>) are based on such criterias <b>:</b> Overall user runtime, Peak memory allocation, 
 Gzip'ped size of the solution's source code, Sum of total CPU time over all threads, 
 Individual CPU utilization.<br />
 BE-AWARE <b>:</b> many notable developers pointed out results are not perfect benchmarks, 
@@ -590,13 +601,13 @@ The <code>"Go"</code>(Golang) is ~2 to ~5.25 TIMES SLOWER THAN <code>"C"</code> 
 # COMPARISONS&#8239; OF&#8239; CPL&#8239; COMPONENTS&#8239;:
 
 Comparison of Programming Language's instructions, functions, components, etc:  
-`•` [Basic instructions][53].  
-`•` [Syntax][54].  
-`•` [Higher-order function][55].  
-`•` [Operators][56].  
-`•` [Object-Oriented Programming(OOP)][57].  
-`•` [OOP Constructor][58].  
-`•` [Exception handling][59].  
+`•` [Basic instructions][59].  
+`•` [Syntax][60].  
+`•` [Higher-order function][61].  
+`•` [Operators][62].  
+`•` [Object-Oriented Programming(OOP)][63].  
+`•` [OOP Constructor][64].  
+`•` [Exception handling][65].  
 <br />
 <br />
 <br />
@@ -618,19 +629,19 @@ So, Which one is BEST, that will always change or most-likely be different at di
 <br />
 
 # PRE&#8239; &&#8239; POST&#8239; STEPS&#8239; OF&#8239; TRANSPILATION&#8239;:
-Most of the time, certain code/strings need to be modified/changed, & prepared in each initial source-code (here `"Go"`) files (with [PreProcessor][60] type of software), before the primary transpiler can be used.  
+Most of the time, certain code/strings need to be modified/changed, & prepared in each initial source-code (here `"Go"`) files (with [PreProcessor][66] type of software), before the primary transpiler can be used.  
 And, often you also have to change some specific style of code/string in each output (here `"C"` or `"C++"`) file , and you also have to fix or change something that was not automatically generated by transpiler in output source-code.  
 So use below code/string replacing script-codes, mentioned in below linked SO/SE pages:
 * These SO(StackOverflow)/&#8239;SE(StackExchange) Q+A(s) are showing various solutions:  
-  `•` [Use sed to replace a multi line string][61].  
-  `•` [Do recursive find &amp; replace string with awk or sed][62].  
-  `•` [Find &amp; replace string in all files recursively using grep &amp; sed][63].  
-  `•` [How can I replace a newline &#40;&#92;n&#41; using sed&#63;][64].  
-  `•` [Re2c][65]: fast flexible scanner for regular expression matching.  
-  `•` [Recursively read folders & execute command on each][66].  
-  `•` [Process all files in all directories][67].  
-  `•` [Execute command on all files in a directory][68].  
-  `•` [In Bash, Handle paths that have spaces and wildcards][69].  
+ `•` [Use sed to replace a multi line string][67].  
+ `•` [Do recursive find &amp; replace string with awk or sed][68].  
+ `•` [Find &amp; replace string in all files recursively using grep &amp; sed][69].  
+ `•` [How can I replace a newline &#40;&#92;n&#41; using sed&#63;][70].  
+ `•` [Re2c][71]: fast flexible scanner for regular expression matching.  
+ `•` [Recursively read folders & execute command on each][72].  
+ `•` [Process all files in all directories][73].  
+ `•` [Execute command on all files in a directory][74].  
+ `•` [In Bash, Handle paths that have spaces and wildcards][75].  
 <br />
 <br />
 <br />
@@ -657,9 +668,9 @@ So here in below, i have tried to gather & post correct advices , after reading 
 • But, if you do not understand the language used in that (upstream) software very well, then one option is to learn it, & try to understand related sections , so "fork" that (upstream) software, & try to add new feature in that forked software . You can add copyright notice on your contributed code & on your code-files contribution, but usually you have to release it with same license type that is used by the "upstream" project, not with a different or incompatible license.<sup><a href="https://softwareengineering.stackexchange.com/questions/330733/">1</a>, <a href="https://www.gnu.org/licenses/gpl-faq.html">2</a>, <a href="https://www.gnu.org/licenses/license-list.en.html#Expat">3</a>, <a href="https://en.wikipedia.org/wiki/Software_relicensing#Cases">4</a></sup>  
 Disclaimer: IANAL.  
 • If above steps are not working well or not-suitable enough to achieve your goal/objectives , then, one of the option you have is: "Transpile" the entire (upstream) software into the "destination" computer language which is your native computer language which you have LEARNED & understand better . By the way, this is not an easy option.  
-• So begin with by creating a new project in GitHub<sup>[1][74]</sup>, BitBucket<sup>[1][75]</sup>, GNU-Savannah<sup>[1][76]</sup>, SourceForge<sup>[1][77]</sup>, GitLab<sup>[1][78]</sup>, etc etc various open-source code collaboration repository sites<sup>[1][79]</sup> (aka: <b>SCH</b>=Source-Code-Hosting), choose such site where more devs with higher-skill on that "destination" computer language are hanging-out, and posses friendly collaborative spirit . Or, create project in multiple code-collaboration sites & SYNC each one after each code-update . Or, load Git<sup>[1][80], [2][81], [3][82]</sup> <b>VCS</b> (version control software<sup>[1][83]</sup>) in your own server or personal computer, & put your transpiled code in it. (Repo=Repository)  
+• So begin with by creating a new project in GitHub<sup>[1][76]</sup>, BitBucket<sup>[1][77]</sup>, GNU-Savannah<sup>[1][78]</sup>, SourceForge<sup>[1][79]</sup>, GitLab<sup>[1][80]</sup>, etc etc various open-source code collaboration repository sites<sup>[1][81]</sup> (aka: <b>SCH</b>=Source-Code-Hosting), choose such site where more devs with higher-skill on that "destination" computer language are hanging-out, and posses friendly collaborative spirit . Or, create project in multiple code-collaboration sites & SYNC each one after each code-update . Or, load Git<sup>[1][82], [2][83], [3][84]</sup> <b>VCS</b> (version control software<sup>[1][85]</sup>) in your own server or personal computer, & put your transpiled code in it. (Repo=Repository)  
 • Transpile a specific version of upstream software inside your own computer, then immediately upload output source-code of transpilation, into your SCH or VCS, either publish it publicly if you want to share it , Or create "private"-type repo (without publishing it publicly) . If you're skilled enough to develop all side by yourself, then "private"-type repo is useful, Or, keep it "private" until you completely convert all remaining `Go` into `C/C++` . After complete "Go-to-C" or "Go-to-C++" conversion, If you publish publicly then other devs/users can see & may join to improve it or contribute in it.  
-• In source-code conversion/transformation steps, if input source-code is `GPL` licensed, then output also have to be licensed under `GPL` (in most cases. CWPL) . And without all copyright-holder(s) & code-contributor's permission/approval, the `GPL` license (generally) cannot be changed into another license . When input source-code is licensed under `Apache`, `BSD`, `MIT`, etc (or code was released in Public Domain) then output can have same Or different license . If you use or have used your own hand, eye, brain to transform/transpile (aka: source-to-source code conversion) manually some portions or significant portions of source-code , then you can claim copyright ONLY on the portions of code which you yourself have manually by yourself modified or transformed or written (without using any machine/software based transpilation) , so in such case you can add your name under the input/"upstream" software's copyright-holder(s) name, in the destination language (here `"C/C++"`) source-code .  If you have used machine or mechanized process or software to do complete code transpilation, then you cannot claim any copyright on any portion which were transpiled in such way (because, a machine has done it, not you), and in such case, input/"upstream" software's copyright-holder(s) name(s) must be added/declared back into the destination/output source-code, (and again, you cannot add your name under those "upstream"/input software's copyright-holders).<sup>[1][84]</sup>&#160;  So far, there is no Transpiler software, that can do complete 100% conversion of large or real-life useful practical projects , human conversion/transpilation is always needed .  Usually If you have seen (input) source-code or source-algorithms, and then if you have written / transformed / transpiled those algorithms with your own hand, eye, brain, etc manually by yourself into a DIFFERENT destination/output language based code, here `C/C++`, only then, it is a totally new work done/created by you .  When you need to transpile propietory functions done by a machine-code binary program(s) then you first have to find another developer-user who will first convert machine-code or proprietory source-code or dissassembed `Assembly` source-code, etc into "Algorithms", flow-chart, etc, etc first , then you can only see that "Algorithms",etc, (you cannot & must-not see see any source-codes), and then you can write new source-codes (in same or different computer programming language) with your own (human) hand , then such will be treated as "new work", otherwise it will be treated as a "derivative work") . So, in such "new work" case, you can add your name as copyright-holder, without adding any input / "upstream" software's previous copyright-holder(s) name(s) , & you can also use whichever license you prefer, in the output source-code.  
+• In source-code conversion/transformation steps, if input source-code is `GPL` licensed, then output also have to be licensed under `GPL` (in most cases. CWPL) . And without all copyright-holder(s) & code-contributor's permission/approval, the `GPL` license (generally) cannot be changed into another license . When input source-code is licensed under `Apache`, `BSD`, `MIT`, etc (or code was released in Public Domain) then output can have same Or different license . If you use or have used your own hand, eye, brain to transform/transpile (aka: source-to-source code conversion) manually some portions or significant portions of source-code , then you can claim copyright ONLY on the portions of code which you yourself have manually by yourself modified or transformed or written (without using any machine/software based transpilation) , so in such case you can add your name under the input/"upstream" software's copyright-holder(s) name, in the destination language (here `"C/C++"`) source-code .  If you have used machine or mechanized process or software to do complete code transpilation, then you cannot claim any copyright on any portion which were transpiled in such way (because, a machine has done it, not you), and in such case, input/"upstream" software's copyright-holder(s) name(s) must be added/declared back into the destination/output source-code, (and again, you cannot add your name under those "upstream"/input software's copyright-holders).<sup>[1][86]</sup>&#160;  So far, there is no Transpiler software, that can do complete 100% conversion of large or real-life useful practical projects , human conversion/transpilation is always needed .  Usually If you have seen (input) source-code or source-algorithms, and then if you have written / transformed / transpiled those algorithms with your own hand, eye, brain, etc manually by yourself into a DIFFERENT destination/output language based code, here `C/C++`, only then, it is a totally new work done/created by you .  When you need to transpile propietory functions done by a machine-code binary program(s) then you first have to find another developer-user who will first convert machine-code or proprietory source-code or dissassembed `Assembly` source-code, etc into "Algorithms", flow-chart, etc, etc first , then you can only see that "Algorithms",etc, (you cannot & must-not see see any source-codes), and then you can write new source-codes (in same or different computer programming language) with your own (human) hand , then such will be treated as "new work", otherwise it will be treated as a "derivative work") . So, in such "new work" case, you can add your name as copyright-holder, without adding any input / "upstream" software's previous copyright-holder(s) name(s) , & you can also use whichever license you prefer, in the output source-code.  
   Disclaimer: IANAL. CWPL.  
 • Usually, in a transpiled output/destination code , many many code-portions have to be re-worked/re-written by human, to functionally perform same-way as "upstream" (aka: input source-code) software , especially those portions, which you initially could-not transpile during manual transpilation/transformation process, and, there will also be many many non-transpiled source-code portions, when you have used mechanized (or automated) transpilation process or transpiler software , as these tools are not yet capable to transpile (all type of codes) completely, and instead transpiles only a subset(smaller portion) of (simple or limited-advanced) input source-code language into destination/output language . So you or a HUMAN have to write, fix, adjust, & adapt ("destination" language) source-code, and compile / run / test / improve it.  
 • Once you have achieved the state, where, your (transpiled and then improved output/destination code based) software can run same-way as upstream software , then, you can start adding your feature or functionality that you need or want to add . If you have publshed source-code publicly then, you may also find that other devs have began to join & contribute in this new project.  
@@ -748,35 +759,37 @@ Transpiler.And.Similar.List : <a href="#License">Copyright</a> (C) 2020  atErik 
   [50]: https://www.ohchr.org/EN/NewsEvents/Pages/RightToKnow.aspx
   [51]: https://en.wikipedia.org/wiki/Freedom_of_speech
   [52]: https://www.un.org/en/sections/issues-depth/human-rights/
-  [53]: https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28basic_instructions%29
-  [54]: https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28syntax%29
-  [55]: https://en.wikipedia.org/wiki/Higher-order_function#Support_in_programming_languages
-  [56]: https://en.wikipedia.org/wiki/Operator_%28computer_programming%29#Operator_features_in_programming_languages
-  [57]: https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28object-oriented_programming%29
-  [58]: https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29
-  [59]: https://en.wikipedia.org/wiki/Exception_handling_syntax
-  [60]: https://en.wikipedia.org/wiki/Preprocessor
-  [61]: https://unix.stackexchange.com/questions/26284/
-  [62]: https://stackoverflow.com/questions/1583219/
-  [63]: https://stackoverflow.com/questions/15920276/
-  [64]: https://stackoverflow.com/questions/1251999/
-  [65]: https://sourceforge.net/projects/re2c/
-  [66]: https://stackoverflow.com/questions/1333813/
-  [67]: https://stackoverflow.com/questions/55789226/
-  [68]: https://stackoverflow.com/questions/10523415/
-  [69]: https://unix.stackexchange.com/a/607424/367237
-  [70]: https://gitlab.com/the-language/lua2rust
-  [71]: https://objectivec2swift.com/#/converter/code/
-  [72]: https://github.com/LuizZak/SwiftRewriter
-  [73]: https://github.com/elliotchance/c2go
-  [74]: https://en.wikipedia.org/wiki/GitHub
-  [75]: https://en.wikipedia.org/wiki/Bitbucket
-  [76]: https://en.wikipedia.org/wiki/GNU_Savannah
-  [77]: https://en.wikipedia.org/wiki/SourceForge
-  [78]: https://en.wikipedia.org/wiki/GitLab
-  [79]: https://stackoverflow.com/questions/15970804/
-  [80]: https://git.kernel.org/pub/scm/git/git.git/
-  [81]: https://git-scm.com/
-  [82]: https://en.wikipedia.org/wiki/Git
-  [83]: https://en.wikipedia.org/wiki/Comparison_of_version_control_software
-  [84]: https://opensource.stackexchange.com/questions/10521/
+  [53]: https://www.unesco.org/new/en/communication-and-information/freedom-of-expression/freedom-of-information//
+  [54]: http://www.unesco.org/new/en/communication-and-information/freedom-of-expression/freedom-of-information//
+  [55]: https://www.oas.org/dil/treaties_B-32_American_Convention_on_Human_Rights.htm
+  [56]: https://www.ohchr.org/EN/UDHR/Pages/Language.aspx?LangID=eng
+  [57]: https://en.unesco.org/themes/freedom-expression-internet
+  [58]: https://en.unesco.org/themes/press-freedom-all-platforms
+  [59]: https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28basic_instructions%29
+  [60]: https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28syntax%29
+  [61]: https://en.wikipedia.org/wiki/Higher-order_function#Support_in_programming_languages
+  [62]: https://en.wikipedia.org/wiki/Operator_%28computer_programming%29#Operator_features_in_programming_languages
+  [63]: https://en.wikipedia.org/wiki/Comparison_of_programming_languages_%28object-oriented_programming%29
+  [64]: https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29
+  [65]: https://en.wikipedia.org/wiki/Exception_handling_syntax
+  [66]: https://en.wikipedia.org/wiki/Preprocessor
+  [67]: https://unix.stackexchange.com/questions/26284/
+  [68]: https://stackoverflow.com/questions/1583219/
+  [69]: https://stackoverflow.com/questions/15920276/
+  [70]: https://stackoverflow.com/questions/1251999/
+  [71]: https://sourceforge.net/projects/re2c/
+  [72]: https://stackoverflow.com/questions/1333813/
+  [73]: https://stackoverflow.com/questions/55789226/
+  [74]: https://stackoverflow.com/questions/10523415/
+  [75]: https://unix.stackexchange.com/a/607424/367237
+  [76]: https://en.wikipedia.org/wiki/GitHub
+  [77]: https://en.wikipedia.org/wiki/Bitbucket
+  [78]: https://en.wikipedia.org/wiki/GNU_Savannah
+  [79]: https://en.wikipedia.org/wiki/SourceForge
+  [80]: https://en.wikipedia.org/wiki/GitLab
+  [81]: https://stackoverflow.com/questions/15970804/
+  [82]: https://git.kernel.org/pub/scm/git/git.git/
+  [83]: https://git-scm.com/
+  [84]: https://en.wikipedia.org/wiki/Git
+  [85]: https://en.wikipedia.org/wiki/Comparison_of_version_control_software
+  [86]: https://opensource.stackexchange.com/questions/10521/
