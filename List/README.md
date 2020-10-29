@@ -15,6 +15,7 @@ List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-cod
   <b class="b">•</b> Do Not Use Any Data/File From This Project To File LawSuit Against Someone Who Uses It/Derivative To Save/Protect Life,Liberty,Privacy,Correct-Information,Community,Earth,etc.<br />
   <b class="b">•</b> Do Not Use Remove Any Of These Restrictions & Permissions.<br />
   <b class="b">•</b> No-Permission Given/Granted To Anyone To Send Me/Us About "Information" Take-Down Or Removal Notice/Request , Access To "Information" Is A Fundamental Human-Right , And So Information Cannot Be Taken-Down Or Removed . People's Security Inside A Country Has More Priority Than Their Country's Corrupt-Government Officials Or Evil Businessman's Continuation Of Criminal-Acts On Human/Community, Other-Countries, Earth . People Of One Country Or Corrupt-Gov Of One Country Or "National-Security" Of One Country Or Even Multiple Of Them Combined , Are NOT Above The "Human-Rights" / "Humanity" . No One Have More Right To Kill/Deprive/Violate People Of Another/Inside Country Or Other People . Corrupt Laws Or InHumane Laws Are Never Above "Human-Rights" or "Humanity" . Security+Safety+Stablity Of All People Begins-With & Increases-With Correct Information & Awareness . Information (On An Item, Listed Here) Can Be Informative & Used For Correct/Good Purpose Or For Taking Correct/Good (Informed) Decision After Analysis With It Or Information Can Be Used For Defense Or Can Be Used To Reduce Crime Or Catch Criminal Developer Or Initiators, etc . Actual Listed Items Are Not Located Here in This List Or Research Documents.<br />
+  <b class="b">•</b> Peaceful Open Source License, "<a href="License_PeaceOSL_for_TranspilerList.txt">PeaceOSL</a>", v2020-10-28<br />
   <b class="b">•</b> Copyright <b>©</b> 2020 atErik (Erik T. Ashfolk) (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
   at&#69;rïķ＠&#65;śh&#70;ölķ·ć&#333;m&gt;<br />
   &#160;&#160;&#160;&#160;Do Not Copy Eml-Adrs, Type In 
@@ -23,22 +24,61 @@ List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-cod
   &#160;&#160;&#160;&#160;All rights reserved.<br />
   <br />
   <br />
-  "Transpiler.And.Similar.List" : List of transpilers/transcompilers, etc.<br />
-  Copyright (C) 2020  atErik (Erik T. Ashfolk).
-  
-  This program is free software: you can redistribute it and/or modify<br />
-  it under the terms of the GNU Affero General Public License as<br />
-  published by the Free Software Foundation, either version 3 of the<br />
-  License, or (at your option) any later version.
-  
-  This program is distributed in the hope that it will be useful,<br />
-  but WITHOUT ANY WARRANTY; without even the implied warranty of<br />
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.&#160; See the<br />
-  GNU Affero General Public License for more details.<br />
-  
-  You should have received a copy of the GNU Affero General Public License<br />
-  along with this program.&#160; If not, see &lt;https://www.gnu.org/licenses/&gt;.<br />
-  &lt;https://www.gnu.org/licenses/agpl-3.0.html&gt;<br />
+<code><pre>--- BEGIN the Peaceful Open Source License ---
+
+Transpiler.And.Similar.List : List of transpilers, transcompilers,
+decompilers, etc.
+Copyright (C) 2020 Erik T. Ashfolk (atErik at ashfolk dot com).
+
+Redistribution and use of the software accompanying this license in
+source and binary forms, with or without modification,
+are permitted provided that the following eight conditions are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in
+   the documentation and/or other materials provided with the
+   distribution.
+3. Modifications to the source code must retain the above copyright
+   notice, this list of conditions, and the following disclaimer,
+   and may not include further conditions or licensing which go
+   against the spirit of this license.
+4. This software must not be used to cause deliberate harm to any
+   human individual, group, community or country, either directly
+   or indirectly, in any form.
+5. This software must not be used to steal from any human individual,
+   group, community, country or earth, either directly or indirectly,
+   in any form.
+6. This software must not be used to violate (any) human-rights,
+   either directly or indirectly in any form, neither in any physical
+   location, nor in any form of etherspace/cyberspace/Internet.
+7. This software must not be used by any Military, Military branches,
+   Law Enforcement, Law Enforcement branches, or by any Service/Items
+   provider or supplier for Military or Law Enforcement.
+8. This software must not be used by either any Corrupt or
+   Human-Rights Violating (C-o-HR-V) Government(Gov), C-o-HR-V Gov
+   branch offices, C-o-HR-V companies/corporations/businesses,
+   C-o-HR-V organizations, groups, etc Or by any C-o-HR-V private
+   offices, businesses, etc Or by any person working in any of
+   mentioned entity in this section.
+
+DISCLAIMER : THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS
+AND CONTRIBUTORS "AS IS", AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT HOLDER, AUTHORS, OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, MONEY, POSSESSIONS,
+OR LIFE; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+
+--- END of the Peaceful Open Source License ---</pre></code>
+  Get copy of PeaceOSL license from <a href="License_PeaceOSL_for_TranspilerList.txt">here</a>.<br />
   <br />
   <br />
   <br />
