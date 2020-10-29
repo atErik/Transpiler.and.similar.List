@@ -1,7 +1,7 @@
---- Begin the Peaceful Open Source License ---
+--- BEGIN the Peaceful Open Source License ---
 
 Transpiler.And.Similar.List : List of transpilers, transcompilers,
-decompilers,etc.
+decompilers, etc.
 Copyright (C) 2020 Erik T. Ashfolk (atErik at ashfolk dot com).
 
 Redistribution and use of the software accompanying this license in
@@ -30,8 +30,8 @@ are permitted provided that the following eight conditions are met:
 7. This software must not be used by any Military, Military branches,
    Law Enforcement, Law Enforcement branches, or by any Service/Items
    provider or supplier for Military or Law Enforcement.
-8. This software must not be used by either any corrupt or
-   human-rights violating (C-o-HR-V) government(gov), C-o-HR-V gov
+8. This software must not be used by either any Corrupt or
+   Human-Rights Violating (C-o-HR-V) Government(Gov), C-o-HR-V Gov
    branch offices, C-o-HR-V companies/corporations/businesses,
    C-o-HR-V organizations, groups, etc Or by any C-o-HR-V private
    offices, businesses, etc Or by any person working in any of
@@ -51,7 +51,7 @@ OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
 
---- End of the Peaceful Open Source License ---
+--- END of the Peaceful Open Source License ---
 
 Author: Linkesh Diwan. Link -at- WiseEarthTechnology -dot- com.
 Author: Erik T. Ashfolk. atErik -at- Ashfolk -dot- com.
@@ -77,6 +77,7 @@ Notes:
     
 The 2013 "Peaceful Open Source License" ("PeaceOSL") by Linkesh Diwan
 was modified by Erik T. Ashfolk, & new Lic version # is v2020-10-28.
+https://github.com/atErik/Transpiler.and.similar.List/License_PeaceOSL_for_TranspilerList.txt
 
 The 2013 "Peaceful Open Source License" ("PeaceOSL") is published by
 Wise Earth Publishers: www.WiseEarthPublishers.com 
