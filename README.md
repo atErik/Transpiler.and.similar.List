@@ -27,8 +27,7 @@ List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-cod
   &#160;&#160;&#160;&#160;All rights reserved.<br />
   <br />
   <br />
-  <code><pre>
---- BEGIN the Peaceful Open Source License ---
+<code><pre>--- BEGIN the Peaceful Open Source License ---
 
 Transpiler.And.Similar.List : List of transpilers, transcompilers,
 decompilers, etc.
@@ -81,9 +80,8 @@ OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
 
---- END of the Peaceful Open Source License ---
-  </pre></code>
-  Get copy of PeaceOSL license from <a href="License_PeaceOSL_for_TranspilerList.txt">here</a>.<br />
+--- END of the Peaceful Open Source License ---</pre></code>
+  Get copy of PeaceOSL license for this project, from <a href="License_PeaceOSL_for_TranspilerList.txt">here</a>.<br />
   <br />
   <br />
   <br />
@@ -565,15 +563,15 @@ And remember, ANYONE/USER/people have full Freedom+Right to informaton what he/s
 Do not ever forget, there are people & groups who are pushing more & more for violation of human-rights , and also there are people who are pushing for establishing more human-rights.  
 
 Some Common-Sense & Human-Rights:
-* ( water is needed by human body to survive . human has right of access to water & sanitation <sup><a href="https://www.unwater.org/water-facts/human-rights/">1</a>, <a href="https://www.un.org/es/comun/docs/?symbol=A/RES/64/292&lang=E">2</a></sup> . <i>California, USA has California Water Code : “every human being has the right to safe, clean, affordable, and accessible water.”<sup><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=WAT&sectionNum=106.3">1</a></sup></i> . Other USA states have no such specific right. )
+* ( water is needed by human body to survive . human has right of access to water & sanitation <sup><a href="https://www.unwater.org/water-facts/human-rights/">1</a>, <a href="https://www.un.org/es/comun/docs/?symbol=A/RES/64/292&lang=E">2</a></sup> . <i>California, USA has California Water Code : “every human being has the right to safe, clean, affordable, and accessible water.”<sup><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=WAT&sectionNum=106.3">1</a></sup></i> . Other USA states have no such specific right, yet. )
 * ( information is needed inside the human brain for taking correct & good decision , to survive & to survive better . human has right to information <sup>[1][53], [2][54], [3][55], <a href="http://www.unesco.org/new/en/unesco/events/prizes-and-celebrations/celebrations/international-days/world-press-freedom-day/previous-celebrations/2010/brisbane-declaration/">4</a>, <a href="http://www.unesco.org/new/en/unesco/events/prizes-and-celebrations/celebrations/international-days/world-press-freedom-day/previous-celebrations/worldpressfreedomday2009001/maputo-declaration/">5</a></sup>.<br />
 UNESCO (United Nations Educational, Scientific and Cultural Organization)'s 1945 Constitution mandates “promote the free flow of ideas by word and image”<a href="http://unesdoc.unesco.org/images/0018/001841/184171e.pdf">PDF</a>.<br />
 1946 UNGA Resolution 59, and 1948 Article-19 of UDHR (Universal Declaration of Human Rights) : <i>“Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.”</i> <sup>[1][56]</sup> . USA signed+Agreed to it.<br />
 In "American Convention On Human Rights" (A.K.A.: Pact Of San Jose, Costa Rica) (B-32)<sup>[1][55]</sup> : <i>“Article 13. Freedom of Thought and Expression: 1. Everyone has the right to freedom of thought and expression. This right includes freedom to seek, receive, and impart information and ideas of all kinds, regardless of frontiers, either orally, in writing, in print, in the form of art, or through any other medium of one's choice. 2. ... 3. The right of expression may not be restricted by indirect methods or means, such as the abuse of government or private controls over newsprint, radio broadcasting frequencies, or equipment used in the dissemination of information, or by any other means tending to impede the communication and circulation of ideas and opinions. ... Article 14. Right of Reply: 1. Anyone injured by inaccurate or offensive statements or ideas disseminated to the public in general by a legally regulated medium of communication has the right to reply or to make a correction using the same communications outlet, under such conditions as the law may establish. ...”</i><br />
 Gov = Government . Multi = Multiple.<br />
 By Deceptively Using "National-Security" Excuse , A Corrupt-Gov Cannot Kill People Or Deprive People Or Violate Human-Rights Of Other People Or People Who Are Inside Their Own Country . When A Corrupt-Gov Or A Gov-Run-By-People-From-Business-Corporations Or A Gov-Run-By-Bribery-From-Business-Corporation(s) Can Deceptively Use "National-Security" Excuse To Commit More "Human-Rights" Violation, Then There Is No "Human-Rights" Left, & Nor Will "Human-Rights" Exist Anywhere . No One Human/Person, And No Group Of Multi Humans/Persons, And No One Gov Is Or No Groups Of Multi-Govs Are Above The "Human-Rights" / "Humanity"<b>.</b><br />
-And By The Way, Exposing The Crime(s)+Violation(s) Of Corrupt-Gov(s) & Corrupt Corporations Is The Real "National-Security" Act , And This Must Be Done With “Freedom Of Press” , Which Is Another Part Of Human-Right : Access To Information . It Exists/Written In USA's First Ammendment Of "Bill Of Rights"(BoR) . It Is Put Into BoR In Around ~ 1791, Because Entities Similar To Colonial-British Once Violated "Human-Rights" Massively Around The World And Inside America , And It Is In "Bill Of Rights" There To Protect Humans Again From Similar Future Entities, For-Example: Evil-Zionism Evil-Corporatism, etc, Who Are Again Destroying+Violating "Human-Rights" Around The World And Inside America . Recent/Lately Many Grave+Mass Violations Are Done With Excuse Of "National-Security" , Be-Aware.<br />
-When A Group Of Humans/People Vote To Kill Other Humans/People And Deceptively Calls That "Humanty" Or Upholding-"Human-Rights" , Then Such/Those Acts Are Still MASS-SCALE Violation Of "Human-Rights" And "Humanity". )
+And By The Way, Exposing The Crime(s)+Violation(s) Of Corrupt-Gov(s) & Corrupt Corporations Is The Real "National-Security" Act , And This Must Be Done With “Freedom Of Press” , Which Is Another Part Of Human-Right : Access To Information . It Exists/Written In USA's First Ammendment Of "Bill Of Rights"(BoR) . It Is Put Into BoR In Around ~ 1791, Because Entities Similar To Colonial-British Once Violated "Human-Rights" Massively Around The World And Inside America , And It Is In "Bill Of Rights" There To Protect Humans/"Human-Rights" Again From Similar Future Entities, For-Example: Evil-Zionism Evil-Corporatism, Evil-Capitalism, etc, Who Are Again Destroying+Violating "Human-Rights" Around The World And Inside America . Recent/Lately Many Gross+Mass Violations Are Done With Excuse Of "National-Security" , Be-Aware.<br />
+When A Group Of Humans/People Vote or Start To Kill Other Humans/People And Deceptively Calls That "Humanty" Or Upholding-"Human-Rights" , Then Such/Those Acts Are Still MASS-SCALE Violation Of "Human-Rights" And "Humanity". )
 * ( Freedom of Expression on the Internet <sup>[1][57]</sup> )
 * ( Press Freedom <sup>[1][58]</sup> )
 <br />
