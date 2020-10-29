@@ -1,13 +1,15 @@
 <h1><a href="../">Transpiler.And.Similar.List</a>/List/README&#46;md</h1>
 
 List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-code converter][1], &amp; similar &amp; related tools/apps.  
+<br />
+<br />
 
 <a name="License"></a>
-<div width="100%"><b>LICENSE of this project 
- "Transpiler.And.Similar.List":</b><br />
+# LICENSE&#8239; &&#8239; COPYRIGHT&#8239; &&#8239; PERMISSIONS&#8239; &&#8239; RESTRICTIONS&#8239;:
+<div width="100%"><b>LICENSE of this project "Transpiler.And.Similar.List":</b><br />
  "Transpiler.And.Similar.List" project pages, info, data, file, etc
- are <b>Released with following 
- combined LICENSE(s) + RESTRICTIONs + PERMISSIONs:</b><dl>
+ are <b>Released with following combined LICENSE(s) + 
+ RESTRICTIONs + PERMISSIONs:</b><dl>
  <dd> 
     <b class="b">•</b> Do Not Use This To Violate/Break/Ignore/Deprive/Steal HUMAN-RIGHTS.<br />
   <b class="b">•</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc.<br />
@@ -15,7 +17,7 @@ List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-cod
   <b class="b">•</b> Do Not Use Any Data/File From This Project To File LawSuit Against Someone Who Uses It/Derivative To Save/Protect Life,Liberty,Privacy,Correct-Information,Community,Earth,etc.<br />
   <b class="b">•</b> Do Not Use Remove Any Of These Restrictions & Permissions.<br />
   <b class="b">•</b> No-Permission Given/Granted To Anyone To Send Me/Us About "Information" Take-Down Or Removal Notice/Request , Access To "Information" Is A Fundamental Human-Right , And So Information Cannot Be Taken-Down Or Removed . People's Security Inside A Country Has More Priority Than Their Country's Corrupt-Government Officials Or Evil Businessman's Continuation Of Criminal-Acts On Human/Community, Other-Countries, Earth . People Of One Country Or Corrupt-Gov Of One Country Or "National-Security" Of One Country Or Even Multiple Of Them Combined , Are NOT Above The "Human-Rights" / "Humanity" . No One Have More Right To Kill/Deprive/Violate People Of Another/Inside Country Or Other People . Corrupt Laws Or InHumane Laws Are Never Above "Human-Rights" or "Humanity" . Security+Safety+Stablity Of All People Begins-With & Increases-With Correct Information & Awareness . Information (On An Item, Listed Here) Can Be Informative & Used For Correct/Good Purpose Or For Taking Correct/Good (Informed) Decision After Analysis With It Or Information Can Be Used For Defense Or Can Be Used To Reduce Crime Or Catch Criminal Developer Or Initiators, etc . Actual Listed Items Are Not Located Here in This List Or Research Documents.<br />
-  <b class="b">•</b> Peaceful Open Source License, "<a href="License_PeaceOSL_for_TranspilerList.txt">PeaceOSL</a>", v2020-10-28<br />
+  <b class="b">•</b> Peaceful Open Source License, "<a href="../License_PeaceOSL_for_TranspilerList.txt">PeaceOSL</a>", v2020-10-28<br />
   <b class="b">•</b> Copyright <b>©</b> 2020 atErik (Erik T. Ashfolk) (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
   at&#69;rïķ＠&#65;śh&#70;ölķ·ć&#333;m&gt;<br />
   &#160;&#160;&#160;&#160;Do Not Copy Eml-Adrs, Type In 
@@ -78,7 +80,7 @@ THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
 
 --- END of the Peaceful Open Source License ---</pre></code>
-  Get copy of PeaceOSL license from <a href="License_PeaceOSL_for_TranspilerList.txt">here</a>.<br />
+  Get copy of PeaceOSL license for this project, from <a href="../License_PeaceOSL_for_TranspilerList.txt">here</a>.<br />
   <br />
   <br />
   <br />
@@ -109,11 +111,12 @@ SUCH DAMAGE.
 <br />
 
 
-To <b>search</b> inside this page, press Ctrl+F (or select option "Search in this page", etc), and then type word or letters that you are looking for, then press left/up arrow to go backward or previous word, Or press right/down arrow to go forward or next word.
-
+To <b>search</b> inside this page, press Ctrl+F (or select option "Search in this page", etc), and then type word or letters that you are looking for, then press left/up arrow to go backward or previous word, Or press right/down arrow to go forward or next word.  
+<br />
 
 ( abbreviations : `lang` = language &#124; `C++` = `Cpp` = `C-plus-plus` &#124; `Go` = `Golang` )  
-  
+<br />
+
 ANYONE/USER/people have full freedom+right+choice to choose what he/she wants, and also have full freedom+right to convert one language into another.<sup>[1][2], [2][3], [3][4], [4][5], [5][6]</sup>  
 
 abbreviations : `CPL` = Computer Programming Language
@@ -131,7 +134,7 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of&#160; 
 `•` [go-transpiler][8](mewbak)  
 `•` [goc][9]  
 `•` [emgo](https://github.com/ziutek/emgo) (Subset of `Go` into `C` as intermediate) (32bit embedded hardware)  
-`•` <s>&#160;[go-transpiler][10] (supercoww)&#160;</s>
+`•` <s>&#160;<a href="https://github.com/supercoww/go-transpiler">go-transpiler</a>(supercoww)&#160;</s>
 * `Go/Golang` to `C++/Cpp`:  
 `•` [gomoku][11]  
 `•` [go-transpiler][12](Theodus) (powered by tardisgo)
@@ -167,7 +170,7 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of&#160; 
 `•` [j2objc][28] (`Java` to `objC` for iOS)
 * `Python` program&#47;source to `C/C++` code:  
 `•` [Convert Python program to C&#47;C&#43;&#43; code&#63;][29]  
-`•` [nuitka][30]<sup>[2][31]</sup>  
+`•` [nuitka][30] <sup>[2][31]</sup>  
 `•` [py14][32](LukasMartinelli) (`Python` to `C++14`)  
 `•` [pythran](https://github.com/serge-sans-paille/pythran)  
 `•` [shedskin](https://github.com/shedskin/shedskin) (`Python` 2.4-2.6 into `C++`)
@@ -176,7 +179,7 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of&#160; 
 `•` [transpiler][33](gaurav139v)  
 `•` [transpyle][34] (`Python`&lt;--&gt;`C`)  
 `•` [py2cmod][35] (`Python` To `C` Module Generator)  
-`•` [RPython][36]<sup>[2][37]</sup> (Subset of `Python` --&gt;`C`)  
+`•` [RPython][36] <sup>[2][37]</sup> (Subset of `Python` --&gt;`C`)  
 `•` [ptc][38]
 * `Lua` to `C`:  
 `•` [lua2c][39](davidm)
@@ -197,15 +200,15 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of&#160; 
 `•` [ts2c][49]
 * `Perl` to `C`:  
 `•` [Perl2C][50]  
-`•` (perlcc](https://metacpan.org/pod/distribution/B-C/script/perlcc.PL)  
+`•` [perlcc](https://metacpan.org/pod/distribution/B-C/script/perlcc.PL)  
 * `Lisp` to `C`:  
 `•` [LispTranspiler][51]/`lispc`  
-`•` [ECL][52]<sup>[2][53]</sup> (`Common-Lisp`-to-`C`)
+`•` [ECL][52] <sup>[2][53]</sup> (`Common-Lisp`-to-`C`)
 * `Go-Lite` (subset of `Go`) to `C++`:  
 `•` [GoLite Transpiler][54]
 * `C#` to `C++/Cpp`:  
 `•` [cs2cpp][55] (ASDAlexander77) (powered by Roslyn)  
-`•` [Alter-Native][56]<sup>[2][57]</sup> (`C#` & `✱` to `C++`)  
+`•` [Alter-Native][56] <sup>[2][57]</sup> (`C#` & `✱` to `C++`)  
 `•` [CoreRT][58] (`.NET`/`C#` to `C++`)  
 `•` [Hurley][59]
 * `Lisp` to `C++`:  
@@ -246,15 +249,15 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of&#160; 
 `•` [c4go][79]
 * `C`-`Assembly` source to `Go`-`Assembly` source:  
 `•` [c2goasm][80]
-* `C` to GNU-`Assembly`<sup>[2][81]</sup>(`GAS`) source:  
+* `C` to GNU-`Assembly` <sup>[2][81]</sup>(`GAS`) source:  
 `•` use cmd: `gcc -S example.c`, & check `example.s` file
 * `C++`/`Cpp` to GNU-`Assembly` source:  
 `•` use cmd: `gcc -S example.cpp`, & check `example.s` file  
 `•` [CPP-to-Assembly-to-CPP][48]
-* `C`(generic) to `NASM`(elf64)<sup>[2][82]</sup> `Assembly` source:  
+* `C`(generic) to `NASM`(elf64) <sup>[2][82]</sup> `Assembly` source:  
 `•` [ape][83]
 * `C` to `NASM`-`Assembly` source:  
-`•` [c2nasm][84]<sup>[1][85], [2][86]</sup>
+`•` [c2nasm][84] <sup>[1][85], [2][86]</sup>
 * `Rust` to `WebAssembly`(wasm):  
 `•` [yew][87]
 * `Python` to `WebAssembly`:  
@@ -307,7 +310,7 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of&#160; 
 * `Haxe` &lt;-to-&gt; `ActionScript 3`/`AS3`, `AS2`, `JavaScript`/`JS`, `Java`, `C++`, `C#`, `PHP`, `Python`, `Lua`, `Neko`:  
 `•` [Haxe][105]
 * `Nim` &lt;-to-&gt; `C`, `C++`, `objC`, `JavaScript`/`JS`:  
-`•` [Nim](https://nim-lang.org/)<sup><a href="https://en.wikipedia.org/wiki/Nim_%28programming_language%29">2</a>, <a href="https://github.com/nim-lang/Nim">3</a></sup>
+`•` [Nim](https://nim-lang.org/) <sup><a href="https://en.wikipedia.org/wiki/Nim_%28programming_language%29">2</a>, <a href="https://github.com/nim-lang/Nim">3</a></sup>
 * `C` to `✱`:  
 `•` [CIL][106]  
 `•` [Coccinelle][107] <sup>[2][108], [3][109]</sup>
@@ -330,7 +333,7 @@ By the way, here is a list of `Go-to-C` and `Go-to-C++` and other type of&#160; 
 * `pseudo` based Algorithms<sup>[1][115]</sup>/Libs to idiomatic<sup>[1][116]</sup> `Python 3`, `JS`, `Go`, `C#`, `Ruby`:  
 `•` [pseudo][117]
 * `CUDA` to Portable HIP<sup>[1][118]</sup> `C++/Cpp`:  
-`•` [HIPIFY][119]<sup>[2][120], [3][121], <a href="https://news.ycombinator.com/item?id=16611979">4</a></sup>  
+`•` [HIPIFY][119] <sup>[2][120], [3][121], <a href="https://news.ycombinator.com/item?id=16611979">4</a></sup>  
 `•` [cu2c][122] (`CUDA` to `C++`)
 * `✱` to `✱` <sup>[1][123]</sup> : Framework/Library, etc:  
 `•` [RascalMPL][124] <sup>[2][125], [3][126]</sup>  
@@ -358,14 +361,14 @@ ANY USER/PEOPLE HAVE FULL FREEDOM+RIGHT+CHOICE TO CHOOSE ANY LANGUAGE & ANY TRAN
 <h3>LIST&#160; OF&#160; DECOMPILERS&#8239;:</h3>
 <a href="https://en.wikipedia.org/wiki/Decompiler">Decompiler</a> usually transforms/converts very-low-level binary machine-code or very low-level `Assembly` source-code , into a slightly higher-level source-code , for-example: `C` or `C++`, etc or `Assembly` for another or same hardware platform.  
 Decompiling process usually have these deficienies<sup><a href="https://unix.stackexchange.com/a/418353/367237">1</a></sup> : if there were Comments, they are irreversibly lost . Variable names are lost . Loops may be changed/unrolled for performance . Functions may be rearranged, etc . Decompiler's output is still helpful for analysis, etc.<br />
-• <a href="https://github.com/BoomerangDecompiler/boomerang">Boomerang</a><sup><a href="https://sourceforge.net/projects/boomerang/">2</a></sup>, is a decompiler, that supports : x86 (IA-32 only), PPC, ST20 architectures , file formats: ELF, PE, DOS MZ, DOS/4GW LE, Mach-O , and can convert machine-code into `"C"` based output.<br />
+• <a href="https://github.com/BoomerangDecompiler/boomerang">Boomerang</a> <sup><a href="https://sourceforge.net/projects/boomerang/">2</a></sup>, is a decompiler, that supports : x86 (IA-32 only), PPC, ST20 architectures , file formats: ELF, PE, DOS MZ, DOS/4GW LE, Mach-O , and can convert machine-code into `"C"` based output.<br />
 • <a href="https://github.com/eteran/edb-debugger">edb</a>, is a cross platform AArch32/x86/x86-64 debugger, disassembler, decompiler.<br />
 • <a href="https://www.backerstreet.com/rec/recdload.htm">REC</a> (Reverse Engineering Compiler), is a decompiler, etc . It can convert binary into `"C"` source-code.<br />
-• <a href="https://github.com/uxmal/reko">reko</a><sup><a href="https://sourceforge.net/projects/decompiler/">2</a></sup>, is a binary (to `"C"` source-code) decompiler, disassembler, etc . Supports x86, x86-64, etc.<br />
-• <a href="https://github.com/avast/retdec">RetDec</a><sup><a href="https://retdec.com/">2</a></sup>, is a retargetable machine-code decompiler based on LLVM.<br />
+• <a href="https://github.com/uxmal/reko">reko</a> <sup><a href="https://sourceforge.net/projects/decompiler/">2</a></sup>, is a binary (to `"C"` source-code) decompiler, disassembler, etc . Supports x86, x86-64, etc.<br />
+• <a href="https://github.com/avast/retdec">RetDec</a> <sup><a href="https://retdec.com/">2</a></sup>, is a retargetable machine-code decompiler based on LLVM.<br />
 • <a href="http://www.hex-rays.com/idapro/">Ida-Pro</a> is developed by Hex-Rays . Commercial . But there is a Community plan (with limited feature) available for <a href="https://www.hex-rays.com/products/ida/support/download_freeware/">free</a> : lacks all features introduced in IDA > v7.0, lacks support for many processors, file formats, etc, comes without technical support, etc . It is a decompiler, disassembler, etc, etc . IDA disassembles binary into `Assembly`-source, then an add-on called "Hex-Rays" can decompile that `Assembly` into `C/C++` source-code.<br />
 • <a href="https://derevenets.com/">Snowman</a> : it can convert ARM, x86, and x86-64 architecture based ELF, Mach-O or PE formatted binary machine-code file or `Assembly`-code , into `C/C++` output.<br />
-• <a href="https://www.pnfsoftware.com/">JEB decompiler</a><sup><a href="https://en.wikipedia.org/wiki/JEB_decompiler">2</a></sup>, is a decompiler & disassembler . Converts dalvik bytecode into Java source-code. Dalvik is a VM for Android OS.<br />
+• <a href="https://www.pnfsoftware.com/">JEB decompiler</a> <sup><a href="https://en.wikipedia.org/wiki/JEB_decompiler">2</a></sup>, is a decompiler & disassembler . Converts dalvik bytecode into Java source-code. Dalvik is a VM for Android OS.<br />
  • <a href="https://www.capstone-engine.org/showcase.html">List</a> of Decompiler(s), DisAssembler(s), etc.<br />
 <br />
 <br />
@@ -382,18 +385,18 @@ Decompiling process usually have these deficienies<sup><a href="https://unix.sta
 
 <h3>LIST&#160; OF&#160; DISASSEMBLERS&#8239;:</h3>
 <a href="https://en.wikipedia.org/wiki/Disassembler">Disassembler</a> usually performs analysis on binary executable code/file for a hardware, and often loads varius poertion of input into hardware for better analysis, and finally converts those into `Assembly` source-code for further anyalysis.<br />
-• <a href="https://lldb.llvm.org/">lldb</a><sup><a href="https://lldb.llvm.org/use/tutorial.html">2</a></sup>, is default debugger for Xcode in macOS , it can utilize existing libraries in larger LLVM Project : such as the Clang expression parser, LLVM disassembler, etc . It can debug `C`, `Objective-C`(`objC`) and `C++` on mac desktop & iOS devices & in simulator . Add these tools to enhance it : <a href="https://github.com/cyrus-and/gdb-dashboard">gdb-dashboard</a> or <a href="https://github.com/cs01/gdbgui">gdbgui</a>.<br />
+• <a href="https://lldb.llvm.org/">lldb</a> <sup><a href="https://lldb.llvm.org/use/tutorial.html">2</a></sup>, is default debugger for Xcode in macOS , it can utilize existing libraries in larger LLVM Project : such as the Clang expression parser, LLVM disassembler, etc . It can debug `C`, `Objective-C`(`objC`) and `C++` on mac desktop & iOS devices & in simulator . Add these tools to enhance it : <a href="https://github.com/cyrus-and/gdb-dashboard">gdb-dashboard</a> or <a href="https://github.com/cs01/gdbgui">gdbgui</a>.<br />
 • <a href="https://github.com/cojocar/bin2llvm">bin2llvm</a>, a binary (ARM) to LLVM translator.<br />
 • <a href="https://github.com/netromdk/dispar">dispar</a>, loads binaries (32+64 bit Mach-O & universal binaries), libraries, core dumps etc to do analysis of their structure and data in `Assembly`; most notably their strings, symbols, and functions.<br />
 • <a href="https://github.com/wisk/medusa">medusa</a>, is interactive disassembler . Supports ELF, PE, Mach-O, Gameboy, ST62ROM binaries (x86, x86-64, ).<br />
 • <a href="https://github.com/vivisect/vivisect">Vivisect</a>/Vdb/Vtrace, is a combined disassembler, static analysis, symbolic execution and debugger framework.<br />
 • <a href="https://github.com/Jormit/zdb">zdb</a>, is a debugger & disassembler (and decompiler) for 64 bit ELF binary to `Assembly`.<br />
-• <a href="https://github.com/zyantific/zydis">zydis</a><sup><a href="https://zydis.re/">2</a></sup>, is a x86/x86-64 disassembler library . Has bindings for <a href="https://github.com/jpap/go-zydis">Go</a>, `Pascal`, `Python 3`, `Rust`, `LuaJIT`.<br />
+• <a href="https://github.com/zyantific/zydis">zydis</a> <sup><a href="https://zydis.re/">2</a></sup>, is a x86/x86-64 disassembler library . Has bindings for <a href="https://github.com/jpap/go-zydis">Go</a>, `Pascal`, `Python 3`, `Rust`, `LuaJIT`.<br />
 • <a href="https://x64dbg.com/#start">x64dbg</a>, is a x64 / x32 debugger, etc for Windows.<br />
 • <a href="https://github.com/aquynh/capstone">capstone</a> <sup><a href="http://www.capstone-engine.org/">2</a></sup>.<br />
 • <a href="https://github.com/radareorg/radare2">radare2</a>(r2), is a complete framework for reverse-engineering analysis of binaries.<br />
-• <a href="https://en.wikipedia.org/wiki/Ghidra">Ghidra</a><sup><a href="https://ghidra-sre.org/">2</a></sup>, developed by <a href="https://en.wikipedia.org/wiki/National_Security_Agency">NSA</a> of USA.<br />
-• <a href="https://binary.ninja/">Binary.Ninja</a><sup><a href="https://en.wikipedia.org/wiki/Binary_Ninja">2</a></sup>, is a reverse-engineering analysis platform developed by Vector 35 Inc.<br />
+• <a href="https://en.wikipedia.org/wiki/Ghidra">Ghidra</a> <sup><a href="https://ghidra-sre.org/">2</a></sup>, developed by <a href="https://en.wikipedia.org/wiki/National_Security_Agency">NSA</a> of USA.<br />
+• <a href="https://binary.ninja/">Binary.Ninja</a> <sup><a href="https://en.wikipedia.org/wiki/Binary_Ninja">2</a></sup>, is a reverse-engineering analysis platform developed by Vector 35 Inc.<br />
 <br />
 <br />
 <br />
