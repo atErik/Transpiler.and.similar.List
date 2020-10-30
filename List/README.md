@@ -123,6 +123,7 @@ abbreviations : `CPL` = Computer Programming Language
 
 <a name="list"></a>
 <h2>LIST&#8239;:</h2>
+<a name="Transpilers"></a>
 <b>LIST&#160; OF&#160; TRANSPILERS&#8239;,&#160; TRANSCOMPILERS.</b>  
 <a href="https://en.wikipedia.org/wiki/Transpiler">Transpiler</a> usually transforms/converts source-code of one language, into source-code of another language , while keeping most of the algorithms, structures, etc in input source-code , same/intact in the output source-code.  
 
@@ -358,6 +359,7 @@ ANY USER/PEOPLE HAVE FULL FREEDOM+RIGHT+CHOICE TO CHOOSE ANY LANGUAGE & ANY TRAN
 <br />
 <br />
 
+<a name="Decompilers"></a>
 <h3>LIST&#160; OF&#160; DECOMPILERS&#8239;:</h3>
 <a href="https://en.wikipedia.org/wiki/Decompiler">Decompiler</a> usually transforms/converts very-low-level binary machine-code or very low-level `Assembly` source-code , into a slightly higher-level source-code , for-example: `C` or `C++`, etc or `Assembly` for another or same hardware platform.  
 Decompiling process usually have these deficienies<sup><a href="https://unix.stackexchange.com/a/418353/367237">1</a></sup> : if there were Comments, they are irreversibly lost . Variable names are lost . Loops may be changed/unrolled for performance . Functions may be rearranged, etc . Decompiler's output is still helpful for analysis, etc.<br />
@@ -374,6 +376,7 @@ Decompiling process usually have these deficienies<sup><a href="https://unix.sta
 <br />
 <br />
 
+<a name="Compilers"></a>
 <h3>LIST&#160; OF&#160; COMPILERS&#8239;:</h3>
 <a href="https://en.wikipedia.org/wiki/Compiler">Compiler</a> usually transforms/converts source-code into executable binary machine-code file for different hardware platform.<br />
 • <a href="https://en.wikipedia.org/wiki/List_of_compilers">List of Compilers</a> (wikipedia).<br />
@@ -383,6 +386,7 @@ Decompiling process usually have these deficienies<sup><a href="https://unix.sta
 <br />
 <br />
 
+<a name="Disassemblers"></a>
 <h3>LIST&#160; OF&#160; DISASSEMBLERS&#8239;:</h3>
 <a href="https://en.wikipedia.org/wiki/Disassembler">Disassembler</a> usually performs analysis on binary executable code/file for a hardware, and often loads varius poertion of input into hardware for better analysis, and finally converts those into `Assembly` source-code for further anyalysis.<br />
 • <a href="https://lldb.llvm.org/">lldb</a> <sup><a href="https://lldb.llvm.org/use/tutorial.html">2</a></sup>, is default debugger for Xcode in macOS , it can utilize existing libraries in larger LLVM Project : such as the Clang expression parser, LLVM disassembler, etc . It can debug `C`, `Objective-C`(`objC`) and `C++` on mac desktop & iOS devices & in simulator . Add these tools to enhance it : <a href="https://github.com/cyrus-and/gdb-dashboard">gdb-dashboard</a> or <a href="https://github.com/cs01/gdbgui">gdbgui</a>.<br />
