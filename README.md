@@ -124,7 +124,7 @@ TRANSPILE : source-code to source-code conversion , where high-level structures,
 <br />
 <br />
 
-<h4>( YOU MAY GOTO <a href="List/">LIST OF ALL TRANSPILERS</a> DIRECTLY FROM <a href="List/">HERE</a> )</h4>
+<h3>( IF YOU HAVE AGREED WITH ABOVE LICENSE PERMISSIONS & RESTRICTIONS , THEN, YOU MAY GOTO <a href="List/">LIST OF ALL TRANSPILERS</a> (<a href="List/">LIST</a>) DIRECTLY FROM <a href="List/">HERE</a> )</h3>
 <br />
 <br />
 
