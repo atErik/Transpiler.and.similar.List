@@ -79,6 +79,8 @@ OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
 
+License verison: 2020-10-29.
+
 --- END of the Peaceful Open Source License ---</pre></code>
   Get copy of PeaceOSL license for this project, from <a href="../License_PeaceOSL_for_TranspilerList.txt">here</a>.<br />
   <br />
