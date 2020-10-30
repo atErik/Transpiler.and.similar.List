@@ -51,6 +51,8 @@ OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
 
+License verison: 2020-10-29.
+
 --- END of the Peaceful Open Source License ---
 
 Author: Linkesh Diwan. Link -at- WiseEarthTechnology -dot- com.
@@ -68,19 +70,22 @@ Notes:
     Clause 1 and 2 come from the BSD 2-Clause license.
     Clause 3 is meant to ensure that the project continues to be open
              and available to the public.
-    Clause 4, 5, 6 & 7 are "No Harmful Use",
+    Clause 4, 5, 6, 7 & 8 are: "No Harmful Use",
              "Not Allowed To Use For Stealing of Private Cyber/Physcial Items",
              "Not Allowed To Use For Violating Any Human-Rights",
              "No Military Use",
              "Not Allowed To Use In Corrupt Office/Business", etc clause(s).
     The disclaimer is adapted from the BSD 2-Clause license.
     
-The 2013 "Peaceful Open Source License" ("PeaceOSL") by Linkesh Diwan
-was modified by Erik T. Ashfolk, & new Lic version # is v2020-10-28.
+The 2013 "Peaceful Open Source License" ("PeaceOSL") authored by by Linkesh Diwan,
+was modified by Erik T. Ashfolk, & new Lic version # is v2020-10-29,
+for using with "Transpiler.And.Similar.List" project.
 https://github.com/atErik/Transpiler.and.similar.List/License_PeaceOSL_for_TranspilerList.txt
 
 The 2013 "Peaceful Open Source License" ("PeaceOSL") is published by
-Wise Earth Publishers: www.WiseEarthPublishers.com 
+Wise Earth Publishers: www.WiseEarthPublishers.com
+and www.WiseEarthTechnologies.com
+
 The 2013 "PeaceOSL" License is available from here:
 http://WiseEarthPublishers.com/products/peaceful-open-source-license
 or, from here:
