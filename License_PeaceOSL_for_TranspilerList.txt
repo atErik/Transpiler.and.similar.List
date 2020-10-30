@@ -109,6 +109,9 @@ License version: 2020-10-30.
 
 --- END of the Peaceful Open Source License ---
 
+
+
+
 Author: Linkesh Diwan. Link -at- WiseEarthTechnology -dot- com.  
 Author: Erik T. Ashfolk. atErik -at- Ashfolk -dot- com.
 
@@ -119,6 +122,9 @@ Permission is granted to modify, copy, and redistribute this
 license in accordance with the Creative Commons Attribution License  
 (CC-BY), without breaking the original spirit of this license.  
 CC license is here: http://creativecommons.org/licenses/by/3.0/
+
+
+
 
 Notes:  
     Clause 1 and 2 come from the BSD 2-Clause license.  
@@ -133,11 +139,17 @@ Notes:
              "Termination Of License/Contract", etc clause(s).  
     The disclaimer is adapted from the BSD 2-Clause license.  
     
+
+
+
 The 2013 "Peaceful Open Source License" ("PeaceOSL") authored by Linkesh Diwan  
 of WiseEarthPublishers, was modified by Erik T. Ashfolk,  
 and new Lic version # is v2020-10-30.  
 For using with "Transpiler.And.Similar.List" project.  
 https://github.com/atErik/Transpiler.and.similar.List/License_PeaceOSL_for_TranspilerList.txt
+
+
+
 
 The 2013 "Peaceful Open Source License" ("PeaceOSL") is published by  
 Wise Earth Publishers: www.WiseEarthPublishers.com  
