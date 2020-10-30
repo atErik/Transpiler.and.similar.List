@@ -1,6 +1,6 @@
 <h1> Transpiler.And.Similar.List </h1>
 
-List Of Transpilers, TransCompilers, etc [source-code to source-code converter][1], &amp; similar &amp; Decompilers, Compilers, etc related tools/apps.  
+List Of Transpilers, TransCompilers, etc [source-code to source-code converter][1], &amp; similar tools/apps, &amp; Decompilers, Compilers, etc &amp; related tools/apps.  
   
 *( History : I created a [question](https://stackoverflow.com/questions/64180191/) in StackOverflow(SO), where i have initially asked Which transpiler can convert `"Go"` source-code into `"C"` source-code, and then i had to change question & ask : Which transpiler (out of four specific transpiler) can convert from `Go` to `C/C++` and can still keep (almost all) high-level algorithms & structures used in source-code , fairly accurately same/intact in output source-code . And this project/data borned from that research, so later when StackOverflow's `"PRO-GOOGLE"` & `"PRO-GO"` do-evil mods ganged-up on my Quesiton+Answer & deleted it (vote to undelete [here](https://stackoverflow.com/users/recently-deleted-questions/3553808)) , so i had to publish from this github project, & improve it here. )*  
 <br />
@@ -33,68 +33,108 @@ Transpiler.And.Similar.List : List of transpilers, transcompilers,
 decompilers, compilers, etc.
 Copyright (C) 2020 Erik T. Ashfolk (atErik at ashfolk dot com).
 
-Redistribution and use of this software/data/service/project,
-accompanying this license in source and binary forms, with or
-without modification, are permitted provided that the following
-eight conditions are met:
+Redistribution and use of this "SDSP"=software/data/service/project,
+accompanying this license/contract in source and binary forms, with
+or without modification, are permitted provided that the following
+ten conditions are met:
 
-1. Redistributions of software, source code, data, service from this
-   project must retain the above copyright notice, this list of
-   conditions and the following disclaimer.
+1. Redistributions of this (SDSP) software, source code, data,
+   service from this project must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
 2. Redistributions in binary form must reproduce the above copyright
    notice, this list of conditions and the following disclaimer in
    the documentation and/or other materials provided with the
-   distribution from this software/data/service/project.
-3. Modifications to the software, source code, data, service from
-   this project must retain above copyright notice, this list of
+   distribution from this SDSP (software/data/service/project).
+3. Modifications to this SDSP (software, source code, data, service
+   from this project) must retain above copyright notice, this list of
    conditions, and the following disclaimer, and may not include
    further conditions or licensing which go against the spirit of
    this license.
-4. This software/data/service/project must not be used to violate
-   (any) human-rights, either directly or indirectly in any form.
-   For-example: This must not be used to violate human-rights in
-   any form in any physical location, written articles, media/video
-   broadacast, or in any form inside cyberspace/Internet.
-5. This software/data/service/project must not be used to cause
+4. This SDSP (software/data/service/project) must not be used to
+   violate (any) human-rights="HR", either directly or indirectly in
+   any form. This SDSP must not be used to violate HR(human-rights)
+   in any form in any physical location, written articles, media,
+   video, broadacast, etc or in any form inside cyberspace/Internet.
+   This SDSP license/contract is declaring/stating in early to you:
+   this SDSP must not be used to violate human-rights even with
+   "National Security" excuse/reason : As nothing (not even "National
+   Security" or court order/decision or voting result/decision) can
+   be above "Human-Rights". This SDSP license/contract is further
+   declaring/stating in early to you : any result/decision from any
+   voting or any order or decision from any court, to override usage
+   or this SDSP content, to violate Human-Rights, is null-and-void
+   and illegal.
+5. This SDSP(software/data/service/project) must not be used to cause
    deliberate harm to any human individual, group, community or
    country, either directly or indirectly, in any form.
-6. This software/data/service/project must not be used to steal from
-   any human individual,group, community,country or earth, either
-   directly or indirectly, in any form. This must not be used for
-   any type of stealing: spying, data collection, etc without first
-   obtaining written fully-aware & voluntary consent from each
-   individual,person,groups,etc. This must not be used for any type
-   of digital (or physical) jail: Tracking, Monitoring, etc (without
-   each subject's written fully-aware & voluntary consent).
-7. This software/data/service/project must not be used by any
+6. This SDSP(software/data/service/project) must not be used to steal
+   data or physical items from any human individual, group,community,
+   country or earth, either directly or indirectly, in any form.
+   This SDSP must not be used for any type of stealing: spying, data
+   collection, etc, without first obtaining written fully aware and
+   voluntary specific consent from each individual,person,groups,
+   subject,etc, and also not without obtaining permission from this
+   SDSP copyright holder(s). This must not be used for any type of
+   digital (or physical) jail: Tracking, Monitoring, etc, not-without
+   obtaining permission from each subject's written fully-aware and
+   voluntary consent, and not-without obtaining permission from this
+   SDSP copyright holder(s). Any permission to spy/steal/collect when
+   obtained from a judge/jury/proxy/vote,etc is not acceptable,
+   copyright holder(s) must be given proof of obtaining real consent
+   permission directly from subject(s), and such must not violate
+   human-rights("HR"). This SDSP license/contract is declaring and
+   stating to you in early, that, any type of voting result/decision
+   or any court/judge's any order/decision to use this SDSP for mass
+   scale (data) stealing or collection, or use this SDSP for (data)
+   stealing from any individual, are (still) violation of HR (human
+   rights), and any such decision/order is/are null-and-void and
+   illegal and violation of HR (human-rights).
+7. This SDSP(software/data/service/project) must not be used by any
    Military or branches, Law Enforcement or branches, or by any
    service/items provider or supplier of/for Military or Law
    Enforcement. Unless an explicit and specific written exception
-   obtained from the copyright holder(s).
-8. This software, documents, data, service, project, etc must not
-   be used by any corrupt-or-Human-Rights-violating (c-o-HR-v) entity
-   or person, for-example: c-o-HR-v Government(Gov), c-o-HR-v Gov
-   branches, c-o-HR-v public offices, Gov/public funded c-o-HR-v
+   obtained from this SDSP copyright holder(s).
+8. This SDSP (software, documents, data, service, project, etc) must
+   not be used by any corrupt-or-Human-Rights-violating (c-o-HR-v)
+   entity or person, for-example: c-o-HR-v Government(Gov), c-o-HR-v
+   Gov branches, c-o-HR-v public offices, Gov/public funded c-o-HR-v
    companies, corporations, businesses, organizations, groups, etc,
    c-o-HR-v private offices, companies, corporations, businesses,
    organizations,groups, etc, Or any human/person/contractor working
    in/for any of previously mentioned entities in this section.
+9. This SDSP(software/data/service/project) license/contract stating
+   and declaring to you in early, that, upon any report of HR(human
+   rights) violation by the user of this SDSP or by this SDSP, this
+   license/contract authorizes copyright holder(s) to obtain detail
+   usage information from you, including any secret data, asses the
+   level of HR violation and loss(es) therein, and seek compensation,
+   remedy, etc, including termination of this SDSP license+contract
+   at any time at the will of copyright holder(s). Failure to provide
+   detail usage data, after a request, will automatically terminate
+   contract+license.
+10. If you do not agree with these above conditions, then you are
+   free & welcome to choose any other software/choice. This SDSP
+   (software/data/service/project) shows these conditions at every
+   stage. Any usage of this SDSP grants this SDSP copyright holder(s)
+   your consent of your full acceptance & agreements of above all
+   (including this condition number ten) conditions and terms
+   specified in this SDSP license & contract.
 
-DISCLAIMER : THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS
-AND CONTRIBUTORS "AS IS", AND ANY EXPRESS OR IMPLIED WARRANTIES,
-INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-IN NO EVENT SHALL THE COPYRIGHT HOLDER, AUTHORS, OR CONTRIBUTORS BE
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, MONEY, POSSESSIONS,
-OR LIFE; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
-OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
-THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+DISCLAIMER : THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS  
+AND CONTRIBUTORS "AS IS", AND ANY EXPRESS OR IMPLIED WARRANTIES,  
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF  
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  
+IN NO EVENT SHALL THE COPYRIGHT HOLDER, AUTHORS, OR CONTRIBUTORS BE  
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR  
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF  
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, MONEY, POSSESSIONS,  
+OR LIFE; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY  
+OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT  
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF  
+THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF  
 SUCH DAMAGE.
 
-License version: 2020-10-29
+License version: 2020-10-30.
 
 --- END of the Peaceful Open Source License ---</pre></code>
   Get copy of PeaceOSL license for this project, from <a href="License_PeaceOSL_for_TranspilerList.txt">here</a>.<br />
