@@ -29,41 +29,55 @@ List Of Transpilers, TransCompilers, Decompilers, etc [source-code to source-cod
 <code><pre>--- BEGIN the Peaceful Open Source License ---
 
 Transpiler.And.Similar.List : List of transpilers, transcompilers,
-decompilers, etc.
+decompilers, compilers, etc.
 Copyright (C) 2020 Erik T. Ashfolk (atErik at ashfolk dot com).
 
-Redistribution and use of the software accompanying this license in
-source and binary forms, with or without modification,
-are permitted provided that the following eight conditions are met:
+Redistribution and use of this software/data/service/project,
+accompanying this license in source and binary forms, with or
+without modification, are permitted provided that the following
+eight conditions are met:
 
-1. Redistributions of source code must retain the above copyright
-   notice, this list of conditions and the following disclaimer.
+1. Redistributions of software, source code, data, service from this
+   project must retain the above copyright notice, this list of
+   conditions and the following disclaimer.
 2. Redistributions in binary form must reproduce the above copyright
    notice, this list of conditions and the following disclaimer in
    the documentation and/or other materials provided with the
-   distribution.
-3. Modifications to the source code must retain the above copyright
-   notice, this list of conditions, and the following disclaimer,
-   and may not include further conditions or licensing which go
-   against the spirit of this license.
-4. This software must not be used to cause deliberate harm to any
-   human individual, group, community or country, either directly
-   or indirectly, in any form.
-5. This software must not be used to steal from any human individual,
-   group, community, country or earth, either directly or indirectly,
-   in any form.
-6. This software must not be used to violate (any) human-rights,
-   either directly or indirectly in any form, neither in any physical
-   location, nor in any form of etherspace/cyberspace/Internet.
-7. This software must not be used by any Military, Military branches,
-   Law Enforcement, Law Enforcement branches, or by any Service/Items
-   provider or supplier for Military or Law Enforcement.
-8. This software must not be used by either any Corrupt or
-   Human-Rights Violating (C-o-HR-V) Government(Gov), C-o-HR-V Gov
-   branch offices, C-o-HR-V companies/corporations/businesses,
-   C-o-HR-V organizations, groups, etc Or by any C-o-HR-V private
-   offices, businesses, etc Or by any person working in any of
-   mentioned entity in this section.
+   distribution from this software/data/service/project.
+3. Modifications to the software, source code, data, service from
+   this project must retain above copyright notice, this list of
+   conditions, and the following disclaimer, and may not include
+   further conditions or licensing which go against the spirit of
+   this license.
+4. This software/data/service/project must not be used to violate
+   (any) human-rights, either directly or indirectly in any form.
+   For-example: This must not be used to violate human-rights in
+   any form in any physical location, written articles, media/video
+   broadacast, or in any form inside cyberspace/Internet.
+5. This software/data/service/project must not be used to cause
+   deliberate harm to any human individual, group, community or
+   country, either directly or indirectly, in any form.
+6. This software/data/service/project must not be used to steal from
+   any human individual,group, community,country or earth, either
+   directly or indirectly, in any form. This must not be used for
+   any type of stealing: spying, data collection, etc without first
+   obtaining written fully-aware & voluntary consent from each
+   individual,person,groups,etc. This must not be used for any type
+   of digital (or physical) jail: Tracking, Monitoring, etc (without
+   each subject's written fully-aware & voluntary consent).
+7. This software/data/service/project must not be used by any
+   Military or branches, Law Enforcement or branches, or by any
+   service/items provider or supplier of/for Military or Law
+   Enforcement. Unless an explicit and specific written exception
+   obtained from the copyright holder(s).
+8. This software, documents, data, service, project, etc must not
+   be used by any corrupt-or-Human-Rights-violating (c-o-HR-v) entity
+   or person, for-example: c-o-HR-v Government(Gov), c-o-HR-v Gov
+   branches, c-o-HR-v public offices, Gov/public funded c-o-HR-v
+   companies, corporations, businesses, organizations, groups, etc,
+   c-o-HR-v private offices, companies, corporations, businesses,
+   organizations,groups, etc, Or any human/person/contractor working
+   in/for any of previously mentioned entities in this section.
 
 DISCLAIMER : THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS
 AND CONTRIBUTORS "AS IS", AND ANY EXPRESS OR IMPLIED WARRANTIES,
@@ -79,7 +93,7 @@ OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
 
-License verison: 2020-10-29.
+License version: 2020-10-29
 
 --- END of the Peaceful Open Source License ---</pre></code>
   Get copy of PeaceOSL license for this project, from <a href="../License_PeaceOSL_for_TranspilerList.txt">here</a>.<br />
