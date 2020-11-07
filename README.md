@@ -835,7 +835,7 @@ Disclaimer: IANAL.
 <br />
 <br />
 
-## LICENSE&#8239;:
+## LICENSE&#160;INFO&#8239;:
 Some brainwashed or stupid people/users have question, Why this License has so many "restrictions" <b>?</b> ... , ...  
 Does "Freedom/Right Of Speech" allows you to say/speak LIES or harmful things against someone ? NO.  
 Does "Freedom/Right Of Religion" allows you to disrespect+destroy another religion ? NO.  
@@ -851,7 +851,7 @@ So why software or freedom of software will have Freedom to be used for KILLING 
 ...  
 All+Everything must have peaceful & balanced "restrictions" in all abilities & where used , for greater benefit & goodness<b>.</b>  
 ...  
-Those who want to use something for destruction, stealing, killing, etc , Those will always want "FULL" freedom, etc.  
+Those who want to use or help to use something for destruction, stealing, killing, etc , Those type of users will always want "FULL" freedom, etc, and give BIG speech about "FULL FREEDOM", "FREE", etc.  
 Face+Challenge those Anti-Humanity (or Pro-Destruction or Pro-Stealing) type of persons/users . Some of them may look like human being, but all else is completely "evil".
 <br />
 <br />
