@@ -14,7 +14,7 @@ List Of Transpilers, TransCompilers, etc [source-code to source-code converter][
  <dd> 
   <b class="b">•</b> Do Not Use Any Data/File From This Project To File LawSuit Against Someone Who Uses It/Derivative To Save/Protect Life,Liberty,Privacy,Correct-Information,Community,Earth,etc.<br />
   <b class="b">•</b> No-Permission Given/Granted To Anyone To Send Me/Us About "Information" Take-Down Or Removal Notice/Request , Access To "Information" Is A Fundamental Human-Right , And So Information Cannot Be Taken-Down Or Removed . People's Security Inside A Country Has More Priority Than Their Country's Corrupt-Government Officials Or Evil Businessman's Continuation Of Criminal-Acts On Human/Community, Other-Countries, Earth . People Of One Country Or Corrupt-Gov Of One Country Or "National-Security" Of One Country Or Even Multiple Of Them Combined , Are NOT Above The "Human-Rights" / "Humanity" . No One Have More Right To Kill/Deprive/Violate People Of Another/Inside Country Or Other People . Corrupt Laws Or InHumane Laws Are Never Above "Human-Rights" or "Humanity" . Security+Safety+Stablity Of All People Begins-With & Increases-With Correct Information & Awareness . Information (On An Item, Listed Here) Can Be Informative & Used For Correct/Good Purpose Or For Taking Correct/Good (Informed) Decision After Analysis With It Or Information Can Be Used For Defense Or Can Be Used To Reduce Crime Or Catch Criminal Developer Or Initiators, etc . Actual Listed Items Are Not Located Here in This List Or Research Documents.<br />
-  <b class="b">•</b> Peaceful Open Source License, "<a href="License_PeaceOSL_for_TranspilerList.txt">PeaceOSL</a>", v2020-10-28<br />
+  <b class="b">•</b> Peaceful Open Source License, "<a href="https://github.com/atErik/PeaceOSL/blob/main/PeaceOSL.txt">PeaceOSL (2020)</a>", v2020-11-07<br />
   <b class="b">•</b> Copyright <b>©</b> 2020 atErik (Erik T. Ashfolk) (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
   at&#69;rïķ＠&#65;śh&#70;ölķ·ć&#333;m&gt;<br />
   &#160;&#160;&#160;&#160;Do Not Copy Eml-Adrs, Type In 
@@ -25,45 +25,57 @@ List Of Transpilers, TransCompilers, etc [source-code to source-code converter][
   <br />
 <code><pre>--- BEGIN the Peaceful Open Source License ---
 
+   License/Contract name: PEACEFUL OPEN SOURCE LICENSE/CONTRACT.  
+   License/Contract version(y-m-d) 2020-11-07.  
+   License/Contract authored by: Linkesh Diwan. 2013.  
+   License/Contract authored by: Emde T. Ashfolk. 2020.  
+
 Transpiler.And.Similar.List : List of transpilers, transcompilers,
 decompilers, compilers, etc.
 Copyright (C) 2020 Erik T. Ashfolk (atErik at ashfolk dot com).
+License version(y-m-d) : 2020-11-07.
 
-Redistribution and use of this "SDSP", where SDSP is pointing to this
-software/data/service/project, accompanying this license/contract in
-source and binary forms, with or without modification, are permitted
-provided that the following ten conditions are met:
+Redistribution and use of this "SDSP" or "SHIDSP", where SDSP/SHIDSP
+is pointing to the above software/hardware/information/data/service/
+project,etc accompanying this PeaceOSL license/contract in source
+and binary (aka: object-code) forms, with or without modification,
+are permitted provided that the following ten conditions are met:
 
-1. Redistributions of this SDSP (software, source code, data,
-   service from this project) must retain the above copyright notice,
-   this list of conditions and the following disclaimer.
+1. Redistributions of this SDSP/SHIDSP (software, source code,
+   data, hardware, information, service from this project) must
+   retain the above copyright notice, this list of conditions,
+   and the following disclaimer.
 2. Redistributions in binary form must reproduce the above copyright
    notice, this list of conditions and the following disclaimer in
    the documentation and/or other materials provided with the
-   distribution from this SDSP (software/data/service/project).
-3. Modifications to this SDSP (software, source code, data, service
-   from this project) must retain above copyright notice, this list
-   of conditions, and the following disclaimer, and may not include
-   further conditions or licensing which go against the spirit of
-   this license.
+   distribution from this SDSP/SHIDSP (software/hardware/info/data/
+   service/project).
+3. Modifications to this SDSP/SHIDSP (software, source code,
+   data, hardware, information, service from this project) must
+   retain the above copyright notice, this list of conditions,
+   and the following disclaimer, and may not include further
+   conditions or licensing which go against the spirit of this
+   license.
 4. Here we are using "HR" = Human-Rights. "CH" = Copyright-Holder(s).
-   This SDSP (software/data/service/project) must not be used to
-   violate or abuse (any) HR, either directly or indirectly in any
-   form.  This SDSP must not be used to violate or abuse HR in any
-   form in any physical location, written articles, media, broadcast,
-   video, etc or in any form inside cyberspace/Internet.  This SDSP
-   license/contract is declaring/stating in early to you, user of
-   this SDSP, that, this SDSP must not be used to violate or abuse
-   any human-rights even for "National Security" excuse/reason : As
-   nothing (not even "National Security" or court order/decision or
-   voted decision) can be above "Human-Rights".  This SDSP license/
-   contract is further declaring and stating in early to you : any
-   result/decision from any voting, or any order or decision from
-   any court, to override usage of this SDSP or SDSP content to 
-   violate/abuse HR, is hereby declared null-and-void and illegal.
-5. This SDSP(software/data/service/project) must not be used to cause
-   deliberate harm to any human individual,group,community or country
-   either directly or indirectly, in any form.
+   This SDSP/SHIDSP (software/hardware/info/data/service/project)
+   must not be used to violate or abuse (any) HR, either directly
+   or indirectly in any form.  This SDSP must not be used to abuse
+   or violate HR in any form in any physical location, written
+   articles, media, broadcast, video, etc or in any form inside
+   cyberspace/Internet.  This SDSP license/contract is declaring/
+   stating in early to you, user of this SDSP, that, this SDSP/SHIDSP
+   must not be used to violate or abuse any human-rights even for
+   "National Security" excuse/reason : As nothing (not even
+   "National Security" or court order/decision or voted decision)
+   can be above "Human-Rights".  This SDSP license/contract is further
+   declaring and stating in early to you : any result/decision from
+   any voting, or any order or decision from any court, to override
+   usage of this SDSP or SDSP content to violate/abuse HR, is hereby
+   declared null-and-void and illegal.
+5. This SDSP/SHIDSP(software/hardware/info/data/service/project)
+   must not be used to cause deliberate harm to any human individual,
+   group,community or country either directly or indirectly, in any
+   form.
 6. This SDSP(software/data/service/project) must not be used for
    stealing any data or physical items, and this SDSP must not be
    used to violate or abuse any privacy rights, of any human group,
@@ -166,10 +178,9 @@ OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF  
 SUCH DAMAGE.
 
-License version (yyyy-mm-dd): 2020-11-01.
-
 --- END of the Peaceful Open Source License ---</pre></code>
-  Get copy of "PeaceOSL" license for this project, from <a href="License_PeaceOSL_for_TranspilerList.txt">here</a>.<br />
+  Get copy of "PeaceOSL(2020)" license for this project, from <a href="License_PeaceOSL_for_TranspilerList.txt">here</a>.<br />
+  Get copy of "PeaceOSL(2020)" license, from <a href="https://github.com/atErik/PeaceOSL/blob/main/PeaceOSL.txt">here</a>.<br />
   <br />
   <br />
   <br />
@@ -846,8 +857,8 @@ Face+Challenge those Anti-Humanity (or Pro-Destruction or Pro-Stealing) type of 
 <br />
 <br />
 
-Transpiler.And.Similar.List : <a href="#License">Copyright</a> (C) 2020  atErik (Erik T. Ashfolk).
-
+Transpiler.And.Similar.List : <a href="#License">Copyright</a> (C) 2020  atErik (Erik T. Ashfolk).  
+( Licensed under <a href="https://github.com/atErik/PeaceOSL/blob/main/PeaceOSL.txt">PeaceOSL(2020)</a> )
 
   [1]: https://en.wikipedia.org/wiki/Source-to-source_compiler
   [2]: https://cs.stackexchange.com/questions/67284/
